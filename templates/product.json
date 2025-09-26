@@ -371,7 +371,7 @@
             "avatar_alignment": "middle",
             "avatar_corner_radius": 40,
             "star_color": "#ffcc00",
-            "stars_translate": 20,
+            "stars_translate": -10,
             "checkmark_color": "#6d388b",
             "checkmark_icon_color": "#ffffff",
             "slider_type": "slide",
