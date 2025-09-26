@@ -527,17 +527,32 @@
     },
     "content_for_index": [],
     "blocks": {
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
-        "settings": {}
-      },
       "4571859552318407796": {
         "type": "shopify://apps/globo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": false,
         "settings": {
           "customCssGCW": ""
         }
+      },
+      "2118589882331710876": {
+        "type": "shopify://apps/essential-trust-badges/blocks/app-embed/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "8703857832570158530": {
+        "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
