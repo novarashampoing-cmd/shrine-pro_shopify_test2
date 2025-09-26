@@ -17,7 +17,7 @@
         "1c647602-cc00-4009-a058-976435c8ee9e": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Légal",
             "menu": "footer",
             "width_desktop": 4,
             "width_mobile": "2"
@@ -29,7 +29,7 @@
             "heading": "Recevez 10% de réduction",
             "subtext": "<p>Abonnez-vous à notre newsletter et profitez de 10% de réduction sur votre 1ère commande !</p>",
             "button_type": "solid",
-            "button_label": "Sign up",
+            "button_label": "S'inscrire",
             "button_style_secondary": false,
             "width_desktop": 4,
             "width_mobile": "2"
