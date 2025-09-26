@@ -673,26 +673,6 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "video_7UdFct": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Novara Shampoing en vidéo",
-        "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
-        "video_url": "",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#121212"
-      }
-    },
     "comparison_table_4xDibi": {
       "type": "comparison-table",
       "blocks": {
@@ -778,6 +758,32 @@
         "custom_colors_others_background": "#ffffff",
         "custom_colors_others_text": "#2e2a39"
       }
+    },
+    "video_shrine_pro_GLJADx": {
+      "type": "video-shrine-pro",
+      "blocks": {
+        "play_RdPDNa": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_RdPDNa"
+      ],
+      "name": "Vidéo (Impact-style)",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "button_bg": "#111111",
+        "button_text": "#ffffff"
+      }
     }
   },
   "order": [
@@ -786,7 +792,7 @@
     "1758905963225e8c3e",
     "content_tabs_y6pYh8",
     "comparison_slider_ynBwE6",
-    "video_7UdFct",
-    "comparison_table_4xDibi"
+    "comparison_table_4xDibi",
+    "video_shrine_pro_GLJADx"
   ]
 }
