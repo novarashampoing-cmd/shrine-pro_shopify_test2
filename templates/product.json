@@ -759,32 +759,64 @@
         "custom_colors_others_text": "#2e2a39"
       }
     },
-    "video_shrine_pro_GLJADx": {
-      "type": "video-shrine-pro",
+    "rich_text_JwR7Ch": {
+      "type": "rich-text",
       "blocks": {
-        "button_WpnLK4": {
-          "type": "button",
+        "heading_9RaqxD": {
+          "type": "heading",
           "settings": {
-            "text": "",
-            "url": "",
-            "style": "fill"
+            "title": "Novara Shampoing en vidéo",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_X93Ypx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous n'avez besoin que d'apeine 10 petites minutes pour appliquer le shampoing colorant Novara. Un vrai jeu d'enfant !</p>"
           }
         }
       },
       "block_order": [
-        "button_WpnLK4"
+        "heading_9RaqxD",
+        "text_X93Ypx"
       ],
-      "name": "Vidéo (Impact-style)",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "full_width": true,
-        "autoplay": false,
-        "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "button_bg": "#111111",
-        "button_text": "#ffffff"
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "video_bnLyKN": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
       }
     }
   },
@@ -795,6 +827,7 @@
     "content_tabs_y6pYh8",
     "comparison_slider_ynBwE6",
     "comparison_table_4xDibi",
-    "video_shrine_pro_GLJADx"
+    "rich_text_JwR7Ch",
+    "video_bnLyKN"
   ]
 }
