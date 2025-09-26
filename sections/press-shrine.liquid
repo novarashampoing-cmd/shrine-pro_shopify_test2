@@ -105,6 +105,17 @@
 
   /* A11y helper (local scope) */
   .sp-press-{{ section.id }} .sr{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); border:0; }
+  }
+  .sp-press-{{ section.id }} blockquote{
+  position:relative; font-style:italic;
+}
+.sp-press-{{ section.id }} blockquote::before,
+.sp-press-{{ section.id }} blockquote::after{
+  position:absolute; font-size:2.2rem; line-height:1; opacity:.12;
+}
+.sp-press-{{ section.id }} blockquote::before{ content:"“"; left:-.25em; top:-.2em; }
+.sp-press-{{ section.id }} blockquote::after{ content:"”"; right:-.25em; bottom:-.6em; }
+
 </style>
 
 <section class="sp-press-{{ section.id }}" aria-label="Press">
