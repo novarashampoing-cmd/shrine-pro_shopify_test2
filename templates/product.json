@@ -766,7 +766,7 @@
           "type": "heading",
           "settings": {
             "title": "Novara Shampoing en vidéo",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         },
@@ -791,32 +791,37 @@
         "color_scheme": "background-1",
         "padding_top": 32,
         "padding_bottom": 12,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "video_bnLyKN": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "video_shrine_pro_WXCz7P": {
+      "type": "video-shrine-pro",
+      "blocks": {
+        "play_ARVDxN": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_ARVDxN"
+      ],
+      "name": "Video",
       "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "",
-        "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "Vidéo de démonstration de l'application du shampoing Novara",
         "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#121212"
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "button_bg": "#111111",
+        "button_text": "#ffffff"
       }
     }
   },
@@ -828,6 +833,6 @@
     "comparison_slider_ynBwE6",
     "comparison_table_4xDibi",
     "rich_text_JwR7Ch",
-    "video_bnLyKN"
+    "video_shrine_pro_WXCz7P"
   ]
 }
