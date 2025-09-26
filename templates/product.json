@@ -788,17 +788,10 @@
             "title_highlight_color": "#465069",
             "heading_size": "h2"
           }
-        },
-        "text_X93Ypx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vous n'avez besoin que d'apeine 10 petites minutes pour appliquer le shampoing colorant Novara. Un vrai jeu d'enfant !</p>"
-          }
         }
       },
       "block_order": [
-        "heading_9RaqxD",
-        "text_X93Ypx"
+        "heading_9RaqxD"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -866,7 +859,7 @@
         "content_alignment": "center",
         "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 48,
         "padding_bottom": 20,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
