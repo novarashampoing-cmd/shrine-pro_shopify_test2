@@ -362,10 +362,11 @@
             "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
+            "custom_icon": "shopify://shop_images/psychiatry_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p>Notre formule a été développée pour allier <strong>confort, efficacité et respect</strong> des cheveux comme de la peau.</p><h5>Les actifs phares de notre shampoing colorant</h5><p>💧 <strong>Eau</strong> : hydrate et facilite l’application🍊 <strong>Vitamine C</strong> : antioxydante, elle protège et illumine<br/>🌱 <strong>Squalane</strong> : restaure la barrière cutanée et hydrate en profondeur<br/>🌿 <strong>Huile de jojoba</strong> : nourrit, apaise et équilibre<br/>🥥 <strong>Huile de macadamia</strong> : riche en acides gras, elle régénère et protège<br/>🍄 <strong>Extrait de Reishi</strong> : puissant antioxydant, il revitalise les cheveux<br/>🌰 <strong>Huile de sésame noir</strong> : nourrit intensément et soutient la pigmentation naturelle<br/>🌶 <strong>Extrait de gingembre</strong> : stimule la microcirculation et fortifie les racines<br/>🌼 <strong>Racine d’angélique</strong> : apaise, renforce et contribue à la croissance capillaire<br/></p><h3>🧪 Sécurité & qualité</h3><p>✔ Testé dermatologiquement pour une tolérance optimale<br/>✔ Ingrédients d’origine naturelle, respectueux de l’environnement<br/>✔ Formule sans compromis : certains composants techniques (parfum, propylène glycol) sont utilisés en quantité maîtrisée pour garantir efficacité et innocuité</p><h3>📦 Informations pratiques</h3><ul><li><strong>Contenance</strong> : 200 ml</li><li><strong>Liste INCI</strong> : Eau, alcool cétylique, Pergaal, huile minérale, extrait de renouée à fleurs, extrait de ginseng Panax, extrait de racine d’angélique, dérivés de glucose, bétaïne de cocamidopropyle, parfum, colorants doux, régulateurs de pH, monoglycéride, activateur doux<br/></li></ul><h3>💬 Une question ?</h3><p>Notre équipe est disponible pour vous conseiller et vous accompagner</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
