@@ -911,6 +911,7 @@
         "quote_Ed6qyk",
         "quote_QTKcKB"
       ],
+      "disabled": true,
       "name": "Press",
       "settings": {
         "full_width": true,
