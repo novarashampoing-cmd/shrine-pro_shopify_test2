@@ -824,85 +824,55 @@
         "button_text": "#ffffff"
       }
     },
-    "testimonials_F9mrEJ": {
-      "type": "testimonials",
+    "press_shrine_PPFLL8": {
+      "type": "press-shrine",
       "blocks": {
-        "column_mgQ4Np": {
-          "type": "column",
+        "quote_Ed6qyk": {
+          "type": "quote",
           "settings": {
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they say about your store.",
+            "show_rating": true,
+            "rating": 4
           }
         },
-        "column_jq4T4C": {
-          "type": "column",
+        "quote_QTKcKB": {
+          "type": "quote",
           "settings": {
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they say about your store.",
+            "show_rating": true,
+            "rating": 4
           }
         },
-        "column_VWNa49": {
-          "type": "column",
+        "quote_Ag8eQp": {
+          "type": "quote",
           "settings": {
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they say about your store.",
+            "show_rating": true,
+            "rating": 4
           }
         }
       },
       "block_order": [
-        "column_mgQ4Np",
-        "column_jq4T4C",
-        "column_VWNa49"
+        "quote_Ed6qyk",
+        "quote_QTKcKB",
+        "quote_Ag8eQp"
       ],
-      "name": "Testimonials",
+      "name": "Press",
       "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Testimonials",
-        "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
-        "text": "",
-        "color_scheme": "background-1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "center",
-        "show_stars": true,
-        "stars_color": "#ffd700",
-        "show_quotes": true,
-        "quotes_color_scheme": "accent-2",
-        "cards_color_scheme": "bg-overlay",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 40,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     }
   },
@@ -915,6 +885,6 @@
     "comparison_table_4xDibi",
     "rich_text_JwR7Ch",
     "video_shrine_pro_WXCz7P",
-    "testimonials_F9mrEJ"
+    "press_shrine_PPFLL8"
   ]
 }

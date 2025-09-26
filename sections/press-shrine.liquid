@@ -1,228 +1,217 @@
 {%- comment -%}
   Section: Press — Shrine Pro (style Impact)
-  - Carousel horizontal (CSS scroll-snap) + contrôles JS
-  - Logos avec fond + bordure personnalisables
-  - Citation + auteur + note (étoiles)
-  - Largeur de contenu: small / medium / large / fill
-  - Full width (100vw) option
+  - Slider JS (track/translateX) + flèches + points
+  - 1 slide par vue (mobile/desktop), centré
+  - Étoiles, citation, logo (fond + bordure), auteur
+  - Full width 100vw option + content size (small/medium/large/fill)
 {%- endcomment -%}
 
 {%- assign is_full = section.settings.full_width -%}
 
 <style>
-  #shopify-section-{{ section.id }}{
-    --press-max-width: {% case section.settings.content_size %}
+  /* Scope */
+  .sp-press-{{ section.id }}{
+    --sp-max: {% case section.settings.content_size %}
       {% when 'small' %}760{% when 'medium' %}1000{% when 'large' %}1260{% else %}1260{% endcase %}px;
-    --press-logo-bg: {{ section.settings.logo_item_background | default: 'transparent' }};
-    --press-logo-border: {{ section.settings.logo_item_border | default: 'transparent' }};
-    --press-text: {{ section.settings.text_color | default: 'inherit' }};
-    --press-heading: {{ section.settings.heading_color | default: 'inherit' }};
+    --sp-text: {{ section.settings.text_color | default: 'inherit' }};
+    --sp-heading: {{ section.settings.heading_color | default: 'inherit' }};
+    --sp-logo-bg: {{ section.settings.logo_item_background | default: 'transparent' }};
+    --sp-logo-border: {{ section.settings.logo_item_border | default: 'transparent' }};
+    --sp-dot: currentColor;
   }
 
-  .press-{{ section.id }}{
-    color: var(--press-text);
-    {%- if is_full -%}
-      width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
-    {%- else -%}
-      width:min(100%, var(--press-max-width)); margin-inline:auto; padding-inline:clamp(12px, 4vw, 24px);
-    {%- endif -%}
+  .sp-press-{{ section.id }}{
+    color: var(--sp-text);
     padding-block: clamp(16px, 3vw, 32px);
-    border-radius: {% if is_full %}0{% else %}12px{% endif %};
     {%- if section.settings.background_gradient != blank -%}
       background: {{ section.settings.background_gradient }};
     {%- elsif section.settings.background != blank -%}
       background: {{ section.settings.background }};
     {%- endif -%}
+    {%- if is_full -%}
+      width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
+      border-radius:0;
+    {%- else -%}
+      width:min(100%, var(--sp-max)); margin-inline:auto; padding-inline:clamp(12px, 4vw, 24px);
+      border-radius:12px;
+    {%- endif -%}
   }
 
-  .press-{{ section.id }} .press__list{
-    display:flex; gap: clamp(16px, 3vw, 24px);
-    overflow-x:auto; scroll-snap-type:x mandatory;
-    scroll-padding-inline: calc(50% - min(50%, var(--press-max-width)/2));
-    padding-block: 8px;
-    -webkit-overflow-scrolling: touch;
+  /* Viewport + Track */
+  .sp-press-{{ section.id }} .spv{ position:relative; overflow:hidden; }
+  .sp-press-{{ section.id }} .trk{
+    display:flex; align-items:stretch;
+    transition: transform .35s ease;
+    will-change: transform;
   }
-  .press-{{ section.id }} .press__item{
-    flex: 0 0 88%;
-    max-width: 88%;
-    scroll-snap-align: center;
+  .sp-press-{{ section.id }} .sld{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-inline: clamp(8px, 2vw, 16px);
+    box-sizing: border-box;
+  }
+
+  /* Slide content */
+  .sp-press-{{ section.id }} .card{
     text-align:center;
     margin-inline:auto;
-  }
-  @media (min-width: 640px){
-    .press-{{ section.id }} .press__item{ flex-basis: 66%; max-width: 66%; }
-  }
-  @media (min-width: 990px){
-    .press-{{ section.id }} .press__item{ flex-basis: 50%; max-width: 50%; }
+    max-width:min(860px, 100%);
   }
 
-  .press-{{ section.id }} blockquote{
-    margin: 0 0 12px;
+  /* Rating */
+  .sp-press-{{ section.id }} .rating{ margin-bottom:10px; }
+  .sp-press-{{ section.id }} .stars{ display:inline-flex; gap:4px; }
+  .sp-press-{{ section.id }} .star{ width:20px; height:20px; display:inline-block; }
+
+  /* Quote */
+  .sp-press-{{ section.id }} blockquote{
+    margin:0 0 12px;
     font-size: clamp(18px, 2.2vw, 24px);
-    line-height: 1.3;
-    font-weight: 700;
-    color: var(--press-heading);
+    line-height:1.3;
+    font-weight:700;
+    color: var(--sp-heading);
   }
 
-  .press-{{ section.id }} .rating{
-    margin-bottom: 10px;
-  }
-  .press-{{ section.id }} .rating__stars{
-    display:inline-flex; gap:4px;
-  }
-  .press-{{ section.id }} .rating__star{
-    width:20px; height:20px; display:inline-block;
-  }
-
-  .press-{{ section.id }} .press__logo{
+  /* Logo tile */
+  .sp-press-{{ section.id }} .logo-tile{
     display:inline-flex; align-items:center; justify-content:center;
-    border-radius: 10px;
-    padding: 10px 12px;
-    background: var(--press-logo-bg);
-    border: 1px solid var(--press-logo-border);
+    gap:10px; padding:10px 12px; border-radius:10px;
+    background: var(--sp-logo-bg);
+    border: 1px solid var(--sp-logo-border);
     margin-inline:auto;
   }
-  .press-{{ section.id }} .press__image{
-    display:block; height:auto; max-width: var(--press-image-max-width, 120px);
+  .sp-press-{{ section.id }} .logo-img{
+    height:auto; max-width: var(--sp-logo-w, 120px);
+    display:block;
   }
+  .sp-press-{{ section.id }} .author{ margin-top:6px; opacity:.75; }
 
-  .press-{{ section.id }} .press__author{
-    margin-top: 6px; opacity:.75;
+  /* Controls */
+  .sp-press-{{ section.id }} .ctrls{
+    display:flex; align-items:center; justify-content:center; gap:12px;
+    margin-top:14px;
   }
+  .sp-press-{{ section.id }} .btn{
+    width:44px; height:44px; border-radius:999px; border:1px solid currentColor;
+    display:grid; place-items:center; background:transparent; cursor:pointer;
+  }
+  .sp-press-{{ section.id }} .btn:disabled{ opacity:.4; cursor:not-allowed; }
 
-  .press-{{ section.id }} .press__controls{
-    display:flex; align-items:center; justify-content:center; gap: 10px;
-    margin-top: 12px;
+  .sp-press-{{ section.id }} .dots{ display:flex; gap:8px; align-items:center; }
+  .sp-press-{{ section.id }} .dots button{
+    width:10px; height:10px; border-radius:999px; border:0; background: var(--sp-dot); opacity:.3;
   }
-  .press-{{ section.id }} .circle-button{
-    width: 44px; height: 44px; border-radius: 999px; border:1px solid currentColor;
-    display:grid; place-items:center; background: transparent; cursor:pointer;
-  }
-  .press-{{ section.id }} .page-dots{
-    display:flex; gap:8px; align-items:center;
-  }
-  .press-{{ section.id }} .page-dots button{
-    width:10px; height:10px; border-radius:999px; border:0; background: currentColor; opacity:.3;
-  }
-  .press-{{ section.id }} .page-dots button[aria-current="true"]{ opacity:1; transform: scale(1.1); }
+  .sp-press-{{ section.id }} .dots button[aria-current="true"]{ opacity:1; transform:scale(1.1); }
 
-  /* Hide controls when single slide */
-  .press-{{ section.id }}[data-slides="1"] .press__controls{ display:none; }
+  /* A11y helper (local scope) */
+  .sp-press-{{ section.id }} .sr{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); border:0; }
 </style>
 
-<section class="press-{{ section.id }}" aria-label="Press">
-  <div class="press__list" id="press-list-{{ section.id }}" role="region" aria-roledescription="carousel">
-    {%- for block in section.blocks -%}
-      <div id="block-{{ section.id }}-{{ block.id }}" class="press__item" role="group" aria-label="{{ forloop.index }} / {{ section.blocks.size }}" {{ block.shopify_attributes }}>
-        {%- if block.settings.show_rating -%}
-          <div class="rating">
-            <div class="rating__stars" role="img" aria-label="{{ 'general.rating.info' | t: rating_value: block.settings.rating, rating_max: 5 }}">
-              {%- for i in (1..5) -%}
-                {%- assign filled = i | minus: 0 | lte: block.settings.rating -%}
-                {% if filled %}
-                  <svg class="rating__star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                {% else %}
-                  <svg class="rating__star" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" d="M12 2l2.83 6.63 7.19.61-5.46 4.73L18.18 21 12 17.27 5.82 21l1.64-7.03L2 9.24l7.19-.61L12 2z"/></svg>
-                {% endif %}
-              {%- endfor -%}
-            </div>
-          </div>
-        {%- endif -%}
-
-        {%- if block.settings.content != blank -%}
-          <blockquote class="blockquote h3">
-            {{ block.settings.content }}
-          </blockquote>
-        {%- endif -%}
-
-        {%- if block.settings.logo != blank or block.settings.author != blank -%}
-          <div class="v-stack" style="display:grid; gap:8px; justify-items:center;">
-            {%- if block.settings.logo != blank -%}
-              <div class="press__logo">
-                {%- capture sizes -%}{{ block.settings.logo_width }}px{%- endcapture -%}
-                {%- capture widths -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 | at_most: block.settings.logo.width }}{%- endcapture -%}
-                {%- capture max_width -%}--press-image-max-width: {{ block.settings.logo_width }}px{%- endcapture -%}
-                {{ block.settings.logo | image_url: width: block.settings.logo.width | image_tag: style: max_width, loading: 'lazy', widths: widths, class: 'press__image', sizes: sizes }}
+<section class="sp-press-{{ section.id }}" aria-label="Press">
+  <div class="spv" id="spv-{{ section.id }}">
+    <div class="trk" id="trk-{{ section.id }}">
+      {%- for block in section.blocks -%}
+        <div class="sld" id="sld-{{ section.id }}-{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+          <div class="card">
+            {%- if block.settings.show_rating -%}
+              <div class="rating" aria-label="{{ block.settings.rating }}/5">
+                <div class="stars">
+                  {%- for i in (1..5) -%}
+                    {% if i <= block.settings.rating %}
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    {% else %}
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" d="M12 2l2.83 6.63 7.19.61-5.46 4.73L18.18 21 12 17.27 5.82 21l1.64-7.03L2 9.24l7.19-.61L12 2z"/></svg>
+                    {% endif %}
+                  {%- endfor -%}
+                </div>
               </div>
             {%- endif -%}
 
-            {%- if block.settings.author != blank -%}
-              <p class="press__author">{{ block.settings.author }}</p>
+            {%- if block.settings.content != blank -%}
+              <blockquote>{{ block.settings.content }}</blockquote>
+            {%- endif -%}
+
+            {%- if block.settings.logo != blank or block.settings.author != blank -%}
+              <div style="display:grid; gap:8px; justify-items:center;">
+                {%- if block.settings.logo != blank -%}
+                  <div class="logo-tile" style="--sp-logo-w: {{ block.settings.logo_width }}px;">
+                    {%- capture sizes -%}{{ block.settings.logo_width }}px{%- endcapture -%}
+                    {%- capture widths -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 | at_most: block.settings.logo.width }}{%- endcapture -%}
+                    {{ block.settings.logo | image_url: width: block.settings.logo.width | image_tag: class: 'logo-img', loading: 'lazy', widths: widths, sizes: sizes, alt: block.settings.author | escape }}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.author != blank -%}
+                  <p class="author">{{ block.settings.author }}</p>
+                {%- endif -%}
+              </div>
             {%- endif -%}
           </div>
-        {%- endif -%}
-      </div>
-    {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    </div>
   </div>
 
   {%- if section.blocks.size > 1 -%}
-    <div class="press__controls" aria-controls="press-list-{{ section.id }}">
-      <button type="button" class="circle-button" data-prev aria-label="{{ 'general.accessibility.previous' | t }}">‹</button>
-      <div class="page-dots" role="tablist">
+    <div class="ctrls" data-for="spv-{{ section.id }}">
+      <button type="button" class="btn" id="prev-{{ section.id }}" aria-label="Précédent">‹</button>
+      <div class="dots" id="dots-{{ section.id }}">
         {%- for i in (1..section.blocks.size) -%}
-          <button type="button" role="tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" data-index="{{ forloop.index0 }}"><span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: forloop.index }}</span></button>
+          <button type="button" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" data-index="{{ forloop.index0 }}"><span class="sr">Aller au slide {{ forloop.index }}</span></button>
         {%- endfor -%}
       </div>
-      <button type="button" class="circle-button" data-next aria-label="{{ 'general.accessibility.next' | t }}">›</button>
+      <button type="button" class="btn" id="next-{{ section.id }}" aria-label="Suivant">›</button>
     </div>
   {%- endif -%}
 </section>
 
 <script>
-  (function(){
-    var root = document.getElementById('press-list-{{ section.id }}');
-    if(!root) return;
-    var items = Array.prototype.slice.call(root.querySelectorAll('.press__item'));
-    var wrap = root.parentElement;
-    if(wrap) wrap.setAttribute('data-slides', String(items.length));
+(function(){
+  var id = "{{ section.id }}";
+  var track = document.getElementById("trk-"+id);
+  if(!track) return;
+  var slides = Array.prototype.slice.call(track.children);
+  var dotsWrap = document.getElementById("dots-"+id);
+  var dots = dotsWrap ? Array.prototype.slice.call(dotsWrap.querySelectorAll("button")) : [];
+  var prev = document.getElementById("prev-"+id);
+  var next = document.getElementById("next-"+id);
+  var i = 0;
 
-    function goTo(idx){
-      idx = Math.max(0, Math.min(items.length - 1, idx));
-      items[idx].scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});
-      updateDots(idx);
-      current = idx;
-    }
-
-    function currentIndex(){
-      var center = root.scrollLeft + root.clientWidth/2;
-      var nearest = 0, min = Infinity;
-      items.forEach(function(el, i){
-        var rect = el.getBoundingClientRect();
-        var listRect = root.getBoundingClientRect();
-        var elCenter = rect.left - listRect.left + rect.width/2;
-        var dist = Math.abs(elCenter - root.clientWidth/2);
-        if(dist < min){ min = dist; nearest = i; }
-      });
-      return nearest;
-    }
-
-    var dots = root.parentElement.querySelectorAll('.page-dots button');
-    function updateDots(active){
-      if(!dots) return;
-      dots.forEach(function(b,i){
-        b.setAttribute('aria-current', i===active ? 'true':'false');
-        b.setAttribute('aria-selected', i===active ? 'true':'false');
-      });
-    }
-
-    var current = 0;
-    root.addEventListener('scroll', function(){
-      clearTimeout(root._t);
-      root._t = setTimeout(function(){ updateDots(currentIndex()); }, 80);
+  function update(){
+    track.style.transform = "translateX(" + (-i*100) + "%)";
+    if(prev) prev.disabled = (i===0);
+    if(next) next.disabled = (i===slides.length-1);
+    dots.forEach(function(b,idx){
+      b.setAttribute("aria-current", idx===i ? "true":"false");
     });
+  }
 
-    var prev = root.parentElement.querySelector('[data-prev]');
-    var next = root.parentElement.querySelector('[data-next]');
-    if(prev) prev.addEventListener('click', function(){ goTo(currentIndex()-1); });
-    if(next) next.addEventListener('click', function(){ goTo(currentIndex()+1); });
+  function go(n){
+    i = Math.max(0, Math.min(slides.length-1, n));
+    update();
+  }
 
-    if(dots) dots.forEach(function(b){
-      b.addEventListener('click', function(){ goTo(parseInt(b.getAttribute('data-index'),10) || 0); });
+  // Buttons
+  if(prev) prev.addEventListener("click", function(){ go(i-1); });
+  if(next) next.addEventListener("click", function(){ go(i+1); });
+  if(dotsWrap){
+    dots.forEach(function(b){
+      b.addEventListener("click", function(){ go(parseInt(b.getAttribute("data-index"),10)||0); });
     });
+  }
 
-    // Init
-    updateDots(0);
-  })();
+  // Basic swipe
+  var startX = null;
+  track.addEventListener("pointerdown", function(e){ startX = e.clientX; track.setPointerCapture(e.pointerId); });
+  track.addEventListener("pointerup", function(e){
+    if(startX===null) return;
+    var dx = e.clientX - startX;
+    if(Math.abs(dx) > 40){ if(dx < 0) go(i+1); else go(i-1); }
+    startX = null;
+  });
+
+  // Init
+  update();
+})();
 </script>
 
 {% schema %}
@@ -256,11 +245,11 @@
       "name": "Quote",
       "settings": [
         { "type": "image_picker", "id": "logo", "label": "Logo", "info": "300 x 90px .jpg recommended" },
-        { "type": "range", "id": "logo_width", "min": 50, "max": 350, "unit": "px", "step": 5, "label": "Logo width", "default": 100 },
+        { "type": "range", "id": "logo_width", "min": 50, "max": 350, "unit": "px", "step": 5, "label": "Logo width", "default": 120 },
         { "type": "text", "id": "author", "label": "Author" },
         { "type": "text", "id": "content", "label": "Quote", "default": "Write some content about what they say about your store." },
         { "type": "checkbox", "id": "show_rating", "label": "Show rating", "default": true },
-        { "type": "range", "id": "rating", "min": 0, "max": 5, "label": "Rating", "default": 4 }
+        { "type": "range", "id": "rating", "min": 0, "max": 5, "label": "Rating", "default": 5 }
       ]
     }
   ],
