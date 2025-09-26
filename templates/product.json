@@ -529,8 +529,8 @@
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
             "btn_animation": false,
-            "title": "Novara Shampoing réinvente la coloration",
-            "title_highlight_color": "#6d388b",
+            "title": "<strong>Novara Shampoing</strong> réinvente la coloration",
+            "title_highlight_color": "#465069",
             "heading_size": "h1",
             "text": "<p>Avec Novara Shampoing, dites adieu aux colorations complexes. Fini les mélanges fastidieux et les longues attentes. Nous avons transformé la coloration en un geste rapide, agréable et efficace : en seulement 10 minutes. Vos cheveux sont nettoyés, colorés et éclatants.</p>",
             "button_label": "",
@@ -710,8 +710,8 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Comparison table",
-        "title_highlight_color": "#6d388b",
+        "title": "Pourquoi choisir <strong>Novara Shampoing</strong> ?",
+        "title_highlight_color": "#465069",
         "heading_size": "h1",
         "text": "<p>Talk about how and why is your brand better than the others.</p>",
         "button_label": "",
@@ -831,7 +831,7 @@
           "type": "heading",
           "settings": {
             "title": "Ils parlent de nous :",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         }
@@ -849,9 +849,9 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 20,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
