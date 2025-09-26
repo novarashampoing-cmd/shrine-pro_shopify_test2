@@ -942,6 +942,71 @@
         "include_margins": true
       }
     },
+    "section_temoignages_defilants_EnbUWg": {
+      "type": "section-temoignages-defilants",
+      "blocks": {
+        "testimonial_an9Ygx": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Résultat bluffant dès la première utilisation. ✨",
+            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "author": "Sophie M."
+          }
+        },
+        "testimonial_HbiKH3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Résultat bluffant dès la première utilisation. ✨",
+            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "author": "Sophie M."
+          }
+        },
+        "testimonial_jjCPBk": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Résultat bluffant dès la première utilisation. ✨",
+            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "author": "Sophie M."
+          }
+        },
+        "testimonial_EpdLy8": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Résultat bluffant dès la première utilisation. ✨",
+            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "author": "Sophie M."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_an9Ygx",
+        "testimonial_HbiKH3",
+        "testimonial_jjCPBk",
+        "testimonial_EpdLy8"
+      ],
+      "name": "Témoignages défilants",
+      "settings": {
+        "heading": "Nos clients le disent mieux que nous !",
+        "heading_color": "#111111",
+        "heading_size": 20,
+        "heading_bold": true,
+        "card_title_color": "#111111",
+        "card_title_size": 22,
+        "rating_label": "Excellent",
+        "rating_value": "4.7",
+        "rating_count": "1 126",
+        "star_bg": "#00b67a",
+        "card_bg": "#ffffff",
+        "card_text": "#000000",
+        "muted": "#000000",
+        "use_gradient": true,
+        "bg": "#9AA4BC",
+        "bg2": "#ffffff",
+        "pad_y": 32,
+        "card_radius": 18,
+        "speed": 45
+      }
+    },
     "ss_simple_faq_ic8Jbj": {
       "type": "ss-simple-faq",
       "blocks": {
@@ -1047,12 +1112,12 @@
       "name": "Faq",
       "settings": {
         "heading": "Nous répondons à vos questions",
-        "icon_color": "#fff",
-        "hover_color": "#EFEFEF",
-        "question_color": "#fff",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
         "background_color": "#465069",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1.5
       }
     }
@@ -1070,6 +1135,7 @@
     "rich_text_hgVV84",
     "press_shrine_PPFLL8",
     "1758918097d3c4e83a",
+    "section_temoignages_defilants_EnbUWg",
     "ss_simple_faq_ic8Jbj"
   ]
 }
