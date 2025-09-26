@@ -1,0 +1,257 @@
+{% comment %}
+Section: Témoignages défilants (style Trustpilot)
+Thème: Impact (Shopify OS 2.0)
+- Fond 100% largeur via section full-bleed (100vw + marges négatives)
+- Contenu centré via .page-width
+- Titres configurables (taille, couleur, gras)
+- Cartes plus étroites
+{% endcomment %}
+
+<section id="tmq-{{ section.id }}" class="tmq" aria-label="Témoignages clients">
+  <div class="tmq-inner page-width">
+    {% if section.settings.heading != blank or section.settings.rating_label != blank %}
+      <div class="tmq-header">
+        {% if section.settings.heading != blank %}
+          <h2 class="tmq-heading"
+              style="color: {{ section.settings.heading_color }}; font-size: {{ section.settings.heading_size }}px; font-weight:{% if section.settings.heading_bold %}700{% else %}400{% endif %}">
+            {{ section.settings.heading }}
+          </h2>
+        {% endif %}
+
+        <div class="tmq-rating">
+          {% if section.settings.rating_label != blank %}
+            <p class="tmq-rating-text">{{ section.settings.rating_label }}</p>
+          {% endif %}
+          {% if section.settings.rating_value != blank %}
+            <span class="tmq-rating-value">{{ section.settings.rating_value }}</span>
+            <p class="tmq-rating-text"><strong>/ 5</strong></p>
+          {% endif %}
+          <div class="tmq-stars" aria-hidden="true">
+            {% for i in (1..5) %}
+              <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="tmq-star">
+                <rect width="32" height="32" fill="{{ section.settings.star_bg }}"></rect>
+                <path d="M9.2 27L16 21.8 22.8 27 20.2 18.6 27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z" fill="#ffffff"/>
+              </svg>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% if section.settings.rating_count != blank %}
+          <div class="tmq-based-on"><p>basé sur <strong>{{ section.settings.rating_count }}</strong> avis</p></div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="tmq-marquee" data-speed="{{ section.settings.speed }}">
+      <div class="tmq-track">
+        <div class="tmq-list">
+          {% for block in section.blocks %}
+            <article class="tmq-card" {{ block.shopify_attributes }}>
+              <div class="tmq-card-top">
+                <div class="tmq-stars small" aria-hidden="true">
+                  {% for i in (1..5) %}
+                    <svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="tmq-star">
+                      <rect width="32" height="32" fill="{{ section.settings.star_bg }}"></rect>
+                      <path d="M9.2 27L16 21.8 22.8 27 20.2 18.6 27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z" fill="#ffffff"/>
+                    </svg>
+                  {% endfor %}
+                </div>
+                {% if block.settings.title != blank %}
+                  <h3 class="tmq-card-title"
+                      style="color: {{ section.settings.card_title_color }}; font-size: {{ section.settings.card_title_size }}px">
+                    {{ block.settings.title }}
+                  </h3>
+                {% endif %}
+              </div>
+
+              {% if block.settings.text != blank %}
+                <p class="tmq-card-text">{{ block.settings.text }}</p>
+              {% endif %}
+              {% if block.settings.author != blank %}
+                <p class="tmq-card-author">{{ block.settings.author }}</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+
+        <!-- duplication pour effet de défilement continu -->
+        <div class="tmq-list tmq-dup">
+          {% for block in section.blocks %}
+            <article class="tmq-card">
+              <div class="tmq-card-top">
+                <div class="tmq-stars small" aria-hidden="true">
+                  {% for i in (1..5) %}
+                    <svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="tmq-star">
+                      <rect width="32" height="32" fill="{{ section.settings.star_bg }}"></rect>
+                      <path d="M9.2 27L16 21.8 22.8 27 20.2 18.6 27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z" fill="#ffffff"/>
+                    </svg>
+                  {% endfor %}
+                </div>
+                {% if block.settings.title != blank %}
+                  <h3 class="tmq-card-title"
+                      style="color: {{ section.settings.card_title_color }}; font-size: {{ section.settings.card_title_size }}px">
+                    {{ block.settings.title }}
+                  </h3>
+                {% endif %}
+              </div>
+
+              {% if block.settings.text != blank %}
+                <p class="tmq-card-text">{{ block.settings.text }}</p>
+              {% endif %}
+              {% if block.settings.author != blank %}
+                <p class="tmq-card-author">{{ block.settings.author }}</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <style>
+    /* ====== Variables & full-bleed ====== */
+    #tmq-{{ section.id }}{
+      --padY: {{ section.settings.pad_y }}px;
+      --bg: {{ section.settings.bg }};
+      --bg2: {{ section.settings.bg2 }};
+      --radius: {{ section.settings.card_radius }}px;
+      --card-bg: {{ section.settings.card_bg }};
+      --card-text: {{ section.settings.card_text }};
+      --muted: {{ section.settings.muted }};
+      --star-bg: {{ section.settings.star_bg }};
+      --gap: 28px;
+      --card-w: 320px; /* cartes un peu plus étroites */
+      --speed: {{ section.settings.speed }}s;
+
+      position: relative;
+      width: 100vw;              /* pleine largeur d’écran */
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;        /* “full-bleed” quel que soit le conteneur parent */
+      margin-right: -50vw;
+      /* Fond directement sur la section */
+      background: {% if section.settings.use_gradient %}linear-gradient(106deg, var(--bg), var(--bg2) 100%){% else %}var(--bg){% endif %};
+      font-family: inherit;      /* reprend la police Impact du thème */
+    }
+
+    /* Contrainte du contenu */
+    #tmq-{{ section.id }} .tmq-inner{
+      padding: var(--padY) 0;
+    }
+
+    /* ====== Header ====== */
+    #tmq-{{ section.id }} .tmq-header{display:grid;gap:8px;justify-items:center;text-align:center;margin:0 0 22px}
+    #tmq-{{ section.id }} .tmq-heading{margin:0}
+    #tmq-{{ section.id }} .tmq-rating{display:inline-flex;align-items:center;gap:4px}
+    #tmq-{{ section.id }} .tmq-rating-text{color:var(--muted);margin:0}
+    #tmq-{{ section.id }} .tmq-rating-value{font-weight:800}
+    #tmq-{{ section.id }} .tmq-stars{display:inline-flex;gap:6px}
+    #tmq-{{ section.id }} .tmq-based-on{color:var(--muted)}
+
+    /* ====== Marquee ====== */
+    #tmq-{{ section.id }} .tmq-marquee{overflow:hidden}
+    #tmq-{{ section.id }} .tmq-track{display:flex;width:max-content;animation: tmq-scroll var(--speed) linear infinite}
+    #tmq-{{ section.id }} .tmq-list{display:flex;align-items:stretch;gap:var(--gap);padding:0 var(--gap)}
+    #tmq-{{ section.id }} .tmq-list > *{margin:0!important}
+
+    @keyframes tmq-scroll{
+      0%{transform:translateX(0)}
+      100%{transform:translateX(calc(-50% - var(--gap)))}
+    }
+
+    /* ====== Cartes ====== */
+    .tmq-card{flex:0 0 auto;width:var(--card-w);background:var(--card-bg);color:var(--card-text);border-radius:var(--radius);padding:22px 26px;box-shadow:0 10px 28px rgba(0,0,0,.12);border:1px solid rgba(17,24,39,.08)}
+    .tmq-card-top{display:grid;gap:10px;justify-items:center;margin-bottom:4px}
+    .tmq-card-title{font-weight:800;margin:0;text-align:center; line-height:1.2;}
+    .tmq-card-text{margin:0 0 14px;line-height:1.6;text-align:center}
+    .tmq-card-author{margin:0;font-weight:600;text-align:center}
+
+    @media (max-width: 768px){
+      #tmq-{{ section.id }} { --card-w: 300px; --gap: 16px; }
+    }
+    #tmq-{{ section.id }} .tmq-heading {
+  margin: 0;
+  font-family: inherit;
+  line-height: 1; /* ✅ resserre l’interligne */
+}
+/* Supprime l'espace blanc ajouté par le thème autour de CETTE section */
+#shopify-section-{{ section.id }}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  /* Sur certains thèmes (dont Impact), ceci coupe aussi l'espacement par variable */
+  --section-spacing: 0;
+}
+
+/* Empêche le thème d'ajouter un marge-top au début de la section suivante */
+#shopify-section-{{ section.id }} + .shopify-section{
+  margin-top: 0 !important;
+}
+
+/* (optionnel) Si Impact applique un padding via un conteneur interne nommé .section */
+#shopify-section-{{ section.id }} .section{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Témoignages défilants",
+  "class": "section testimonials-marquee",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Nos clients le disent mieux que nous !" },
+    { "type": "color", "id": "heading_color", "label": "Couleur du titre principal", "default": "#111111" },
+    { "type": "range", "id": "heading_size", "label": "Taille du titre principal (px)", "min": 20, "max": 80, "step": 1, "default": 40 },
+    { "type": "checkbox", "id": "heading_bold", "label": "Titre en gras", "default": true },
+
+    { "type": "color", "id": "card_title_color", "label": "Couleur des titres cartes", "default": "#111111" },
+    { "type": "range", "id": "card_title_size", "label": "Taille titres cartes (px)", "min": 14, "max": 40, "step": 1, "default": 22 },
+
+    { "type": "text", "id": "rating_label", "label": "Libellé note (ex: Excellent)", "default": "Excellent" },
+    { "type": "text", "id": "rating_value", "label": "Note (ex: 4.7)", "default": "4.7" },
+    { "type": "text", "id": "rating_count", "label": "Nombre d'avis (ex: 1 067)", "default": "1 067" },
+
+    { "type": "color", "id": "star_bg", "label": "Couleur carré étoile", "default": "#00b67a" },
+    { "type": "color", "id": "card_bg", "label": "Fond des cartes", "default": "#ffffff" },
+    { "type": "color", "id": "card_text", "label": "Texte des cartes", "default": "#333333" },
+    { "type": "color", "id": "muted", "label": "Texte secondaire", "default": "#4b5563" },
+
+    { "type": "checkbox", "id": "use_gradient", "label": "Utiliser un dégradé de fond", "default": true },
+    { "type": "color", "id": "bg", "label": "Couleur/début dégradé", "default": "#9AA4BC" },
+    { "type": "color", "id": "bg2", "label": "Fin dégradé", "default": "#ffffff" },
+
+    { "type": "range", "id": "pad_y", "label": "Marge verticale", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 32 },
+    { "type": "range", "id": "card_radius", "label": "Arrondi des cartes", "min": 0, "max": 28, "step": 1, "unit": "px", "default": 18 },
+    { "type": "range", "id": "speed", "label": "Vitesse (secondes – plus petit = plus rapide)", "min": 10, "max": 120, "step": 5, "default": 45 }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Témoignage",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Titre", "default": "Résultat bluffant dès la première utilisation. ✨" },
+        { "type": "textarea", "id": "text", "label": "Texte", "default": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant." },
+        { "type": "text", "id": "author", "label": "Auteur", "default": "Sophie M." }
+      ]
+    }
+  ],
+  "max_blocks": 24,
+  "presets": [
+    {
+      "name": "Témoignages défilants",
+      "category": "Témoignages",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}
