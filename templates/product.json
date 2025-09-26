@@ -25,11 +25,11 @@
         "a6eb81db-40e4-43e0-972f-32db010a4a56": {
           "type": "rating_stars",
           "settings": {
-            "rating": 4.4,
-            "star_color": "#ffcc00",
+            "rating": 4.9,
+            "star_color": "#465069",
             "bg_stars_style": "full",
             "bg_star_color": "#ececec",
-            "label": "(xxxx Reviews)",
+            "label": "1 126 avis",
             "size": 16,
             "alignment": "flex-start",
             "scroll_id": "",
@@ -74,6 +74,10 @@
             "margin_top": 15,
             "margin_bottom": 15
           }
+        },
+        "globo_color_swatch_product_swatches_detail_hkygcV": {
+          "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
+          "settings": {}
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
           "type": "quantity_selector",
@@ -284,6 +288,7 @@
         "a6eb81db-40e4-43e0-972f-32db010a4a56",
         "price",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "globo_color_swatch_product_swatches_detail_hkygcV",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
