@@ -679,7 +679,7 @@
         "row_ABhRwq": {
           "type": "row",
           "settings": {
-            "benefit": "Benefit",
+            "benefit": "Prix",
             "us": true,
             "others": false
           }
