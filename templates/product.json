@@ -687,7 +687,7 @@
         "row_iLN7cU": {
           "type": "row",
           "settings": {
-            "benefit": "Benefit",
+            "benefit": "Rapide à appliquer",
             "us": true,
             "others": false
           }
@@ -695,7 +695,23 @@
         "row_aeQyhn": {
           "type": "row",
           "settings": {
-            "benefit": "Benefit",
+            "benefit": "Longue tenue",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_UYgBLD": {
+          "type": "row",
+          "settings": {
+            "benefit": "Sans produits agressifs",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_f3T4pA": {
+          "type": "row",
+          "settings": {
+            "benefit": "Respecte vos cheveux",
             "us": true,
             "others": false
           }
@@ -704,7 +720,9 @@
       "block_order": [
         "row_ABhRwq",
         "row_iLN7cU",
-        "row_aeQyhn"
+        "row_aeQyhn",
+        "row_UYgBLD",
+        "row_f3T4pA"
       ],
       "name": "Comparison table",
       "settings": {
