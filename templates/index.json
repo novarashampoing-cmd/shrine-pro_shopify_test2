@@ -46,6 +46,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Banniere_desktop_Novara_Shampoing_2_34381688-5c13-4755-b78e-80282dcac3e3.webp",
+            "mobile_image": "shopify://shop_images/Banniere_mobile_Novara_Shampoing_d5fa7190-6bfc-4207-bb1b-273c71ce702e.webp",
             "image_overlay_opacity": 0,
             "heading": "Image slide",
             "title_highlight_color": "#6d388b",
@@ -79,7 +80,7 @@
       "settings": {
         "visibility": "always-display",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "desktop_pagination_position": "over",
         "auto_rotate": false,
