@@ -588,6 +588,7 @@
             "btn_label": "<strong>Ingrédients</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
+            "image": "shopify://shop_images/Shampoing_sur_cheveux.webp",
             "loop": false,
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
