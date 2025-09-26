@@ -482,10 +482,10 @@
         "moast_carousel_fdWz4P": {
           "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
           "settings": {
-            "dynamic": false,
+            "dynamic": true,
             "feed": "",
             "feed_usage": "back_up",
-            "sort": "video",
+            "sort": "latest",
             "header": "",
             "slide_type": "cards",
             "autoplay_mode": "all",
