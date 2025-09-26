@@ -375,14 +375,15 @@
         "collapsible_tab_Y47wnj": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
+            "heading": "Comment appliquer notre shampoing ?",
+            "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
+            "custom_icon": "shopify://shop_images/shower_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p>1️⃣ <strong>Mousser</strong> : Prélevez une dose dans vos mains et faites mousser le shampoing<br/>2️⃣ <strong>Appliquer</strong> : Répartissez uniformément sur cheveux secs ou barbe, puis laissez agir 10 minutes<br/>3️⃣ <strong>Rincer</strong> : Rincez abondamment et profitez d’une couleur éclatante et naturelle ✨💆‍♂️</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
