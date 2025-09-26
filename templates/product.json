@@ -342,10 +342,42 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Expédition rapide",
-            "heading_size": "medium",
+            "heading_size": "small",
             "icon": "",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/delivery_truck_speed_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>L'équipe de <strong>Novara Shampoing</strong> veille à ce que chaque commande soit traitée et expédiée en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis. Et parce qu’un bon service ne s’arrête pas à la commande, notre équipe reste disponible pour répondre à vos questions et vous accompagner si besoin.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_EY4XYE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingrédients et bienfaits",
+            "heading_size": "small",
+            "icon": "check_box",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_Y47wnj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
@@ -372,7 +404,9 @@
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
         "reviews_8UgFbe",
-        "de158e68-5d0d-4819-a625-e2dabdff87d1"
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_EY4XYE",
+        "collapsible_tab_Y47wnj"
       ],
       "custom_css": [],
       "settings": {
