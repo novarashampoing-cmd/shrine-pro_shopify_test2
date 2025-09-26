@@ -76,7 +76,7 @@
             "border_size": 0,
             "border_color": "#b7b7b7",
             "margin_top": 15,
-            "margin_bottom": 12
+            "margin_bottom": 9
           }
         },
         "text_deXHLT": {
@@ -140,6 +140,15 @@
         "globo_color_swatch_product_swatches_detail_hkygcV": {
           "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
           "settings": {}
+        },
+        "urgency_WVGYK8": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "PEU DE QUANTITÉS RESTANTES !",
+            "color_scheme": "accent-1",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
         },
         "custom_liquid_wNcBaQ": {
           "type": "custom_liquid",
@@ -360,6 +369,7 @@
         "text_deXHLT",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
         "globo_color_swatch_product_swatches_detail_hkygcV",
+        "urgency_WVGYK8",
         "custom_liquid_wNcBaQ",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
