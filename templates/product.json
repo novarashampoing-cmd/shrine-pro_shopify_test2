@@ -476,64 +476,43 @@
         "padding_bottom": 24
       }
     },
-    "image_with_text_KeebiA": {
-      "type": "image-with-text",
+    "1758905963225e8c3e": {
+      "type": "apps",
       "blocks": {
-        "heading_jyKTBc": {
-          "type": "heading",
+        "moast_carousel_fdWz4P": {
+          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
           "settings": {
-            "title": "Image with text",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
-          }
-        },
-        "text_CrRCca": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_pnVwQ7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "dynamic": false,
+            "feed": "",
+            "feed_usage": "back_up",
+            "sort": "video",
+            "header": "",
+            "slide_type": "cards",
+            "autoplay_mode": "all",
+            "slide_size": "250",
+            "border": 0,
+            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+            "slide_rounding": "20",
+            "slide_spacing": 16,
+            "padding_top": 40,
+            "pagination": "overlay",
+            "alignment": "center",
+            "product_cards": "none",
+            "show_captions": false,
+            "autoscroll_duration": 0,
+            "click_action": "fullscreen",
+            "float_location": "bottom_right",
+            "float_size": "medium",
+            "custom_css": ""
           }
         }
       },
       "block_order": [
-        "heading_jyKTBc",
-        "text_CrRCca",
-        "button_pnVwQ7"
+        "moast_carousel_fdWz4P"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/Avantage_Novara_Shampoing_Homme_1.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
+        "include_margins": true
       }
     },
     "8beb6911-28c6-482c-976a-e5421ad3e8df": {
@@ -959,7 +938,7 @@
   "order": [
     "main",
     "related-products",
-    "image_with_text_KeebiA",
+    "1758905963225e8c3e",
     "8beb6911-28c6-482c-976a-e5421ad3e8df",
     "eba88da5-80ac-47fc-aa75-997cfe7b2e59",
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a",
