@@ -1,0 +1,49 @@
+<!-- sections/espacement.liquid -->
+<div
+  class="custom-spacer"
+  style="height: {{ section.settings.spacer_height }}; background-color: {{ section.settings.spacer_color }};">
+</div>
+
+<style>
+  .custom-spacer {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Espacement",
+  "tag": "div",
+  "class": "custom-spacer-wrapper",
+  "settings": [
+    {
+      "type": "select",
+      "id": "spacer_height",
+      "label": "Hauteur de l'espacement",
+      "default": "60px",
+      "options": [
+        { "value": "1px", "label": "Petit (1px)" },
+        { "value": "20px", "label": "Moyen (20px)" },
+        { "value": "40px", "label": "Moyen2 (40px)" },
+        { "value": "60px", "label": "Grand (60px)" },
+        { "value": "100px", "label": "Très grand (100px)" },
+        { "value": "150px", "label": "Immense (150px)" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "spacer_color",
+      "label": "Couleur de fond",
+      "default": "#e9f0f7"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Espacement"
+    }
+  ]
+}
+{% endschema %}
