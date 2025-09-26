@@ -51,7 +51,7 @@
         "text_TwEkYi": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
+            "mobile_text_size": 13,
             "desktop_text_size": 16,
             "alignment": "left",
             "text_color": "#000000",
@@ -82,7 +82,7 @@
         "text_deXHLT": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
+            "mobile_text_size": 13,
             "desktop_text_size": 16,
             "alignment": "left",
             "text_color": "#000000",
@@ -97,8 +97,8 @@
             "filled_icon_2": false,
             "icon_3": "check_circle",
             "filled_icon_3": false,
-            "width": "100%",
-            "direction": "horizontal",
+            "width": "fit-content",
+            "direction": "vertical",
             "column_gap": 3,
             "enable_bg": false,
             "bg_color": "#f3f3f3",
