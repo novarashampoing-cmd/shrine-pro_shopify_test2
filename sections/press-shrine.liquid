@@ -194,6 +194,56 @@
 .sp-press-{{ section.id }} .dots button[aria-current="true"]{
   background: #111827;
 }
+/* === Citation : italique + gras optionnel + guillemets symétriques === */
+.sp-press-{{ section.id }} .card{ max-width: 760px; }
+
+.sp-press-{{ section.id }} blockquote{
+  position: relative;
+  margin: 0 0 18px;
+  font-style: italic;
+  font-weight: {% if section.settings.quote_bold %}700{% else %}500{% endif %}; /* ✅ gras activable */
+  color: var(--sp-heading);
+  font-size: clamp(22px, 3.4vw, 32px);
+  line-height: 1.3;
+  max-width: 24ch;
+  margin-inline: auto;
+  text-wrap: balance;
+  padding-left: .4em; /* place pour le guillemet gauche */
+  border: none !important;      /* ✅ si un style thème ajoute une bordure, on la neutralise */
+}
+
+/* Guillemets décoratifs — même taille/contraste, haut-gauche & bas-droite */
+.sp-press-{{ section.id }} blockquote::before,
+.sp-press-{{ section.id }} blockquote::after{
+  position: absolute;
+  font-weight: 900;
+  font-size: clamp(70px, 9vw, 92px);   /* ✅ identiques */
+  line-height: 1;
+  color: currentColor;
+  opacity: .18;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+.sp-press-{{ section.id }} blockquote::before{
+  content: "\201C";                 /* “ */
+  left: -.15em; top: -.25em;
+  font-style: normal;
+}
+.sp-press-{{ section.id }} blockquote::after{
+  content: "\201D";                 /* ” */
+  right: -.15em; bottom: -.45em;
+  font-style: normal;
+}
+
+/* === Supprimer la barre verticale à gauche (séparateur de slide) === */
+.sp-press-{{ section.id }} .sld + .sld::before{ display: none !important; }
+/* au cas où un style ailleurs ajoute une bordure au blockquote */
+.sp-press-{{ section.id }} blockquote{ border-left: 0 !important; }
+
+/* Logo/auteur (on garde le look presse) */
+.sp-press-{{ section.id }} .logo-tile{ background: transparent; border: 0; filter: grayscale(100%); opacity:.95; padding:0; }
+.sp-press-{{ section.id }} .author{ margin-top:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; opacity:.9; font-size:.9rem; }
 
 
 </style>
@@ -321,6 +371,8 @@
       ],
       "default": "medium"
     },
+
+    { "type": "checkbox", "id": "quote_bold", "label": "Citation en gras", "default": false },
 
     { "type": "header", "content": "Colors" },
     { "type": "color", "id": "background", "label": "Background" },
