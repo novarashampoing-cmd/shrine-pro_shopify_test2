@@ -99,7 +99,7 @@
             "filled_icon_3": false,
             "width": "fit-content",
             "direction": "vertical",
-            "column_gap": 3,
+            "column_gap": 0,
             "enable_bg": false,
             "bg_color": "#f3f3f3",
             "corner_radius": 40,
