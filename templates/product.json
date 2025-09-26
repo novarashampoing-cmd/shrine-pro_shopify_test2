@@ -762,20 +762,22 @@
     "video_shrine_pro_GLJADx": {
       "type": "video-shrine-pro",
       "blocks": {
-        "play_RdPDNa": {
-          "type": "play",
-          "settings": {}
+        "button_WpnLK4": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "url": "",
+            "style": "fill"
+          }
         }
       },
       "block_order": [
-        "play_RdPDNa"
+        "button_WpnLK4"
       ],
       "name": "Vidéo (Impact-style)",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
         "autoplay": false,
-        "video_size": "auto",
         "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
