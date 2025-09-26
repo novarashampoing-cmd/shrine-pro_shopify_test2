@@ -682,111 +682,6 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "comparison_table_4xDibi": {
-      "type": "comparison-table",
-      "blocks": {
-        "row_ABhRwq": {
-          "type": "row",
-          "settings": {
-            "benefit": "Prix",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_iLN7cU": {
-          "type": "row",
-          "settings": {
-            "benefit": "Rapide à appliquer",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_aeQyhn": {
-          "type": "row",
-          "settings": {
-            "benefit": "Longue tenue",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_UYgBLD": {
-          "type": "row",
-          "settings": {
-            "benefit": "Sans produits agressifs",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_f3T4pA": {
-          "type": "row",
-          "settings": {
-            "benefit": "Respecte vos cheveux",
-            "us": true,
-            "others": false
-          }
-        }
-      },
-      "block_order": [
-        "row_ABhRwq",
-        "row_iLN7cU",
-        "row_aeQyhn",
-        "row_UYgBLD",
-        "row_f3T4pA"
-      ],
-      "name": "Comparison table",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Pourquoi choisir <strong>Novara Shampoing</strong> ?",
-        "title_highlight_color": "#465069",
-        "heading_size": "h1",
-        "text": "<p>Le shampoing colorant Novara est efficace et doux pour une couleur naturelle en 10 minutes. Une qualité que beaucoup de produits concurrents n’offrent pas</p>",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "color_scheme": "background-1",
-        "layout": "table_second",
-        "style": "classic",
-        "us_label": "[shop_name]",
-        "us_label_size": 26,
-        "logo": "shopify://shop_images/Logo_marque_Novara.png",
-        "logo_width": 110,
-        "mobile_logo_width": 100,
-        "others_label": "Autres produits",
-        "others_label_size": 26,
-        "others_logo_width": 90,
-        "others_mobile_logo_width": 60,
-        "checkmark_style": "regular",
-        "checkmark_color": "#53af01",
-        "checkmark_bg_color": "#dbdbdb",
-        "x_style": "regular",
-        "x_color": "#dd1d1d",
-        "x_bg_color": "#dbdbdb",
-        "opposite_icon_colors": "original",
-        "highlighted_color_scheme": "accent-1",
-        "highlighted_separator_opacity": 0,
-        "highlighted_overlay_opacity": 0,
-        "other_cells_color_scheme": "background-1",
-        "regular_separator_opacity": 10,
-        "regular_overlay_opacity": 0,
-        "minimalistic_border_opacity": 16,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#000000",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_colors_highlighted_background": "#ffffff",
-        "custom_colors_highlighted_text": "#ffffff",
-        "custom_colors_others_background": "#ffffff",
-        "custom_colors_others_text": "#2e2a39"
-      }
-    },
     "rich_text_JwR7Ch": {
       "type": "rich-text",
       "blocks": {
@@ -984,6 +879,111 @@
         "speed": 45
       }
     },
+    "comparison_table_4xDibi": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_ABhRwq": {
+          "type": "row",
+          "settings": {
+            "benefit": "Prix",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_iLN7cU": {
+          "type": "row",
+          "settings": {
+            "benefit": "Rapide à appliquer",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_aeQyhn": {
+          "type": "row",
+          "settings": {
+            "benefit": "Longue tenue",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_UYgBLD": {
+          "type": "row",
+          "settings": {
+            "benefit": "Sans produits agressifs",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_f3T4pA": {
+          "type": "row",
+          "settings": {
+            "benefit": "Respecte vos cheveux",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "row_ABhRwq",
+        "row_iLN7cU",
+        "row_aeQyhn",
+        "row_UYgBLD",
+        "row_f3T4pA"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Pourquoi choisir <strong>Novara Shampoing</strong> ?",
+        "title_highlight_color": "#465069",
+        "heading_size": "h1",
+        "text": "<p>Le shampoing colorant Novara est efficace et doux pour une couleur naturelle en 10 minutes. Une qualité que beaucoup de produits concurrents n’offrent pas</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "layout": "table_second",
+        "style": "classic",
+        "us_label": "[shop_name]",
+        "us_label_size": 26,
+        "logo": "shopify://shop_images/Logo_marque_Novara.png",
+        "logo_width": 110,
+        "mobile_logo_width": 100,
+        "others_label": "Autres produits",
+        "others_label_size": 26,
+        "others_logo_width": 90,
+        "others_mobile_logo_width": 60,
+        "checkmark_style": "regular",
+        "checkmark_color": "#53af01",
+        "checkmark_bg_color": "#dbdbdb",
+        "x_style": "regular",
+        "x_color": "#dd1d1d",
+        "x_bg_color": "#dbdbdb",
+        "opposite_icon_colors": "original",
+        "highlighted_color_scheme": "accent-1",
+        "highlighted_separator_opacity": 0,
+        "highlighted_overlay_opacity": 0,
+        "other_cells_color_scheme": "background-1",
+        "regular_separator_opacity": 10,
+        "regular_overlay_opacity": 0,
+        "minimalistic_border_opacity": 16,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#000000",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_highlighted_background": "#ffffff",
+        "custom_colors_highlighted_text": "#ffffff",
+        "custom_colors_others_background": "#ffffff",
+        "custom_colors_others_text": "#2e2a39"
+      }
+    },
     "ss_simple_faq_ic8Jbj": {
       "type": "ss-simple-faq",
       "blocks": {
@@ -1105,13 +1105,13 @@
     "1758905963225e8c3e",
     "content_tabs_y6pYh8",
     "comparison_slider_ynBwE6",
-    "comparison_table_4xDibi",
     "rich_text_JwR7Ch",
     "video_shrine_pro_WXCz7P",
     "1758918097d3c4e83a",
     "press_shrine_PPFLL8",
     "custom_liquid_rbATL4",
     "section_temoignages_defilants_EnbUWg",
+    "comparison_table_4xDibi",
     "ss_simple_faq_ic8Jbj"
   ]
 }
