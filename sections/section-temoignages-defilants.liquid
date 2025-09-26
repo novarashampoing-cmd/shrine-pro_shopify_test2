@@ -195,6 +195,46 @@ Thème: Impact (Shopify OS 2.0)
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+/* ====== Ajuste la largeur du titre ====== */
+#tmq-{{ section.id }}{
+  /* change 28ch si tu veux plus/moins étroit */
+  --tmq-heading-max: 28ch;
+}
+
+#tmq-{{ section.id }} .tmq-heading{
+  max-width: var(--tmq-heading-max);
+  margin-inline: auto;         /* centre le titre */
+  text-wrap: balance;          /* équilibre les lignes (navigateurs modernes) */
+  line-height: 1.05;           /* un peu plus compact si besoin */
+}
+
+/* ====== Resserre les étoiles du header ====== */
+#tmq-{{ section.id }} .tmq-header .tmq-stars{
+  gap: 2px !important;         /* au lieu de 6px */
+}
+#tmq-{{ section.id }} .tmq-header .tmq-star{
+  width: 22px !important;      /* override l’attribut width=28 */
+  height: 22px !important;
+  display: block;
+}
+
+/* ====== Resserre les étoiles dans les cartes ====== */
+#tmq-{{ section.id }} .tmq-card-top .tmq-stars{
+  gap: 2px !important;         /* au lieu de 6px */
+}
+#tmq-{{ section.id }} .tmq-card-top .tmq-star{
+  width: 16px !important;      /* override l’attribut width=20 */
+  height: 16px !important;
+  display: block;
+}
+
+/* (optionnel) réduit encore la place prise par le bloc note entier */
+#tmq-{{ section.id }} .tmq-rating{
+  gap: 2px !important;         /* rapprocher label/note/étoiles */
+}
+#tmq-{{ section.id }} .tmq-rating-text{
+  margin: 0 !important;
+}
 
   </style>
 </section>
