@@ -857,7 +857,7 @@
             "logo": "shopify://shop_images/elle_300xlogo_1.png",
             "logo_width": 150,
             "author": "",
-            "content": "\"Enfin une coloration qui couvre les cheveux blancs en un geste\"",
+            "content": "Enfin une coloration qui couvre les cheveux blancs en un geste\"",
             "show_rating": false,
             "rating": 4
           }
@@ -878,7 +878,6 @@
         "quote_Ed6qyk",
         "quote_QTKcKB"
       ],
-      "disabled": true,
       "name": "Press",
       "settings": {
         "full_width": true,
