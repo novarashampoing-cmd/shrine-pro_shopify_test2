@@ -936,11 +936,74 @@
         "text_VG6KQh": {
           "type": "text",
           "settings": {
+            "question": "Combien de temps tient la coloration ?",
+            "answer": "<p>La tenue varie selon la nature de vos cheveux et votre routine de lavage. En moyenne, la couleur obtenue avec <strong>Novara Shampoing</strong> reste visible entre <strong>4 et 6 semaines</strong>.</p>"
+          }
+        },
+        "text_PcrMLR": {
+          "type": "text",
+          "settings": {
             "question": "Question text",
             "answer": "<p>Answer richtext</p>"
           }
         },
-        "text_PcrMLR": {
+        "text_nMx7Fq": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_LzM4wM": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_nekAGG": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_C73Qnn": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_7thgf6": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_GTCkcr": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_tnQcbV": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_6mzffk": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_cHGgBx": {
           "type": "text",
           "settings": {
             "question": "Question text",
@@ -950,7 +1013,16 @@
       },
       "block_order": [
         "text_VG6KQh",
-        "text_PcrMLR"
+        "text_PcrMLR",
+        "text_nMx7Fq",
+        "text_LzM4wM",
+        "text_nekAGG",
+        "text_C73Qnn",
+        "text_7thgf6",
+        "text_GTCkcr",
+        "text_tnQcbV",
+        "text_6mzffk",
+        "text_cHGgBx"
       ],
       "name": "Faq",
       "settings": {
