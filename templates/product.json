@@ -518,6 +518,33 @@
     "content_tabs_y6pYh8": {
       "type": "content-tabs",
       "blocks": {
+        "tab_cdHXe4": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "<strong>Le shampoing</strong>",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "Novara Shampoing réinvente la coloration",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<p>Avec Novara Shampoing, dites adieu aux colorations complexes. Fini les mélanges fastidieux et les longues attentes. Nous avons transformé la coloration en un geste rapide, agréable et efficace : en seulement 10 minutes. Vos cheveux sont nettoyés, colorés et éclatants.</p>",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        },
         "tab_7AWix4": {
           "type": "tab",
           "settings": {
@@ -534,33 +561,6 @@
             "heading_size": "h3",
             "text": "<p><strong>1. Faites mousser</strong><br/>Déposez une noisette de shampoing colorant dans vos mains et transformez-la en mousse légère<br/><br/><strong>2. Étalez sur cheveux secs</strong><br/>Appliquez uniformément des racines aux pointes pour une couverture homogène<br/><br/><strong>3. Patientez 10 minutes</strong><br/>Laissez agir : le temps idéal pour que la couleur se fixe et révèle toute son intensité<br/><br/><strong>4. Rincez soigneusement</strong><br/>Rincez jusqu’à ce que l’eau devienne claire. Résultat : des cheveux colorés, brillants et doux au toucher</p>",
             "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_skip_cart": false,
-            "product": "",
-            "desktop_media_width": "half",
-            "desktop_media_position": "media_first",
-            "desktop_text_alignment": "center",
-            "mobile_media_position": "media_first",
-            "mobile_text_alignment": "mobile-center"
-          }
-        },
-        "tab_cdHXe4": {
-          "type": "tab",
-          "settings": {
-            "btn_label": "<strong>Le shampoing</strong>",
-            "btn_icon": "",
-            "filled_btn_icon": false,
-            "loop": false,
-            "muted_autoplay": false,
-            "btn_color_scheme": "accent-1",
-            "btn_animation": false,
-            "title": "Novara Shampoing réinvente la coloration",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "text": "<p>Avec <strong>Novara Shampoing</strong>, dites adieu aux colorations complexes.<br/>Fini les gants, les mélanges fastidieux et les longues attentes : en seulement <strong>10 minutes</strong>, vos cheveux sont nettoyés, colorés et éclatants.</p><h3>Une couleur intense, sans compromis</h3><p>Une couvrance homogène et naturelle, enrichie en actifs nourrissants qui hydratent la fibre et renforcent les racines. Résultat : des cheveux colorés mais aussi plus forts et lumineux.</p><h3>Une routine beauté simplifiée</h3><p>Novara transforme la coloration en un geste rapide, agréable et efficace. Vos cheveux restent doux, brillants et pleins de vitalité, sans sacrifier votre confort.</p>",
-            "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
             "atc_button_label": "",
@@ -602,8 +602,8 @@
         }
       },
       "block_order": [
-        "tab_7AWix4",
         "tab_cdHXe4",
+        "tab_7AWix4",
         "tab_FfhMzY"
       ],
       "name": "Content tabs",
