@@ -385,7 +385,7 @@
             "autoplay": true,
             "autoplay_speed": 3,
             "display_arrows": true,
-            "display_dots": true,
+            "display_dots": false,
             "author_1": "<em>Léa</em> [stars]",
             "text_1": "<p>Le meilleur rapport qualité prix !</p>",
             "author_2": "<em>Carole</em> [stars]",
