@@ -632,7 +632,7 @@
         "header_layout": "vertical",
         "buttons_desktop_font_size": 15,
         "desktop_full_size_buttons": false,
-        "buttons_mobile_font_size": 14,
+        "buttons_mobile_font_size": 12,
         "mobile_full_size_buttons": true,
         "padding_top": 36,
         "padding_bottom": 36,
