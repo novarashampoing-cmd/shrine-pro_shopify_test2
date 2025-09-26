@@ -105,23 +105,9 @@
 
   /* A11y helper (local scope) */
   .sp-press-{{ section.id }} .sr{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); border:0; }
-  }
-  .sp-kicker-{{ section.id }}{
-  width:min(100%, var(--sp-max));
-  margin:0 auto 10px;
-  text-transform:uppercase; letter-spacing:.08em;
-  font-weight:700; font-size:.8rem; opacity:.7;
-  padding-inline:clamp(12px, 4vw, 24px);
-}
-
-  
 </style>
 
 <section class="sp-press-{{ section.id }}" aria-label="Press">
-    {% if section.settings.kicker != blank %}
-  <div class="sp-kicker-{{ section.id }}">{{ section.settings.kicker }}</div>
-{% endif %}
-
   <div class="spv" id="spv-{{ section.id }}">
     <div class="trk" id="trk-{{ section.id }}">
       {%- for block in section.blocks -%}
@@ -245,8 +231,6 @@
       "default": "medium"
     },
 
-    { "type":"text", "id":"kicker", "label":"Ruban (kicker)", "default":"Ils parlent de nous" },
-
     { "type": "header", "content": "Colors" },
     { "type": "color", "id": "background", "label": "Background" },
     { "type": "color_background", "id": "background_gradient", "label": "Background gradient" },
@@ -276,4 +260,3 @@
   ]
 }
 {% endschema %}
-
