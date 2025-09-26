@@ -242,6 +242,13 @@
             "custom_liquid": "{% comment %}\nBannière alerte promo — Custom Liquid\nÉdite simplement les variables ci-dessous.\n{% endcomment %}\n\n{%- assign alert_title = \"Mise à jour du\" -%}\n{%- assign alert_date  = \"now\" | date: \"%d/%m/%Y\" -%} \n{%- assign alert_text  = \"La promotion sur la livraison suivie <strong>GRATUITE</strong> se termine ce soir à minuit&nbsp;! Profitez-en avant qu’il ne soit trop tard.\" -%}\n\n<div class=\"nk-alert\">\n  <style>\n    .nk-alert{\n      --alert-border: #e53935;\n      --alert-bg: #ffe9e9;\n      --alert-text: #d32f2f;\n      --alert-icon: #d32f2f;\n      border: 2px solid var(--alert-border);\n      background: var(--alert-bg);\n      color: var(--alert-text);\n      border-radius: 6px;\n      padding: 16px 18px;\n      margin: 18px 0;\n      font-family: inherit;\n    }\n    .nk-alert__row{\n      display: grid;\n      grid-template-columns: auto 1fr;\n      align-items: start;\n      gap: 12px;\n    }\n    .nk-alert__icon{\n      width: 22px; height: 22px; flex: 0 0 22px; color: var(--alert-icon);\n      margin-top: 2px;\n    }\n    .nk-alert__content{\n      font-size: clamp(13px, 1.5vw, 17px);\n      line-height: 1.5;\n    }\n    .nk-alert__content b, .nk-alert__content strong{ font-weight: 800; }\n    .nk-alert__title{ font-weight: 800; }\n    @media (max-width: 480px){\n      .nk-alert{ padding: 12px 14px; }\n      .nk-alert__icon{ width: 20px; height: 20px; }\n    }\n  </style>\n\n  <div class=\"nk-alert__row\">\n    <svg class=\"nk-alert__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path fill=\"currentColor\" d=\"M7.88 3.39 6.6 1.86 2 5.9l1.27 1.53 4.61-4.04zM22 5.9l-4.6-4.04-1.29 1.53 4.62 4.04L22 5.9zM12 4a9 9 0 1 0 .001 18.001A9 9 0 0 0 12 4zm0 2a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm-.75 2.5v5.25l4.5 2.64.75-1.28-3.75-2.2V8.5h-1.5z\"/>\n    </svg>\n    <div class=\"nk-alert__content\">\n      <span class=\"nk-alert__title\">{{ alert_title }} {{ alert_date }}</span> : \n      {{ alert_text }}\n    </div>\n  </div>\n</div>"
           }
         },
+        "essential_trust_badges_app_block_mwTUU7": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "0eb077a5-08bc-4187-9cb2-abd93b452f95"
+          }
+        },
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
           "type": "sticky_atc",
           "disabled": true,
@@ -403,6 +410,7 @@
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
         "custom_liquid_9Kz4Rw",
+        "essential_trust_badges_app_block_mwTUU7",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
         "de158e68-5d0d-4819-a625-e2dabdff87d1",
