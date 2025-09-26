@@ -713,7 +713,7 @@
         "title": "Pourquoi choisir <strong>Novara Shampoing</strong> ?",
         "title_highlight_color": "#465069",
         "heading_size": "h1",
-        "text": "<p>Talk about how and why is your brand better than the others.</p>",
+        "text": "<p>Novara propose shampoing colorant efficace et doux pour une couleur naturelle en 10 minutes. Une qualité que beaucoup de produits concurrents n’offrent pas</p>",
         "button_label": "",
         "link": "",
         "button_style_secondary": false,
@@ -765,8 +765,8 @@
         "heading_9RaqxD": {
           "type": "heading",
           "settings": {
-            "title": "Novara Shampoing en vidéo",
-            "title_highlight_color": "#6d388b",
+            "title": "<strong>Novara Shampoing</strong> en vidéo",
+            "title_highlight_color": "#465069",
             "heading_size": "h2"
           }
         },
