@@ -857,7 +857,7 @@
             "logo": "shopify://shop_images/elle_300xlogo_1.png",
             "logo_width": 150,
             "author": "",
-            "content": "Enfin une coloration qui couvre les cheveux blancs en un geste\"",
+            "content": "Enfin une coloration qui couvre les cheveux blancs en un geste",
             "show_rating": false,
             "rating": 4
           }
@@ -868,7 +868,7 @@
             "logo": "shopify://shop_images/Logo_Cosmopolitain.webp",
             "logo_width": 150,
             "author": "",
-            "content": "\"Une application facile pour un rendu naturel\"",
+            "content": "\"Une application facile et rapide pour un rendu naturel\"",
             "show_rating": false,
             "rating": 4
           }
@@ -882,6 +882,7 @@
       "settings": {
         "full_width": true,
         "content_size": "medium",
+        "quote_bold": true,
         "background": "",
         "background_gradient": "",
         "text_color": "",
