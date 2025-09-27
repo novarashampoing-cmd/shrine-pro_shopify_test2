@@ -700,13 +700,25 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_iBNTHA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_5.webp",
+            "muted_autoplay": true,
+            "title": "Pour toutes les chevelures",
+            "text": "<p>Qu’ils soient fins, épais, lisses ou bouclés, <strong>Novara Shampoing s’ajuste à chaque type de cheveux </strong>pour offrir une couleur uniforme et naturelle</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_6ctmrx",
         "column_W3j6Mw",
         "column_EbH6fL",
-        "column_UcADfh"
+        "column_UcADfh",
+        "column_iBNTHA"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
