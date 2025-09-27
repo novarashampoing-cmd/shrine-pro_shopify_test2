@@ -674,7 +674,7 @@
             "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_2.webp",
             "muted_autoplay": true,
             "title": "Application facile",
-            "text": "<p>Utilisez-le comme un shampoing ordinaire : pas de préparation et ni de taches pour retrouver une couleur nette et naturelle</p>",
+            "text": "<p>Utilisez-le comme un shampoing ordinaire : <strong>pas de préparation et ni de taches</strong> pour retrouver une couleur nette et naturelle</p>",
             "link_label": "",
             "link": ""
           }
@@ -685,7 +685,18 @@
             "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_3.webp",
             "muted_autoplay": true,
             "title": "Respectueux de vos cheveux",
-            "text": "<p>Une coloration pensée sans ammoniaque ni peroxyde, avec des actifs naturels qui nourrissent et protègent le cuir chevelu</p>",
+            "text": "<p>Une coloration sans ammoniaque ni peroxyde, avec des actifs naturels qui <strong>nourrissent et protègent le cuir chevelu</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UcADfh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_4.webp",
+            "muted_autoplay": true,
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -694,7 +705,8 @@
       "block_order": [
         "column_6ctmrx",
         "column_W3j6Mw",
-        "column_EbH6fL"
+        "column_EbH6fL",
+        "column_UcADfh"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
