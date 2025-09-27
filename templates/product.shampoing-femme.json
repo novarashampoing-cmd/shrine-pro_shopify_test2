@@ -654,146 +654,6 @@
         "custom_tabs_color_label": "#ffffff"
       }
     },
-    "slideshow_cLwBWP": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_BTGNVg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_1.webp",
-            "mobile_image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_1.webp",
-            "image_overlay_opacity": 0,
-            "heading": "En seulement 10 minutes",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h2",
-            "subheading": "Couleur rapide : appliquez, attendez 10 minutes puis rincez",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        },
-        "slide_WJWHdM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_2.webp",
-            "mobile_image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_2.webp",
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h2",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        },
-        "slide_CXJAd8": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        },
-        "slide_8TUaym": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        }
-      },
-      "block_order": [
-        "slide_BTGNVg",
-        "slide_WJWHdM",
-        "slide_CXJAd8",
-        "slide_8TUaym"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "visibility": "always-display",
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "mobile_pagination_position": "under",
-        "accessibility_info": ""
-      }
-    },
     "multicolumn_deEWjJ": {
       "type": "multicolumn",
       "blocks": {
@@ -802,8 +662,8 @@
           "settings": {
             "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_1.webp",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "En seulement 10 minutes",
+            "text": "<p>Couleur rapide : appliquez, <strong>attendez 10 minutes puis rincez</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -811,9 +671,10 @@
         "column_W3j6Mw": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_2.webp",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Application facile",
+            "text": "<p>Utilisez-le comme un shampoing ordinaire : pas de préparation compliquée. Juste un geste simple pour retrouver une couleur nette et naturelle</p>",
             "link_label": "",
             "link": ""
           }
@@ -1351,7 +1212,6 @@
     "related-products",
     "1758905963225e8c3e",
     "content_tabs_y6pYh8",
-    "slideshow_cLwBWP",
     "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
     "rich_text_JwR7Ch",
