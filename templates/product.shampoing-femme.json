@@ -711,6 +711,17 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_QjTRj3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_6.webp",
+            "muted_autoplay": true,
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -718,7 +729,8 @@
         "column_W3j6Mw",
         "column_EbH6fL",
         "column_UcADfh",
-        "column_iBNTHA"
+        "column_iBNTHA",
+        "column_QjTRj3"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
