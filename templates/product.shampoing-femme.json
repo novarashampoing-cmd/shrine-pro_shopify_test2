@@ -717,8 +717,8 @@
           "settings": {
             "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_6.webp",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Économisez du temps et de l'argent",
+            "text": "<p>Profitez d’une coloration professionnelle sans passer par le coiffeur. <strong>Économisez jusqu'à 400€ par an en coloration grâce à Novara Shampoing</strong></p>",
             "link_label": "",
             "link": ""
           }
