@@ -794,6 +794,98 @@
         "accessibility_info": ""
       }
     },
+    "multicolumn_deEWjJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6ctmrx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_1.webp",
+            "muted_autoplay": true,
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W3j6Mw": {
+          "type": "column",
+          "settings": {
+            "muted_autoplay": true,
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EbH6fL": {
+          "type": "column",
+          "settings": {
+            "muted_autoplay": true,
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6ctmrx",
+        "column_W3j6Mw",
+        "column_EbH6fL"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Les avantages de Novara Shampoing",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "cards_color_scheme": "bg-overlay",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
     "comparison_slider_ynBwE6": {
       "type": "comparison-slider",
       "name": "Before & After slider",
@@ -1260,6 +1352,7 @@
     "1758905963225e8c3e",
     "content_tabs_y6pYh8",
     "slideshow_cLwBWP",
+    "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
     "rich_text_JwR7Ch",
     "video_shrine_pro_WXCz7P",
