@@ -682,9 +682,10 @@
         "column_EbH6fL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_3.webp",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Respectueux de vos cheveux",
+            "text": "<p>Une coloration pensée sans ammoniaque ni peroxyde, avec des actifs naturels qui nourrissent et protègent le cuir chevelu</p>",
             "link_label": "",
             "link": ""
           }
