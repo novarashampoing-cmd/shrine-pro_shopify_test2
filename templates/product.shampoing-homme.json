@@ -567,7 +567,7 @@
             "btn_label": "<strong>Comment ?</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
-            "video": "shopify://files/videos/Comment appliquer le shampoing colorant Novara_c498aa65-a218-4a2d-98f6-804cc7d7bc8c.mp4",
+            "image": "shopify://shop_images/Shampoing_Novara_homme_5.webp",
             "loop": false,
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
