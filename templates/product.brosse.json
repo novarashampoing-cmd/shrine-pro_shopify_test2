@@ -893,7 +893,7 @@
         "heading_m4c3pw": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "Pour tous les types de cheveux",
             "title_highlight_color": "#6D388B",
             "heading_size": "h1"
           }
@@ -901,22 +901,14 @@
         "text_WjGzrA": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>La brosse <strong>HairBloom</strong> agit directement sur le cuir chevelu et stimule les follicules. Résultat : une efficacité visible, que vos cheveux soient bouclés, lisses, fins ou épais.</p>",
             "text_style": "body"
-          }
-        },
-        "button_dqMDdy": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
       "block_order": [
         "heading_m4c3pw",
-        "text_WjGzrA",
-        "button_dqMDdy"
+        "text_WjGzrA"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
