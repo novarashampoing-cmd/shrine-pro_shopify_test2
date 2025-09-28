@@ -431,7 +431,7 @@
         "enable_sticky_info": true,
         "display_variant_image_first": true,
         "disable_prepend": true,
-        "hide_variants": true,
+        "hide_variants": false,
         "variant_image_filtering": "none",
         "image_zoom": "none",
         "arrows_color_scheme": "inverse",
