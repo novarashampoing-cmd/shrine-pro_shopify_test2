@@ -570,7 +570,7 @@
         "text_qHB9Hf": {
           "type": "text",
           "settings": {
-            "text": "<p>Voici  la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</p>",
+            "text": "<p><strong>Voici  la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</strong></p>",
             "text_style": "body"
           }
         },
@@ -586,6 +586,7 @@
         "text_qHB9Hf",
         "button_NmqGE4"
       ],
+      "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
@@ -605,12 +606,12 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 24,
-        "custom_colors_background": "#465069",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#ffffff",
-        "custom_colors_solid_button_text": "#465069",
-        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_text": "#465069",
+        "custom_colors_solid_button_background": "#465069",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#465069",
         "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
       }
