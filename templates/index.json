@@ -680,10 +680,18 @@
     "image_with_text_WFrgRP": {
       "type": "image-with-text",
       "blocks": {
+        "heading_jKUazx": {
+          "type": "heading",
+          "settings": {
+            "title": "Cheveux abîmés ?",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h1"
+          }
+        },
         "text_qHB9Hf": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Voici  la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</strong></p>",
+            "text": "<p><strong>Découvrez la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</strong></p>",
             "text_style": "body"
           }
         },
@@ -696,6 +704,7 @@
         }
       },
       "block_order": [
+        "heading_jKUazx",
         "text_qHB9Hf",
         "button_NmqGE4"
       ],
