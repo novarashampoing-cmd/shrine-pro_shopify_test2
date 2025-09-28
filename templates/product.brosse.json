@@ -594,6 +594,7 @@
         "tab_7AWix4",
         "tab_FfhMzY"
       ],
+      "disabled": true,
       "name": "Content tabs",
       "settings": {
         "display_id": false,
@@ -703,6 +704,7 @@
         "column_iBNTHA",
         "column_QjTRj3"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "display_id": false,
@@ -761,7 +763,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "AVANT/APRÈS application du shampoing",
+        "title": "AVANT/APRÈS utilisation de la <strong>brosse HairBloom</strong>",
         "title_highlight_color": "#465069",
         "heading_size": "h1",
         "text": "<p>Les résultats après l'application de notre shampoing colorant parlent d'eux-mêmes</p>",
