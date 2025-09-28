@@ -1261,22 +1261,14 @@
     "icon_bar_6jtz6j": {
       "type": "icon-bar",
       "blocks": {
-        "column_4zj73a": {
-          "type": "column",
-          "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
-          }
-        },
         "column_r8Gdar": {
           "type": "column",
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/delivery_truck_speed_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Livraison offerte en ce moment !",
+            "text": "<p>Envoi suivi et expédié dans les 24 à 48 h et livrée dans les 6 à 10 jours ouvrables</p>"
           }
         },
         "column_PfV7yh": {
@@ -1284,8 +1276,9 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/support_agent_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Service client 24h/24h",
+            "text": "<p>Notre équipe est à votre service 7j/7 pour vous répondre, vous conseiller et vous aider</p>"
           }
         },
         "column_6BgQMR": {
@@ -1299,7 +1292,6 @@
         }
       },
       "block_order": [
-        "column_4zj73a",
         "column_r8Gdar",
         "column_PfV7yh",
         "column_6BgQMR"
