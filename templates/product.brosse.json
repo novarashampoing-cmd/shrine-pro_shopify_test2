@@ -925,7 +925,7 @@
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
         "mobile_direction": "reverse",
-        "mobile_image_quanlity": "2",
+        "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36,
@@ -1302,7 +1302,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "text": "",
         "color_scheme": "background-2",
@@ -1334,12 +1334,12 @@
         "mobile_arrows_position": "hidden",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     }
   },
