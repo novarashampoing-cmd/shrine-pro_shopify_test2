@@ -572,9 +572,9 @@
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
             "btn_animation": false,
-            "title": "Tab heading",
+            "title": "Livraison express",
             "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
+            "heading_size": "h3",
             "text": "<p><strong>Chez Novara Shampoing, vos commandes sont préparées en 24 à 48h.</strong><br/><br/>Le délai moyen de livraison est ensuite de <strong>5 à 10 jours ouvrés</strong>.</p><p>Suivez facilement l’acheminement de votre colis en cliquant sur le bouton ci-dessous</p>",
             "button_label": "Suivre ma commande",
             "link": "https://novara-shampoing.com/apps/suivi-de-commande",
@@ -584,9 +584,9 @@
             "product": "",
             "desktop_media_width": "half",
             "desktop_media_position": "media_first",
-            "desktop_text_alignment": "center",
+            "desktop_text_alignment": "left",
             "mobile_media_position": "media_first",
-            "mobile_text_alignment": "mobile-center"
+            "mobile_text_alignment": "mobile-left"
           }
         }
       },
