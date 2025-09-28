@@ -883,8 +883,9 @@
         "column_TePVfN": {
           "type": "column",
           "settings": {
-            "icon": "check_circle",
+            "icon": "",
             "filled_icon": false,
+            "image": "shopify://shop_images/temp_preferences_eco_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
             "title": "Ingrédients naturels",
             "text": "<p>Enrichi en extraits végétaux qui nourrissent, renforcent et révèlent la beauté de vos cheveux</p>"
           }
@@ -894,8 +895,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Formule sans produits chimiques",
+            "text": "<p>Coloration sans ammoniaque, sans peroxyde et sans sulfates, respecte le cuir chevelu et la fibre capillaire</p><p></p>"
           }
         },
         "column_A33Law": {
@@ -903,8 +904,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Application facile",
+            "text": "<p>Il suffit de l’appliquer comme un shampoing classique. Pas de préparation et pas de taches</p>"
           }
         },
         "column_A3HdtX": {
@@ -912,8 +913,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Couverture rapide des cheveux",
+            "text": "<p>En 10 minutes seulement, vos cheveux retrouvent leur couleur naturelle</p>"
           }
         }
       },
@@ -958,7 +959,7 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 36,
+        "padding_top": 40,
         "padding_bottom": 36,
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
