@@ -948,7 +948,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_full_media_width": false,
-        "mobile_direction": "reverse",
+        "mobile_direction": "normal",
         "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
         "padding_top": 80,
