@@ -905,6 +905,7 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
+            "image": "shopify://shop_images/Icone_facile_Novara_Shampoing.webp",
             "title": "Application facile",
             "text": "<p>Il suffit de l’appliquer comme un shampoing classique. Pas de préparation et pas de taches</p>"
           }
