@@ -537,7 +537,7 @@
         "tab_yPFyg9": {
           "type": "tab",
           "settings": {
-            "btn_label": "Contactez-nous",
+            "btn_label": "<strong>Contactez-nous</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
             "image": "shopify://shop_images/contacter_Novara_Shampoing.webp",
@@ -565,7 +565,7 @@
         "tab_CU3Frt": {
           "type": "tab",
           "settings": {
-            "btn_label": "Tab button",
+            "btn_label": "<strong>Livraison</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
             "loop": false,
