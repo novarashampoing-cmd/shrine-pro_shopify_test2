@@ -207,8 +207,40 @@
             "margin_bottom": 15
           }
         },
+        "text_UMxPLi": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 13,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#000000",
+            "text_1": "Couvre les cheveux en 10 minutes",
+            "text_2": "Un résultat qui dure jusqu'à 6 semaines",
+            "text_3": "Application simple, propre et sans taches",
+            "icon_scale": 120,
+            "icon_color": "#465069",
+            "icon_1": "check_circle",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": true,
+            "icon_3": "check_circle",
+            "filled_icon_3": true,
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "variant_picker_qkPFii": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_types": "pills, pills, pills",
             "custom_labels": "",
@@ -238,13 +270,13 @@
           "type": "quantity_selector",
           "settings": {
             "full_width_classic": false,
-            "enable_quantity_discounts": false,
+            "enable_quantity_discounts": true,
             "style": "normal",
-            "headline": "BUNDLE & SAVE",
-            "preselected": "option_1",
+            "headline": "OFFRE DE RENTRÉE 🎁",
+            "preselected": "option_2",
             "update_prices": false,
             "enable_variant_selectors": true,
-            "enable_variant_selectors_on_quantity_of_1": false,
+            "enable_variant_selectors_on_quantity_of_1": true,
             "hide_pickers_overlay": true,
             "pickers_label": "",
             "image_width": 70,
@@ -317,6 +349,7 @@
       "block_order": [
         "title_hikwRh",
         "price_e66UCn",
+        "text_UMxPLi",
         "variant_picker_qkPFii",
         "quantity_selector_Ngrweb",
         "buy_buttons_9VNYmE"
