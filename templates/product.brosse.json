@@ -792,64 +792,6 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "rich_text_JwR7Ch": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9RaqxD": {
-          "type": "heading",
-          "settings": {
-            "title": "<strong>Novara Shampoing</strong> en vidéo",
-            "title_highlight_color": "#465069",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9RaqxD"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 32,
-        "padding_bottom": 12,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
-    "video_shrine_pro_WXCz7P": {
-      "type": "video-shrine-pro",
-      "blocks": {
-        "play_ARVDxN": {
-          "type": "play",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "play_ARVDxN"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "button_bg": "#111111",
-        "button_text": "#ffffff"
-      }
-    },
     "icon_bar_qw4EFr": {
       "type": "icon-bar",
       "blocks": {
@@ -859,8 +801,8 @@
             "icon": "check_circle",
             "filled_icon": false,
             "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
-            "title": "Ingrédients naturels",
-            "text": "<p>Enrichi en extraits végétaux qui nourrissent, renforcent et révèlent la beauté de vos cheveux</p>"
+            "title": "Croissance et densité",
+            "text": "<p>La brosse HairBloom stimule la pousse et renforce l’épaisseur de la chevelure</p>"
           }
         },
         "column_H39VxG": {
@@ -869,8 +811,8 @@
             "icon": "check_circle",
             "filled_icon": false,
             "image": "shopify://shop_images/Icone_sain_Novara_Shampoing.webp",
-            "title": "Application facile",
-            "text": "<p>Il suffit de l’appliquer comme un shampoing classique. Pas de préparation et pas de taches</p>"
+            "title": "Santé du cuir chevelu",
+            "text": "<p>Elle purifie, régule le sébum et apaise les irritations</p>"
           }
         },
         "column_BLJkHw": {
@@ -878,9 +820,9 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "image": "shopify://shop_images/Icone_facile_Novara_Shampoing.webp",
-            "title": "Application facile",
-            "text": "<p>Il suffit de l’appliquer comme un shampoing classique. Pas de préparation et pas de taches</p>"
+            "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
+            "title": "Diffusion d'huiles essentielles",
+            "text": "<p>Les huiles essentielles hydratent et revitalisent les racines</p>"
           }
         },
         "column_jFd99J": {
@@ -889,8 +831,8 @@
             "icon": "check_circle",
             "filled_icon": false,
             "image": "shopify://shop_images/Icone_temps_Novara_Shampoing.webp",
-            "title": "Couverture rapide des cheveux",
-            "text": "<p>En 10 minutes seulement, vos cheveux retrouvent leur couleur naturelle</p>"
+            "title": "Fonction massage",
+            "text": "<p>Le massage intégré détend tout en stimulant les follicules</p>"
           }
         }
       },
@@ -1319,8 +1261,6 @@
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
-    "rich_text_JwR7Ch",
-    "video_shrine_pro_WXCz7P",
     "icon_bar_qw4EFr",
     "1758918097d3c4e83a",
     "espacement_kCFQYR",
