@@ -902,6 +902,67 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_WFrgRP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jKUazx": {
+          "type": "heading",
+          "settings": {
+            "title": "Cheveux abîmés ?",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        },
+        "text_qHB9Hf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Découvrez la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_NmqGE4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir",
+            "button_link": "shopify://products/brosse-cheveux-massante-hairbloom"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jKUazx",
+        "text_qHB9Hf",
+        "button_NmqGE4"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Brosse_HairBloom.webp",
+        "height": "adapt",
+        "content_layout": "overlap",
+        "color_scheme": "custom",
+        "section_color_scheme": "custom",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "reverse",
+        "mobile_image_quanlity": "1",
+        "mobile_content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 24,
+        "custom_colors_background": "#465069",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#ffffff",
+        "custom_colors_solid_button_text": "#465069",
+        "custom_colors_outline_button": "#ffffff",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
     "content_tabs_LNyTmE": {
       "type": "content-tabs",
       "blocks": {
@@ -995,67 +1056,6 @@
         "custom_colors_outline_button": "#dd1d1d",
         "custom_tabs_color": "#000000",
         "custom_tabs_color_label": "#ffffff"
-      }
-    },
-    "image_with_text_WFrgRP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jKUazx": {
-          "type": "heading",
-          "settings": {
-            "title": "Cheveux abîmés ?",
-            "title_highlight_color": "#ffffff",
-            "heading_size": "h2"
-          }
-        },
-        "text_qHB9Hf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Découvrez la brosse HairBloom de Novara Shampoing<br/>Elle stimule la circulation, réduit le stress et favorise la pousse des cheveux avec son diffuseur d'huiles essentielles intégré</strong></p>",
-            "text_style": "body"
-          }
-        },
-        "button_NmqGE4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir",
-            "button_link": "shopify://products/brosse-cheveux-massante-hairbloom"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jKUazx",
-        "text_qHB9Hf",
-        "button_NmqGE4"
-      ],
-      "custom_css": [],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/Brosse_HairBloom.webp",
-        "height": "adapt",
-        "content_layout": "overlap",
-        "color_scheme": "custom",
-        "section_color_scheme": "custom",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_full_media_width": false,
-        "mobile_direction": "reverse",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 24,
-        "custom_colors_background": "#465069",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#ffffff",
-        "custom_colors_solid_button_text": "#465069",
-        "custom_colors_outline_button": "#ffffff",
-        "custom_section_colors_background": "#e9ebf0",
-        "custom_section_gradient_background": ""
       }
     },
     "image_with_text_naynYx": {
