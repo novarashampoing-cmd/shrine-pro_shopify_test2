@@ -328,6 +328,23 @@
             "margin_bottom": 0
           }
         },
+        "collapsible_tab_8AVF3Q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Besoin d’aide ?",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/help_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Écrivez-nous à contact@novara-shampoing.com. Notre équipe vous répond rapidement.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
         "reviews_8UgFbe": {
           "type": "reviews",
           "settings": {
@@ -376,6 +393,7 @@
         "de158e68-5d0d-4819-a625-e2dabdff87d1",
         "collapsible_tab_EY4XYE",
         "collapsible_tab_Y47wnj",
+        "collapsible_tab_8AVF3Q",
         "reviews_8UgFbe"
       ],
       "custom_css": [],
