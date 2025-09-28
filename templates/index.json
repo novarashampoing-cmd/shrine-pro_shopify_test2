@@ -586,6 +586,55 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
+    "rich_text_WLHUgp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zf3z9t": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Novara Shampoing</strong> en vidéo",
+            "title_highlight_color": "#465069",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zf3z9t"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "video_shrine_pro_KKWENV": {
+      "type": "video-shrine-pro",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "button_bg": "#111111",
+        "button_text": "#ffffff"
+      }
+    },
     "rich_text_JVQeB3": {
       "type": "rich-text",
       "blocks": {
@@ -827,6 +876,8 @@
     "featured_product_ygHidK",
     "175906589085122cbb",
     "comparison_slider_U6wzgE",
+    "rich_text_WLHUgp",
+    "video_shrine_pro_KKWENV",
     "rich_text_JVQeB3",
     "image_with_text_WFrgRP",
     "press_shrine_F4DpxJ",
