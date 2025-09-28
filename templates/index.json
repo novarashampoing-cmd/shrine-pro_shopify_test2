@@ -18,18 +18,18 @@
             "image": "shopify://shop_images/Banniere_Desktop_Novara_Shampoing.webp",
             "mobile_image": "shopify://shop_images/Banniere_mobile_Novara_Shampoing_074ab7a4-9a8f-43b3-b7c2-7519ebc8beb5.webp",
             "image_overlay_opacity": 0,
-            "heading": "Image slide",
+            "heading": "",
             "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/shampoing-colorant-instantane-novara",
             "button_style_secondary": false,
             "atc_button_label": "",
             "atc_product": "",
             "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "color_scheme": "background-1",
             "transparent_container_color": "white",
@@ -326,32 +326,12 @@
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
       }
-    },
-    "ee8d9ca6-4a41-401f-83a3-37e138a112b9": {
-      "type": "contact-form",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Contact form",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "button_full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff"
-      }
     }
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "d2d3417b-e92f-428c-b221-5bceffb552be",
     "6aa09428-a417-429d-9159-a4e8afd49590",
-    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
-    "ee8d9ca6-4a41-401f-83a3-37e138a112b9"
+    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa"
   ]
 }
