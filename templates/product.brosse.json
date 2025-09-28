@@ -1049,7 +1049,7 @@
         "row_ABhRwq": {
           "type": "row",
           "settings": {
-            "benefit": "Prix",
+            "benefit": "Stimule la pousse",
             "us": true,
             "others": false
           }
@@ -1057,7 +1057,7 @@
         "row_iLN7cU": {
           "type": "row",
           "settings": {
-            "benefit": "Rapide à appliquer",
+            "benefit": "Praticité",
             "us": true,
             "others": false
           }
@@ -1065,7 +1065,7 @@
         "row_aeQyhn": {
           "type": "row",
           "settings": {
-            "benefit": "Longue tenue",
+            "benefit": "Résultats",
             "us": true,
             "others": false
           }
@@ -1073,7 +1073,7 @@
         "row_UYgBLD": {
           "type": "row",
           "settings": {
-            "benefit": "Sans produits agressifs",
+            "benefit": "Plusieurs modes",
             "us": true,
             "others": false
           }
@@ -1081,7 +1081,7 @@
         "row_f3T4pA": {
           "type": "row",
           "settings": {
-            "benefit": "Respecte vos cheveux",
+            "benefit": "Respect des cheveux",
             "us": true,
             "others": false
           }
