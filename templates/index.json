@@ -913,17 +913,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
-          }
-        },
-        "column_ffk7rw": {
-          "type": "column",
-          "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Paiements sécurisés",
+            "text": "<p>Les transactions passent par une connexion cryptée, garantissant la confidentialité de vos informations</p>"
           }
         }
       },
@@ -931,8 +922,7 @@
         "column_LbB3XR",
         "column_h8jG9n",
         "column_tx87jD",
-        "column_AykMyA",
-        "column_ffk7rw"
+        "column_AykMyA"
       ],
       "name": "Icon Bar",
       "settings": {
