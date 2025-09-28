@@ -190,7 +190,7 @@
           "type": "heading",
           "settings": {
             "title": "Pourquoi choisir le shampoing colorant Novara ?",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         },
@@ -233,13 +233,13 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 16,
-        "custom_colors_background": "#2E2A39",
+        "custom_colors_background": "#2e2a39",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
       }
     },
@@ -251,7 +251,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "Heading",
             "text": "<p>Share positive thoughts and feedback from your customer..</p>",
@@ -263,7 +263,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "Heading",
             "text": "<p>Share positive thoughts and feedback from your customer..</p>",
@@ -275,7 +275,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "Heading",
             "text": "<p>Share positive thoughts and feedback from your customer..</p>",
@@ -297,7 +297,7 @@
         "desktop_content_position": "above",
         "desktop_content_alignment": "center",
         "title": "Avis Trustpilot",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "subtitle": "Excellent 4.9 <strong>/ 5</strong> [rating_stars]",
         "subheading_rating_text": "<strong>4.8</strong>",
@@ -306,7 +306,7 @@
         "subheading_font": "body",
         "star_color": "#465069",
         "bg_star_color": "#e9ebf0",
-        "star_symbol_color": "#fff",
+        "star_symbol_color": "#ffffff",
         "stars_rating": 5,
         "text": "",
         "cards_border_radius": 16,
@@ -336,12 +336,12 @@
         "mobile_arrows_position": "sides",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "175906584618b15718": {
@@ -908,16 +908,16 @@
         "testimonial_mMG8XD": {
           "type": "testimonial",
           "settings": {
-            "title": "Résultat bluffant dès la première utilisation. ✨",
-            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "title": "Un vrai gain de temps ! ⏱️",
+            "text": "Je n’ai jamais eu une routine capillaire aussi simple. En quelques minutes, mes cheveux retrouvent leur couleur et leur éclat. Fini les rendez-vous interminables chez le coiffeur, je gère tout moi-même à la maison",
             "author": "Sophie M."
           }
         },
         "testimonial_PYJqG7": {
           "type": "testimonial",
           "settings": {
-            "title": "Résultat bluffant dès la première utilisation. ✨",
-            "text": "Ce shampoing est tout simplement incroyable. Dès la première application, mes cheveux blancs étaient complètement couverts, et personne ne peut dire que j'utilise un produit colorant.",
+            "title": "Résultat très naturel 🌿",
+            "text": "J’avais peur que la couleur fasse “faux”, mais le rendu est tellement subtil que même mes proches n’ont rien remarqué. Mes cheveux sont brillants et doux, comme après un soin. Je suis ravie !",
             "author": "Sophie M."
           }
         },
@@ -1144,13 +1144,13 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_colors_background": "#2E2A39",
+        "custom_colors_background": "#2e2a39",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
       }
     },
