@@ -297,7 +297,7 @@
         "buy_buttons_9VNYmE": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "skip_cart": false,
             "uppercase_text": true,
             "icon_scale": 120,
