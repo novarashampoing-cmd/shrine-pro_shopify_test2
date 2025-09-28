@@ -877,6 +877,97 @@
         "custom_tabs_color": "#000000",
         "custom_tabs_color_label": "#FFFFFF"
       }
+    },
+    "icon_bar_FrH6kQ": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_LbB3XR": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+          }
+        },
+        "column_h8jG9n": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+          }
+        },
+        "column_AykMyA": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+          }
+        },
+        "column_ffk7rw": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_LbB3XR",
+        "column_h8jG9n",
+        "column_AykMyA",
+        "column_ffk7rw"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
     }
   },
   "order": [
@@ -890,6 +981,7 @@
     "rich_text_JVQeB3",
     "image_with_text_WFrgRP",
     "press_shrine_F4DpxJ",
-    "content_tabs_LNyTmE"
+    "content_tabs_LNyTmE",
+    "icon_bar_FrH6kQ"
   ]
 }
