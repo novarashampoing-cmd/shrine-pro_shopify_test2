@@ -251,11 +251,11 @@
         "text_ik3iXw": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 12,
-            "desktop_text_size": 13,
+            "mobile_text_size": 11,
+            "desktop_text_size": 12,
             "alignment": "center",
             "text_color": "#000000",
-            "text_1": "Garante satisfait ou remboursé sous 30 jours",
+            "text_1": "Garante satisfait ou remboursé pendant 30 jours",
             "text_2": "",
             "text_3": "",
             "icon_scale": 100,
