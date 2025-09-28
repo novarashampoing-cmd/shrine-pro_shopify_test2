@@ -314,15 +314,15 @@
         "collapsible_tab_Y47wnj": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Comment appliquer notre shampoing ?",
+            "heading": "Les atouts de la brosse HairBloom",
             "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
-            "custom_icon": "shopify://shop_images/shower_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "custom_icon": "shopify://shop_images/wand_stars_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg",
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>1️⃣ <strong>Mousser</strong> : Prélevez une dose dans vos mains et faites mousser le shampoing<br/>2️⃣ <strong>Appliquer</strong> : Répartissez uniformément sur cheveux secs ou barbe, puis laissez agir 10 minutes<br/>3️⃣ <strong>Rincer</strong> : Rincez abondamment et profitez d’une couleur éclatante et naturelle ✨💆‍♂️</p>",
+            "content": "<p>La brosse HairBloom réinvente le soin des cheveux grâce à ses <strong>4 modes thérapeutiques exclusifs</strong> :</p><p>🔴 <strong>Lumière rouge</strong> : stimule la croissance et donne plus d’épaisseur à la chevelure<br/>🔵 <strong>Lumière bleue</strong> : assainit et apaise le cuir chevelu<br/>🌿 <strong>Diffusion d’huiles essentielles</strong> : nourrit et hydrate en profondeur<br/>💆‍♀️ <strong>Massage intégré</strong> : relaxe tout en stimulant les follicules</p><p>Des cheveux <strong>plus forts, plus sains et lumineux</strong>, sans quitter le confort de votre maison ✨</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
