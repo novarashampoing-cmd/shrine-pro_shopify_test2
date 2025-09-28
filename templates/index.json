@@ -196,6 +196,21 @@
             "margin_bottom": 15
           }
         },
+        "rating_stars_BPVREW": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#465069",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "1 126",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "price_e66UCn": {
           "type": "price",
           "settings": {
@@ -444,6 +459,7 @@
       },
       "block_order": [
         "title_hikwRh",
+        "rating_stars_BPVREW",
         "price_e66UCn",
         "text_UMxPLi",
         "variant_picker_qkPFii",
