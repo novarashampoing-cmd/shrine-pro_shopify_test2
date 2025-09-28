@@ -531,17 +531,42 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_WFrgRP": {
-      "type": "image-with-text",
+    "rich_text_JVQeB3": {
+      "type": "rich-text",
       "blocks": {
-        "heading_a8QHEz": {
+        "heading_gmgfHG": {
           "type": "heading",
           "settings": {
             "title": "<strong>Cheveux abîmés ?</strong>",
             "title_highlight_color": "#465069",
             "heading_size": "h1"
           }
-        },
+        }
+      },
+      "block_order": [
+        "heading_gmgfHG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_with_text_WFrgRP": {
+      "type": "image-with-text",
+      "blocks": {
         "text_qHB9Hf": {
           "type": "text",
           "settings": {
@@ -558,7 +583,6 @@
         }
       },
       "block_order": [
-        "heading_a8QHEz",
         "text_qHB9Hf",
         "button_NmqGE4"
       ],
@@ -566,6 +590,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
+        "image": "shopify://shop_images/S2346126b078c491cb0459256efb840409.webp",
         "height": "adapt",
         "content_layout": "overlap",
         "color_scheme": "background-1",
@@ -573,13 +598,13 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
+        "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 24,
         "custom_colors_background": "#2E2A39",
         "custom_gradient_background": "",
         "custom_colors_text": "#FFFFFF",
@@ -690,6 +715,7 @@
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "175906584618b15718",
     "featured_product_ygHidK",
+    "rich_text_JVQeB3",
     "image_with_text_WFrgRP",
     "content_tabs_LNyTmE"
   ]
