@@ -636,7 +636,7 @@
             "logo_width": 120,
             "author": "",
             "content": "Une application facile pour un rendu naturel",
-            "show_rating": true,
+            "show_rating": false,
             "rating": 5
           }
         },
@@ -647,7 +647,7 @@
             "logo_width": 120,
             "author": "",
             "content": "Parfait pour les hommes : la barbe est colorée en 10 minutes",
-            "show_rating": true,
+            "show_rating": false,
             "rating": 5
           }
         }
