@@ -895,6 +895,7 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
+            "image": "shopify://shop_images/Icone_sain_Novara_Shampoing.webp",
             "title": "Formule sans produits chimiques",
             "text": "<p>Coloration sans ammoniaque, sans peroxyde et sans sulfates, respecte le cuir chevelu et la fibre capillaire</p><p></p>"
           }
@@ -913,7 +914,6 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
             "title": "Couverture rapide des cheveux",
             "text": "<p>En 10 minutes seulement, vos cheveux retrouvent leur couleur naturelle</p>"
           }
