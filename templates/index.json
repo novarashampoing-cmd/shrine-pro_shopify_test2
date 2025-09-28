@@ -886,8 +886,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Livraison offerte en ce moment !",
+            "text": "<p>Envoi suivi et expédié dans les 24 à 48 h et livrée dans les 6 à 10 jours ouvrables</p>"
           }
         },
         "column_h8jG9n": {
@@ -896,7 +896,16 @@
             "icon": "check_circle",
             "filled_icon": false,
             "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post</p><p></p>"
+          }
+        },
+        "column_tx87jD": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Service client 24h/24h",
+            "text": "<p>Notre équipe est à votre service 7j/7 pour vous répondre, vous conseiller et vous aider</p>"
           }
         },
         "column_AykMyA": {
@@ -921,6 +930,7 @@
       "block_order": [
         "column_LbB3XR",
         "column_h8jG9n",
+        "column_tx87jD",
         "column_AykMyA",
         "column_ffk7rw"
       ],
@@ -930,11 +940,11 @@
         "visibility": "always-display",
         "title": "",
         "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text": "",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "icon_layout": "vertical",
-        "icon_size": "medium",
+        "icon_size": "large",
         "icon_color": "accent-1",
         "cards_color_scheme": "background-1",
         "type": "slide",
