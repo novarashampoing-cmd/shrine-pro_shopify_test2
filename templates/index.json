@@ -651,7 +651,7 @@
           "type": "heading",
           "settings": {
             "title": "<strong>Cheveux abîmés ?</strong>",
-            "title_highlight_color": "#465069",
+            "title_highlight_color": "#000000",
             "heading_size": "h1"
           }
         }
