@@ -393,8 +393,8 @@
         "collapsible_tab_jnnyf9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
+            "heading": "Expédition rapide",
+            "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
             "collapse_icon": "carret",
@@ -409,8 +409,8 @@
         "collapsible_tab_XkkBW9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
+            "heading": "Ingrédients et bienfaits",
+            "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
             "collapse_icon": "carret",
@@ -425,8 +425,8 @@
         "collapsible_tab_mighyi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
+            "heading": "Comment appliquer notre shampoing ?",
+            "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,
             "collapse_icon": "carret",
