@@ -427,7 +427,7 @@
         "collapsible_tab_mighyi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Comment appliquer notre shampoing ?",
+            "heading": "Comment utiliser le shampoing ?",
             "heading_size": "small",
             "icon": "check_box",
             "filled_icon": false,

@@ -38,6 +38,7 @@
     "badge_corner_radius": 6,
     "sale_badge_color_scheme": "accent-2",
     "sale_badge_text": "Économisez [percentage]",
+    "sale_basge_discount_icon": true,
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "page_width": 1400,
