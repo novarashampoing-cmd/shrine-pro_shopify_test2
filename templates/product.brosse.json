@@ -975,33 +975,41 @@
         "testimonial_an9Ygx": {
           "type": "testimonial",
           "settings": {
-            "title": "Un vrai gain de temps ! ⏱️",
-            "text": "Je n’ai jamais eu une routine capillaire aussi simple. En quelques minutes, mes cheveux retrouvent leur couleur et leur éclat. Fini les rendez-vous interminables chez le coiffeur, je gère tout moi-même à la maison",
-            "author": "Élodie"
+            "title": "Une solution pratique à la maison",
+            "text": "Je n’ai pas toujours le temps d’aller en institut, donc cette brosse est parfaite. En quelques minutes par jour, je prends soin de mes cheveux efficacement. Le format est pratique et facile à transporter",
+            "author": "Camille"
           }
         },
         "testimonial_HbiKH3": {
           "type": "testimonial",
           "settings": {
-            "title": "Résultat très naturel 🌿",
-            "text": "J’avais peur que la couleur fasse “faux”, mais le rendu est tellement subtil que même mes proches n’ont rien remarqué. Mes cheveux sont brillants et doux, comme après un soin. Je suis ravie !",
-            "author": "Camille"
+            "title": "Une innovation qui tient ses promesses",
+            "text": "J’étais sceptique au début, mais les résultats sont là. Mon cuir chevelu est apaisé, mes cheveux sont plus résistants et je perds beaucoup moins de mèches au quotidien. Je suis convaincue",
+            "author": "Claire"
           }
         },
         "testimonial_jjCPBk": {
           "type": "testimonial",
           "settings": {
-            "title": "Enfin une solution fiable !",
-            "text": "J’ai longtemps cherché un produit qui couvre vraiment mes cheveux blancs sans abîmer ma fibre capillaire. Celui-ci est efficace dès la première application, et le résultat tient vraiment dans le temps",
-            "author": "Isabelle"
+            "title": "Résultats visibles rapidement",
+            "text": "Après quelques semaines d’utilisation, j’ai remarqué une nette amélioration. Mes cheveux tombent beaucoup moins et paraissent plus épais. La brosse est simple à utiliser et je prends plaisir à l’intégrer dans ma routine",
+            "author": "Marion"
           }
         },
         "testimonial_EpdLy8": {
           "type": "testimonial",
           "settings": {
-            "title": "Mes cheveux n’ont jamais été aussi beaux ✨",
-            "text": "Dès la première utilisation, j’ai senti la différence. La texture est agréable, le parfum discret, et surtout le rendu est homogène. Je me sens plus confiante et féminine au quotidien",
-            "author": "Aurélie"
+            "title": "Très facile à utiliser",
+            "text": "J’avais peur que ce soit compliqué, mais en réalité c’est super intuitif. Le massage est agréable et relaxant, et en plus je sens que mon cuir chevelu est plus sain. Je recommande sans hésiter",
+            "author": "Inès"
+          }
+        },
+        "testimonial_97fRpY": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Cheveux plus forts et denses",
+            "text": "Je constate une vraie différence au niveau de la densité de mes cheveux. Ils sont moins cassants et paraissent plus volumineux. C’est devenu un rituel agréable qui me fait du bien",
+            "author": "Nadia"
           }
         }
       },
@@ -1009,7 +1017,8 @@
         "testimonial_an9Ygx",
         "testimonial_HbiKH3",
         "testimonial_jjCPBk",
-        "testimonial_EpdLy8"
+        "testimonial_EpdLy8",
+        "testimonial_97fRpY"
       ],
       "name": "Témoignages défilants",
       "settings": {
