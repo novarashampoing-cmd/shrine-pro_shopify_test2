@@ -897,7 +897,7 @@
             "filled_icon": false,
             "image": "shopify://shop_images/Icone_sain_Novara_Shampoing.webp",
             "title": "Formule sans produits chimiques",
-            "text": "<p>Coloration sans ammoniaque, sans peroxyde et sans sulfates, respecte le cuir chevelu et la fibre capillaire</p><p></p>"
+            "text": "<p>Coloration sans ammoniaque, sans peroxyde et sans sulfates, respecte le cuir chevelu et la fibre capillaire</p>"
           }
         },
         "column_A33Law": {
@@ -935,7 +935,7 @@
         "title_highlight_color": "#465069",
         "heading_size": "h1",
         "text": "",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "icon_layout": "vertical",
         "icon_size": "large",
         "icon_color": "accent-1",
