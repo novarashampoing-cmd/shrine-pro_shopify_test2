@@ -885,7 +885,7 @@
           "settings": {
             "icon": "",
             "filled_icon": false,
-            "image": "shopify://shop_images/temp_preferences_eco_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
+            "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
             "title": "Ingrédients naturels",
             "text": "<p>Enrichi en extraits végétaux qui nourrissent, renforcent et révèlent la beauté de vos cheveux</p>"
           }
@@ -913,6 +913,7 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
+            "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
             "title": "Couverture rapide des cheveux",
             "text": "<p>En 10 minutes seulement, vos cheveux retrouvent leur couleur naturelle</p>"
           }
@@ -934,7 +935,7 @@
         "text": "",
         "color_scheme": "background-1",
         "icon_layout": "vertical",
-        "icon_size": "medium",
+        "icon_size": "large",
         "icon_color": "accent-1",
         "cards_color_scheme": "background-1",
         "type": "slide",
