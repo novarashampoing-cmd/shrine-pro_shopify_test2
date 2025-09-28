@@ -531,6 +531,65 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_WFrgRP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a8QHEz": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "text_qHB9Hf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_NmqGE4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir la brosse Haribloom",
+            "button_link": "shopify://products/brosse-cheveux-massante-hairbloom"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a8QHEz",
+        "text_qHB9Hf",
+        "button_NmqGE4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "height": "adapt",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
     "content_tabs_LNyTmE": {
       "type": "content-tabs",
       "blocks": {
@@ -631,6 +690,7 @@
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "175906584618b15718",
     "featured_product_ygHidK",
+    "image_with_text_WFrgRP",
     "content_tabs_LNyTmE"
   ]
 }
