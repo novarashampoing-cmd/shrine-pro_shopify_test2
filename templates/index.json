@@ -105,7 +105,38 @@
         "slide_7n8mAb": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Banniere_desktop_homme_qui_s_applique_du_shampoing.webp",
             "mobile_image": "shopify://shop_images/bannniere_mobile_femme_avec_shampoing_c3cd3673-2b2b-4dde-8ed5-936d60cdfff4.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        },
+        "slide_XpBG4g": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bannniere_desktop_couple_avec_bouteille_shampoing_novaraa.png",
+            "mobile_image": "shopify://shop_images/bannniere_mobile_couple_avec_bouteille_shampoing_novaraa.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
             "title_highlight_color": "#6d388b",
@@ -136,7 +167,8 @@
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1",
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2",
         "slide_E8d8ni",
-        "slide_7n8mAb"
+        "slide_7n8mAb",
+        "slide_XpBG4g"
       ],
       "settings": {
         "visibility": "always-display",
