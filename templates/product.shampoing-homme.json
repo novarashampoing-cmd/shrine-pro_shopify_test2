@@ -660,6 +660,7 @@
         "column_6ctmrx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_1_56257fb5-d038-4cc3-b139-617e769349c2.webp",
             "muted_autoplay": true,
             "title": "En seulement 10 minutes",
             "text": "<p>Couleur rapide : appliquez, <strong>attendez 10 minutes puis rincez</strong></p>",
@@ -670,7 +671,7 @@
         "column_W3j6Mw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_2.webp",
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_2.webp",
             "muted_autoplay": true,
             "title": "Application facile",
             "text": "<p>Utilisez-le comme un shampoing ordinaire : <strong>pas de préparation et ni de taches</strong> pour retrouver une couleur nette et naturelle</p>",
@@ -681,7 +682,7 @@
         "column_EbH6fL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_3.webp",
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_3.webp",
             "muted_autoplay": true,
             "title": "Respectueux de vos cheveux",
             "text": "<p>Une coloration sans ammoniaque ni peroxyde, avec des actifs naturels qui <strong>nourrissent et protègent le cuir chevelu</strong></p>",
@@ -692,7 +693,7 @@
         "column_UcADfh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_4.webp",
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_4.webp",
             "muted_autoplay": true,
             "title": "Une couleur qui dure",
             "text": "<p>Offrez à vos cheveux une <strong>teinte riche et homogène qui tient jusqu’à 6 semaines</strong>. Les cheveux sont couverts efficacement, pour un rendu soigné jour après jour</p>",
@@ -703,7 +704,7 @@
         "column_iBNTHA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_5.webp",
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_5.webp",
             "muted_autoplay": true,
             "title": "Pour toutes les chevelures",
             "text": "<p>Qu’ils soient fins, épais, lisses ou bouclés, <strong>Novara Shampoing s’ajuste à chaque type de cheveux </strong>pour offrir une couleur uniforme et naturelle</p>",
@@ -714,7 +715,7 @@
         "column_QjTRj3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Avantage_Novara_Shampoing_femme_6.webp",
+            "image": "shopify://shop_images/Avantage_Novara_Shampoing_homme_6.webp",
             "muted_autoplay": true,
             "title": "Économisez du temps et de l'argent",
             "text": "<p>Profitez d’une coloration professionnelle sans passer par le coiffeur. <strong>Économisez jusqu'à 400€ par an en coloration grâce à Novara Shampoing</strong></p>",
