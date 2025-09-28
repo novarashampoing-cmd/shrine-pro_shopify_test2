@@ -1154,15 +1154,15 @@
         "text_VG6KQh": {
           "type": "text",
           "settings": {
-            "question": "Combien de temps tient la coloration ?",
-            "answer": "<p>La tenue varie selon la nature de vos cheveux et votre routine de lavage. En moyenne, la couleur obtenue avec <strong>Novara Shampoing</strong> reste visible entre <strong>4 et 6 semaines</strong>.</p>"
+            "question": "La brosse HairBloom est-elle adaptée à tous les cheveux ?",
+            "answer": "<p>Elle convient aussi bien aux cheveux lisses, bouclés, fins, épais ou crépus. Grâce à son design polyvalent et ses technologies intégrées, elle offre des résultats visibles sur tous les types de cheveux.</p>"
           }
         },
         "text_PcrMLR": {
           "type": "text",
           "settings": {
-            "question": "Combien de temps dure une bouteille de shampoing ?",
-            "answer": "<p>Un flacon de <strong>Novara Shampoing</strong> permet généralement <strong>10 à 15 utilisations</strong>, en fonction de la longueur et de l’épaisseur de vos cheveux.</p>"
+            "question": "Comment fonctionne la brosse HairBloom ?",
+            "answer": "<p>🔴<strong>Lumière rouge</strong>: favorise la microcirculation et stimule la production de collagène<br/>🔵<strong>Lumière bleue</strong>: régule l’excès de sébum et apaise le cuir chevelu<br/>🌿<strong>Diffusion d’huiles essentielles</strong>: nourrit les racines et soutient la croissance des cheveux<br/>✨<strong>Massage par vibrations</strong>: améliore la pénétration des soins et procure une sensation de détente</p>"
           }
         },
         "text_nMx7Fq": {
