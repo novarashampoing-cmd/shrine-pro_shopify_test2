@@ -530,11 +530,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "content_tabs_LNyTmE": {
+      "type": "content-tabs",
+      "blocks": {
+        "tab_yPFyg9": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Contactez-nous",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "image": "shopify://shop_images/contacter_Novara_Shampoing.webp",
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "Contactez-nous",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h3",
+            "text": "<p>Écrivez-nous, nous serons ravis de vous répondre 🤗<br/><br/>L’équipe <strong>Novara Shampoing</strong> est à votre écoute 7j/7, avec réactivité, bienveillance et le sourire</p>",
+            "button_label": "Nous contacter",
+            "link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        },
+        "tab_CU3Frt": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Tab button",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "Tab heading",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "text": "<p>Use this section to display different benefits or different products that are sorted by clickable tabs.</p>",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        }
+      },
+      "block_order": [
+        "tab_yPFyg9",
+        "tab_CU3Frt"
+      ],
+      "name": "Content tabs",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "container_width": "100",
+        "buttons_color_scheme": "accent-1",
+        "button_border_radius": 6,
+        "buttons_style": "outlined",
+        "active_button_animation": "moving",
+        "header_layout": "horizontal",
+        "buttons_desktop_font_size": 15,
+        "desktop_full_size_buttons": false,
+        "buttons_mobile_font_size": 13,
+        "mobile_full_size_buttons": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_tabs_color": "#000000",
+        "custom_tabs_color_label": "#FFFFFF"
+      }
     }
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "175906584618b15718",
-    "featured_product_ygHidK"
+    "featured_product_ygHidK",
+    "content_tabs_LNyTmE"
   ]
 }
