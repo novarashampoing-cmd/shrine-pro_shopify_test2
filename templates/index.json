@@ -704,6 +704,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
+        "image": "shopify://shop_images/Brosse_HairBloom.webp",
         "height": "adapt",
         "content_layout": "overlap",
         "color_scheme": "custom",
@@ -878,6 +879,37 @@
         "custom_tabs_color_label": "#ffffff"
       }
     },
+    "image_with_text_naynYx": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/10_en_souscrivant_a_notre_newsletter_1.webp",
+        "height": "adapt",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": true,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
     "icon_bar_FrH6kQ": {
       "type": "icon-bar",
       "blocks": {
@@ -960,37 +992,6 @@
         "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#2e2a39"
-      }
-    },
-    "image_with_text_naynYx": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/10_en_souscrivant_a_notre_newsletter_1.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": true,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_colors_background": "#2E2A39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
       }
     }
   },
