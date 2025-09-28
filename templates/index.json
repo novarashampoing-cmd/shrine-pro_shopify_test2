@@ -389,6 +389,54 @@
             "margin_top": 15,
             "margin_bottom": 15
           }
+        },
+        "collapsible_tab_jnnyf9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>L'équipe de <strong>Novara Shampoing</strong> veille à ce que chaque commande soit traitée et expédiée en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en <strong>France, Belgique et Suisse</strong>.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis. Et parce qu’un bon service ne s’arrête pas à la commande, <strong>notre équipe reste disponible pour répondre à vos questions et vous accompagner</strong> si besoin.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_XkkBW9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Pensé pour le soin et le bien-être de vos cheveux, ce shampoing associe des actifs naturels reconnus pour leur efficacité</p><h3>✨ Ingrédients clés</h3><ul><li><strong>Eau</strong> : hydrate et facilite l’application</li><li><strong>Vitamine C</strong> : protège et redonne de l’éclat</li><li><strong>Squalane</strong> : restaure la barrière cutanée et nourrit en profondeur</li><li><strong>Huile de jojoba</strong> : équilibre et adoucit la fibre capillaire</li><li><strong>Huile de macadamia</strong> : régénère et protège la chevelure</li><li><strong>Extrait de Reishi</strong> : riche en antioxydants, revitalise les cheveux</li><li><strong>Huile de sésame noir</strong> : stimule la pigmentation naturelle</li><li><strong>Extrait de gingembre</strong> : tonifie les racines et apporte vitalité</li><li><strong>Racine d’angélique</strong> : apaise et favorise la croissance capillaire</li></ul><h3>🧪 Qualité et sécurité</h3><ul><li>Testé dermatologiquement, tolérance optimale</li><li>Contenance : <strong>200 ml</strong></li></ul><h3>🌍 Engagement responsable</h3><p>Formulé avec des ingrédients d’origine naturelle, respectueux de l’environnement.<br/>Parfum et propylène glycol utilisés en quantité maîtrisée, sans risque pour la santé du cheveu</p><h3>📜 Composition (INCI)</h3><p>Eau, alcool cétylique, Pergaal, huile minérale, extrait de racine de renouée à fleurs, extrait de ginseng Panax, extrait de racine d’angélique, dérivés de glucose, bétaïne de cocamidopropyle, parfum, colorants doux, régulateurs de pH, monoglycéride, activateur doux</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_mighyi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>1️⃣ <strong>Mousser</strong> : Prélevez une dose dans vos mains et faites mousser le shampoing<br/>2️⃣ <strong>Appliquer</strong> : Répartissez uniformément sur <strong>cheveux secs</strong> ou barbe, puis laissez agir 10 minutes<br/>3️⃣ <strong>Rincer</strong> : Rincez abondamment et profitez d’une couleur éclatante et naturelle ✨💆‍♂️</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
         }
       },
       "block_order": [
@@ -400,7 +448,10 @@
         "buy_buttons_9VNYmE",
         "custom_liquid_aDBrKG",
         "text_eNWGmW",
-        "payment_badges_7H9YYF"
+        "payment_badges_7H9YYF",
+        "collapsible_tab_jnnyf9",
+        "collapsible_tab_XkkBW9",
+        "collapsible_tab_mighyi"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
