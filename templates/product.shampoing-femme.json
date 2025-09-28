@@ -885,8 +885,9 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/Icone_feuille_Novara_Shampoing.webp",
+            "title": "Ingrédients naturels",
+            "text": "<p>Enrichi en extraits végétaux qui nourrissent, renforcent et révèlent la beauté de vos cheveux</p>"
           }
         },
         "column_H39VxG": {
@@ -894,8 +895,8 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "title": "Application facile",
+            "text": "<p>Il suffit de l’appliquer comme un shampoing classique. Pas de préparation et pas de taches</p>"
           }
         },
         "column_BLJkHw": {
