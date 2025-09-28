@@ -748,7 +748,7 @@
         "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "left",
-        "cards_color_scheme": "bg-overlay",
+        "cards_color_scheme": "background-2",
         "type": "slide",
         "autoplay": false,
         "autoplay_speed": 5,
