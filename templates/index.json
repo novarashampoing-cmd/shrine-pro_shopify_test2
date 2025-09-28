@@ -659,6 +659,7 @@
       "block_order": [
         "heading_gmgfHG"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
@@ -726,7 +727,7 @@
         "mobile_direction": "reverse",
         "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 24,
         "custom_colors_background": "#465069",
         "custom_gradient_background": "",
