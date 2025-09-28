@@ -568,6 +568,7 @@
             "btn_label": "<strong>Livraison</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
+            "image": "shopify://shop_images/Livraison_Novara_Shampoing_1.webp",
             "loop": false,
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
