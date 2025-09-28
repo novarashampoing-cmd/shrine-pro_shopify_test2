@@ -932,7 +932,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "text": "",
         "color_scheme": "background-2",
@@ -964,12 +964,12 @@
         "mobile_arrows_position": "hidden",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "1758918097d3c4e83a": {
@@ -1105,7 +1105,7 @@
         "card_title_color": "#111111",
         "card_title_size": 22,
         "rating_label": "Excellent",
-        "rating_value": "4.7",
+        "rating_value": "4.9",
         "rating_count": "1 126",
         "star_bg": "#00b67a",
         "card_bg": "#ffffff",
