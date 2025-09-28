@@ -810,7 +810,7 @@
           "settings": {
             "icon": "check_circle",
             "filled_icon": false,
-            "image": "shopify://shop_images/Icone_sain_Novara_Shampoing.webp",
+            "image": "shopify://shop_images/Icone_sante_Novara_Shampoing.webp",
             "title": "Santé du cuir chevelu",
             "text": "<p>Elle purifie, régule le sébum et apaise les irritations</p>"
           }
