@@ -552,7 +552,7 @@
         "button_NmqGE4": {
           "type": "button",
           "settings": {
-            "button_label": "Découvrir la brosse Haribloom",
+            "button_label": "Brosse Haribloom",
             "button_link": "shopify://products/brosse-cheveux-massante-hairbloom"
           }
         }
@@ -572,12 +572,12 @@
         "section_color_scheme": "background-1",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
         "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36,
         "custom_colors_background": "#2E2A39",
