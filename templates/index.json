@@ -615,6 +615,61 @@
         "custom_section_gradient_background": ""
       }
     },
+    "press_shrine_F4DpxJ": {
+      "type": "press-shrine",
+      "blocks": {
+        "quote_EenEiK": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/elle_300xlogo_1.png",
+            "logo_width": 120,
+            "author": "",
+            "content": "Enfin une coloration qui couvre les cheveux blancs en un geste",
+            "show_rating": false,
+            "rating": 5
+          }
+        },
+        "quote_4QEhi3": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Cosmopolitain.webp",
+            "logo_width": 120,
+            "author": "",
+            "content": "Une application facile pour un rendu naturel",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_cd488i": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/LOGO-GENERIQUE_1.png",
+            "logo_width": 120,
+            "author": "",
+            "content": "Parfait pour les hommes : la barbe est colorée en 10 minutes",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_EenEiK",
+        "quote_4QEhi3",
+        "quote_cd488i"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "quote_bold": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "content_tabs_LNyTmE": {
       "type": "content-tabs",
       "blocks": {
@@ -717,6 +772,7 @@
     "featured_product_ygHidK",
     "rich_text_JVQeB3",
     "image_with_text_WFrgRP",
+    "press_shrine_F4DpxJ",
     "content_tabs_LNyTmE"
   ]
 }
