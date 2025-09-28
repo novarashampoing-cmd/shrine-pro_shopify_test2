@@ -907,6 +907,17 @@
     "press_shrine_PPFLL8": {
       "type": "press-shrine",
       "blocks": {
+        "quote_zGmKxr": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/LOGO-GENERIQUE_1.png",
+            "logo_width": 120,
+            "author": "",
+            "content": "Parfait pour les hommes : la barbe est colorée en 10 minutes",
+            "show_rating": false,
+            "rating": 5
+          }
+        },
         "quote_Ed6qyk": {
           "type": "quote",
           "settings": {
@@ -931,6 +942,7 @@
         }
       },
       "block_order": [
+        "quote_zGmKxr",
         "quote_Ed6qyk",
         "quote_QTKcKB"
       ],
