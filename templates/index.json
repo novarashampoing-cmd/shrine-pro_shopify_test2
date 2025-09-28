@@ -183,6 +183,45 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "175906584618b15718": {
+      "type": "apps",
+      "blocks": {
+        "moast_carousel_3WhX6j": {
+          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+          "settings": {
+            "dynamic": false,
+            "feed": "0874c35c-696d-40c3-a438-55c8b4c3c861",
+            "feed_usage": "back_up",
+            "sort": "video",
+            "header": "",
+            "slide_type": "cards",
+            "autoplay_mode": "all",
+            "slide_size": "250",
+            "border": 0,
+            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+            "slide_rounding": "20",
+            "slide_spacing": 16,
+            "padding_top": 40,
+            "pagination": "overlay",
+            "alignment": "center",
+            "product_cards": "none",
+            "show_captions": false,
+            "autoscroll_duration": 0,
+            "click_action": "fullscreen",
+            "float_location": "bottom_right",
+            "float_size": "medium",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "moast_carousel_3WhX6j"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
     "featured_product_ygHidK": {
       "type": "featured-product",
       "blocks": {
@@ -495,6 +534,7 @@
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "175906584618b15718",
     "featured_product_ygHidK"
   ]
 }
