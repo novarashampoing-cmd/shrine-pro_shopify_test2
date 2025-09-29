@@ -381,7 +381,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>Le bonnet en satin de Novara protège les cheveux pendant la nuit en réduisant les frisottis, les cassures et la perte d’hydratation. Ainsi, vos cheveux sont plus doux, brillants et faciles à coiffer au réveil</p>",
+            "content": "<p>Le bonnet en satin de Novara protège les cheveux pendant la nuit en réduisant les frisottis, les cassures et la perte d’hydratation. Ainsi, vos cheveux sont plus doux, brillants et faciles à coiffer au réveil.<br/><br/><br/>À porter chaque nuit sur cheveux secs ou légèrement hydratés, en veillant à bien couvrir l’ensemble de la chevelure</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -522,45 +522,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 24
-      }
-    },
-    "1758905963225e8c3e": {
-      "type": "apps",
-      "blocks": {
-        "moast_carousel_fdWz4P": {
-          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
-          "settings": {
-            "dynamic": true,
-            "feed": "",
-            "feed_usage": "back_up",
-            "sort": "latest",
-            "header": "",
-            "slide_type": "cards",
-            "autoplay_mode": "all",
-            "slide_size": "250",
-            "border": 0,
-            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
-            "slide_rounding": "20",
-            "slide_spacing": 16,
-            "padding_top": 20,
-            "pagination": "overlay",
-            "alignment": "center",
-            "product_cards": "none",
-            "show_captions": false,
-            "autoscroll_duration": 0,
-            "click_action": "fullscreen",
-            "float_location": "bottom_right",
-            "float_size": "medium",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "moast_carousel_fdWz4P"
-      ],
-      "settings": {
-        "display_id": false,
-        "include_margins": true
       }
     },
     "content_tabs_y6pYh8": {
@@ -1458,7 +1419,6 @@
   "order": [
     "main",
     "related-products",
-    "1758905963225e8c3e",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
