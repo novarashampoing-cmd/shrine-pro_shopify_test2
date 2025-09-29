@@ -51,13 +51,13 @@
         "text_TwEkYi": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 13,
+            "mobile_text_size": 12,
             "desktop_text_size": 16,
             "alignment": "left",
             "text_color": "#000000",
-            "text_1": "Couvre les cheveux en 10 minutes",
-            "text_2": "Un résultat qui dure jusqu'à 6 semaines",
-            "text_3": "Application simple, propre et sans taches",
+            "text_1": "Protège les cheveux et préserve l’hydratation",
+            "text_2": "Idéal après application de notre shampoing",
+            "text_3": "Réduit la casse et les frisottis",
             "icon_scale": 120,
             "icon_color": "#465069",
             "icon_1": "check_circle",
@@ -82,11 +82,11 @@
         "text_deXHLT": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 13,
+            "mobile_text_size": 12,
             "desktop_text_size": 16,
             "alignment": "left",
             "text_color": "#000000",
-            "text_1": "Une formule douce, sans ammoniaque",
+            "text_1": "Confortable pour votre routine capillaire",
             "text_2": "",
             "text_3": "",
             "icon_scale": 120,
