@@ -424,12 +424,12 @@
             "autoplay_speed": 3,
             "display_arrows": true,
             "display_dots": false,
-            "author_1": "<em>Léa</em> [stars]",
-            "text_1": "<p>Le meilleur rapport qualité prix !</p>",
-            "author_2": "<em>Carole</em> [stars]",
-            "text_2": "<p>Il ne m'a fallu que 10 minutes !</p>",
-            "author_3": "<em>Laurine</em> [stars]",
-            "text_3": "<p>Encore mieux que chez ma coiffeuse</p>",
+            "author_1": "<em>Emma</em> [stars]",
+            "text_1": "<p>Mes cheveux sont plus doux depuis que je l'utilise</p>",
+            "author_2": "Chloé [stars]",
+            "text_2": "<p>Je recommande !</p>",
+            "author_3": "Lucile [stars]",
+            "text_3": "<p>Mes cheveux ont moins tendance à tomber</p>",
             "margin_top": 24,
             "margin_bottom": 24
           }
