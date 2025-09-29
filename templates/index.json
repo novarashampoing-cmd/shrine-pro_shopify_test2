@@ -456,7 +456,7 @@
         "variant_picker_qkPFii": {
           "type": "variant_picker",
           "settings": {
-            "picker_types": "hidden",
+            "picker_types": "",
             "custom_labels": "",
             "disable_prepend": false,
             "swatches_size": "medium",
