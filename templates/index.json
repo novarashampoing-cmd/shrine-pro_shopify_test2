@@ -455,6 +455,7 @@
         },
         "variant_picker_GMdhb9": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_types": "",
             "custom_labels": "",
@@ -482,6 +483,7 @@
         },
         "quantity_selector_Ngrweb": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "full_width_classic": false,
             "enable_quantity_discounts": true,
