@@ -1295,7 +1295,7 @@
         "arrows_color_scheme": "inverse",
         "transparent_arrows": true,
         "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
+        "desktop_full_page": true,
         "columns_desktop": 4,
         "slider_desktop": false,
         "per_move_desktop": 1,
