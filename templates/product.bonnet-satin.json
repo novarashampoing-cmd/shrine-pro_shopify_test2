@@ -137,6 +137,10 @@
             "margin_bottom": 15
           }
         },
+        "globo_color_swatch_product_swatches_detail_wGNywU": {
+          "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
+          "settings": {}
+        },
         "urgency_WVGYK8": {
           "type": "urgency",
           "settings": {
@@ -438,6 +442,7 @@
         "text_TwEkYi",
         "text_deXHLT",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "globo_color_swatch_product_swatches_detail_wGNywU",
         "urgency_WVGYK8",
         "custom_liquid_wNcBaQ",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
@@ -631,6 +636,7 @@
         "tab_7AWix4",
         "tab_FfhMzY"
       ],
+      "disabled": true,
       "name": "Content tabs",
       "settings": {
         "display_id": false,
@@ -740,6 +746,7 @@
         "column_iBNTHA",
         "column_QjTRj3"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "display_id": false,
@@ -794,6 +801,7 @@
     },
     "comparison_slider_ynBwE6": {
       "type": "comparison-slider",
+      "disabled": true,
       "name": "Before & After slider",
       "settings": {
         "display_id": false,
@@ -842,6 +850,7 @@
       "block_order": [
         "heading_9RaqxD"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
@@ -871,6 +880,7 @@
       "block_order": [
         "play_ARVDxN"
       ],
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -935,6 +945,7 @@
         "column_BLJkHw",
         "column_jFd99J"
       ],
+      "disabled": true,
       "name": "Icon Bar",
       "settings": {
         "display_id": false,
@@ -982,6 +993,7 @@
     },
     "espacement_kCFQYR": {
       "type": "espacement",
+      "disabled": true,
       "name": "Espacement",
       "settings": {
         "spacer_height": "40px",
@@ -990,6 +1002,7 @@
     },
     "custom_liquid_rbATL4": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
@@ -1030,6 +1043,7 @@
         "quote_Ed6qyk",
         "quote_QTKcKB"
       ],
+      "disabled": true,
       "name": "Press",
       "settings": {
         "full_width": true,
@@ -1085,6 +1099,7 @@
         "testimonial_jjCPBk",
         "testimonial_EpdLy8"
       ],
+      "disabled": true,
       "name": "Témoignages défilants",
       "settings": {
         "heading": "Nos clients parlent de nous sur Trustpilot :",
@@ -1106,111 +1121,6 @@
         "pad_y": 32,
         "card_radius": 18,
         "speed": 45
-      }
-    },
-    "comparison_table_4xDibi": {
-      "type": "comparison-table",
-      "blocks": {
-        "row_ABhRwq": {
-          "type": "row",
-          "settings": {
-            "benefit": "Prix",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_iLN7cU": {
-          "type": "row",
-          "settings": {
-            "benefit": "Rapide à appliquer",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_aeQyhn": {
-          "type": "row",
-          "settings": {
-            "benefit": "Longue tenue",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_UYgBLD": {
-          "type": "row",
-          "settings": {
-            "benefit": "Sans produits agressifs",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_f3T4pA": {
-          "type": "row",
-          "settings": {
-            "benefit": "Respecte vos cheveux",
-            "us": true,
-            "others": false
-          }
-        }
-      },
-      "block_order": [
-        "row_ABhRwq",
-        "row_iLN7cU",
-        "row_aeQyhn",
-        "row_UYgBLD",
-        "row_f3T4pA"
-      ],
-      "name": "Comparison table",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Pourquoi choisir <strong>Novara Shampoing</strong> ?",
-        "title_highlight_color": "#465069",
-        "heading_size": "h1",
-        "text": "<p>Le shampoing colorant Novara est efficace et doux pour une couleur naturelle en 10 minutes. Une qualité que beaucoup de produits concurrents n’offrent pas</p>",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "color_scheme": "background-1",
-        "layout": "table_second",
-        "style": "classic",
-        "us_label": "[shop_name]",
-        "us_label_size": 26,
-        "logo": "shopify://shop_images/Logo_marque_Novara.png",
-        "logo_width": 110,
-        "mobile_logo_width": 100,
-        "others_label": "Autres produits",
-        "others_label_size": 26,
-        "others_logo_width": 90,
-        "others_mobile_logo_width": 60,
-        "checkmark_style": "regular",
-        "checkmark_color": "#53af01",
-        "checkmark_bg_color": "#dbdbdb",
-        "x_style": "regular",
-        "x_color": "#dd1d1d",
-        "x_bg_color": "#dbdbdb",
-        "opposite_icon_colors": "original",
-        "highlighted_color_scheme": "accent-1",
-        "highlighted_separator_opacity": 0,
-        "highlighted_overlay_opacity": 0,
-        "other_cells_color_scheme": "background-1",
-        "regular_separator_opacity": 10,
-        "regular_overlay_opacity": 0,
-        "minimalistic_border_opacity": 16,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#000000",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_colors_highlighted_background": "#ffffff",
-        "custom_colors_highlighted_text": "#ffffff",
-        "custom_colors_others_background": "#ffffff",
-        "custom_colors_others_text": "#2e2a39"
       }
     },
     "ss_simple_faq_ic8Jbj": {
@@ -1315,6 +1225,7 @@
         "text_cHGgBx",
         "text_ewaE77"
       ],
+      "disabled": true,
       "name": "Faq",
       "settings": {
         "heading": "Nous répondons à vos questions",
@@ -1425,7 +1336,6 @@
     "custom_liquid_rbATL4",
     "press_shrine_PPFLL8",
     "section_temoignages_defilants_EnbUWg",
-    "comparison_table_4xDibi",
     "ss_simple_faq_ic8Jbj",
     "icon_bar_Rp93JM"
   ]
