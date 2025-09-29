@@ -453,19 +453,18 @@
             "margin_bottom": 15
           }
         },
-        "variant_picker_Vdbaip": {
+        "variant_picker_qkPFii": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
-            "picker_types": "pills, pills, pills",
+            "picker_types": "hidden",
             "custom_labels": "",
             "disable_prepend": false,
-            "swatches_size": "small",
+            "swatches_size": "medium",
             "swatches_border_radius": 100,
             "swatches_custom_colors": "disabled",
             "swatches_custom_colors_list": "#000000, #FFFFFF",
             "breaks_style": "normal",
-            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_headline": "OFFRE DE RENTRÉE 🎁",
             "breaks_color_scheme": "accent-1",
             "breaks_badges": "[empty], Most popular, [empty]",
             "breaks_displayed_images": "variant_images",
@@ -662,7 +661,7 @@
         "rating_stars_BPVREW",
         "price_e66UCn",
         "text_UMxPLi",
-        "variant_picker_Vdbaip",
+        "variant_picker_qkPFii",
         "quantity_selector_Ngrweb",
         "buy_buttons_9VNYmE",
         "custom_liquid_aDBrKG",
