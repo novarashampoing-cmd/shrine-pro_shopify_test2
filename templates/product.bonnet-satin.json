@@ -524,6 +524,25 @@
         "padding_bottom": 24
       }
     },
+    "1758918097d3c4e83a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_Uqnzax": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_Uqnzax"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
     "content_tabs_y6pYh8": {
       "type": "content-tabs",
       "blocks": {
@@ -966,25 +985,6 @@
         "custom_cards_colors_text": "#2e2a39"
       }
     },
-    "1758918097d3c4e83a": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_Uqnzax": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_Uqnzax"
-      ],
-      "settings": {
-        "display_id": false,
-        "include_margins": true
-      }
-    },
     "espacement_kCFQYR": {
       "type": "espacement",
       "name": "Espacement",
@@ -1419,13 +1419,13 @@
   "order": [
     "main",
     "related-products",
+    "1758918097d3c4e83a",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
     "rich_text_JwR7Ch",
     "video_shrine_pro_WXCz7P",
     "icon_bar_qw4EFr",
-    "1758918097d3c4e83a",
     "espacement_kCFQYR",
     "custom_liquid_rbATL4",
     "press_shrine_PPFLL8",
