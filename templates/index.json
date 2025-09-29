@@ -453,6 +453,33 @@
             "margin_bottom": 15
           }
         },
+        "variant_picker_GMdhb9": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, pills, pills",
+            "custom_labels": "",
+            "disable_prepend": false,
+            "swatches_size": "medium",
+            "swatches_border_radius": 100,
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #FFFFFF",
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "quantity_selector_Ngrweb": {
           "type": "quantity_selector",
           "settings": {
@@ -634,6 +661,7 @@
         "rating_stars_BPVREW",
         "price_e66UCn",
         "text_UMxPLi",
+        "variant_picker_GMdhb9",
         "quantity_selector_Ngrweb",
         "buy_buttons_9VNYmE",
         "custom_liquid_aDBrKG",
