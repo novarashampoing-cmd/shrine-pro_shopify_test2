@@ -166,7 +166,7 @@
             "headline": "OFFRE DE RENTRÉE 🎁",
             "preselected": "option_2",
             "update_prices": false,
-            "enable_variant_selectors": true,
+            "enable_variant_selectors": false,
             "enable_variant_selectors_on_quantity_of_1": true,
             "hide_pickers_overlay": true,
             "pickers_label": "",
