@@ -144,7 +144,7 @@
         "urgency_WVGYK8": {
           "type": "urgency",
           "settings": {
-            "urgency": "1 SHAMPOING ACHETÉ = LE 2ÈME À -50%",
+            "urgency": "OFFRE 1 SHAMPOING ACHETÉ = LE 2ÈME À -50%",
             "color_scheme": "accent-1",
             "margin_top": 0,
             "margin_bottom": 0
@@ -170,7 +170,7 @@
             "full_width_classic": false,
             "enable_quantity_discounts": true,
             "style": "normal",
-            "headline": "OFFRE DE RENTRÉE 🎁",
+            "headline": "PROMO DE RENTRÉE 🎁",
             "preselected": "option_2",
             "update_prices": false,
             "enable_variant_selectors": false,
