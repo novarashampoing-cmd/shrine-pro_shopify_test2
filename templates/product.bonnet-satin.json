@@ -191,7 +191,7 @@
             "option_2_fixed_amount_off": "0",
             "option_2_price_text": "[price]",
             "option_2_compare_price": "compare_price",
-            "option_2_compare_price_text": "[compare_price]",
+            "option_2_compare_price_text": "€29,8",
             "option_3_quantity": 0,
             "option_3_badge": "",
             "option_3_label": "Buy [quantity]",
