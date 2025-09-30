@@ -556,11 +556,6 @@
         "disabled": true,
         "settings": {}
       },
-      "2724325275511621162": {
-        "type": "shopify://apps/kaching-subscriptions/blocks/app-embed-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
-        "disabled": true,
-        "settings": {}
-      },
       "1768834845299682660": {
         "type": "shopify://apps/subscriptions/blocks/app-embed-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
         "disabled": true,
@@ -573,6 +568,11 @@
           "border_radius": 0,
           "subscription_policy_url": ""
         }
+      },
+      "2724325275511621162": {
+        "type": "shopify://apps/kaching-subscriptions/blocks/app-embed-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
