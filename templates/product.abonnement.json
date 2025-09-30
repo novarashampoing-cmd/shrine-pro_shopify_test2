@@ -219,18 +219,6 @@
             "margin_bottom": 15
           }
         },
-        "subscriptions_app_block_KQWTVE": {
-          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
-          "settings": {
-            "color_text_body": "#000000",
-            "dividers_color": "#465069",
-            "bacgkround_color": "#e9ebf0",
-            "border_thickness": 2,
-            "border_radius": 8,
-            "subscription_policy_url": "shopify://pages/politique-d-abonnement-de-novara-shampoing",
-            "product": "{{product}}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -461,7 +449,6 @@
         "urgency_WVGYK8",
         "custom_liquid_wNcBaQ",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
-        "subscriptions_app_block_KQWTVE",
         "buy_buttons",
         "custom_liquid_JcPLpc",
         "custom_liquid_9Kz4Rw",
