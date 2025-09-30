@@ -227,7 +227,7 @@
             "bacgkround_color": "#e9ebf0",
             "border_thickness": 2,
             "border_radius": 8,
-            "subscription_policy_url": "",
+            "subscription_policy_url": "shopify://pages/politique-d-abonnement-de-novara-shampoing",
             "product": "{{product}}"
           }
         },
