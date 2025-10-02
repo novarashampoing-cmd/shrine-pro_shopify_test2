@@ -909,63 +909,86 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "image_with_text_bPgY8Y": {
-      "type": "image-with-text",
+    "rich_text_exkAPA": {
+      "type": "rich-text",
       "blocks": {
-        "heading_F43UjQ": {
+        "heading_YmPAq8": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1"
-          }
-        },
-        "text_83LMVq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_gwQgJX": {
-          "type": "button",
-          "settings": {
-            "button_label": "En profiter",
-            "button_link": "shopify://products/shampoing-colorant-instantane-abonnement"
+            "title": "Économisez grâce à <strong>l'abonnement Novara Shampoing</strong>",
+            "title_highlight_color": "#465069",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading_F43UjQ",
-        "text_83LMVq",
-        "button_gwQgJX"
+        "heading_YmPAq8"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "height": "adapt",
-        "content_layout": "no-overlap",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
         "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#2E2A39",
+        "padding_top": 40,
+        "padding_bottom": 12,
+        "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#2E2A39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "slideshow_DdKpzE": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tAdJMn": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#FFFFFF",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2E2A39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tAdJMn"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "press_shrine_F4DpxJ": {
@@ -1397,7 +1420,8 @@
     "rich_text_JVQeB3",
     "espacement_HdieTi",
     "rich_text_F6a7T7",
-    "image_with_text_bPgY8Y",
+    "rich_text_exkAPA",
+    "slideshow_DdKpzE",
     "press_shrine_F4DpxJ",
     "section_temoignages_defilants_pkMnBE",
     "image_with_text_WFrgRP",
