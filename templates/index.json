@@ -1184,37 +1184,6 @@
         "custom_tabs_color_label": "#ffffff"
       }
     },
-    "image_with_text_naynYx": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/10_en_souscrivant_a_notre_newsletter_1.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": true,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
-    },
     "shoppable_image_AJKKcp": {
       "type": "shoppable-image",
       "name": "Shoppable image",
@@ -1372,7 +1341,6 @@
     "featured_collection_MmG8rB",
     "image_with_text_WFrgRP",
     "content_tabs_LNyTmE",
-    "image_with_text_naynYx",
     "shoppable_image_AJKKcp",
     "icon_bar_FrH6kQ"
   ]
