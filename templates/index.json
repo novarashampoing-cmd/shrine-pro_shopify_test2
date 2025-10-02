@@ -927,7 +927,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "always-display",
+        "visibility": "desktop-hidden",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "full_width": true,
@@ -948,6 +948,7 @@
         "slide_tAdJMn": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Shampoing_Novara_en_abonnement.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "title_highlight_color": "#6D388B",
@@ -979,9 +980,9 @@
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "visibility": "always-display",
+        "visibility": "desktop-hidden",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "desktop_pagination_position": "over",
         "auto_rotate": false,
