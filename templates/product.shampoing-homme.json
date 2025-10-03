@@ -1378,7 +1378,7 @@
         "text_MPYnEH": {
           "type": "text",
           "settings": {
-            "question": "Question text",
+            "question": "Quels sont nos délais de livraison ?",
             "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
           }
         }
