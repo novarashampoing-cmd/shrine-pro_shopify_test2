@@ -1430,7 +1430,7 @@
         "transparent_arrows": true,
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "slider_desktop": false,
         "per_move_desktop": 1,
         "desktop_spacing": 40,
