@@ -1344,6 +1344,13 @@
             "question": "Novara Shampoing est-il utilisable après une coloration au henné ?",
             "answer": "<p>Oui, <strong>Novara Shampoing</strong> peut être utilisé après une coloration au henné, à condition que celui-ci soit 100 % naturel et exempt de sels métalliques. Pour plus de sécurité, réalisez d’abord un test sur une petite mèche afin de vérifier le résultat.</p>"
           }
+        },
+        "text_icqxdi": {
+          "type": "text",
+          "settings": {
+            "question": "Quels sont nos délais de livraison ?",
+            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
+          }
         }
       },
       "block_order": [
@@ -1358,7 +1365,8 @@
         "text_tnQcbV",
         "text_6mzffk",
         "text_cHGgBx",
-        "text_ewaE77"
+        "text_ewaE77",
+        "text_icqxdi"
       ],
       "name": "Faq",
       "settings": {
