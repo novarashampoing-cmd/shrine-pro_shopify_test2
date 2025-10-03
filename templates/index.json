@@ -1276,6 +1276,128 @@
         "custom_section_gradient_background": ""
       }
     },
+    "ss_simple_faq_gVzfwF": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_Mn6FhW": {
+          "type": "text",
+          "settings": {
+            "question": "Combien de temps tient la coloration ?",
+            "answer": "<p>La tenue varie selon la nature de vos cheveux et votre routine de lavage. En moyenne, la couleur obtenue avec <strong>Novara Shampoing</strong> reste visible entre <strong>4 et 6 semaines</strong>.</p>"
+          }
+        },
+        "text_3URWjD": {
+          "type": "text",
+          "settings": {
+            "question": "Combien de temps dure une bouteille de shampoing ?",
+            "answer": "<p>Un flacon de <strong>Novara Shampoing</strong> permet généralement <strong>10 à 15 utilisations</strong>, en fonction de la longueur et de l’épaisseur de vos cheveux.</p>"
+          }
+        },
+        "text_CQGLgt": {
+          "type": "text",
+          "settings": {
+            "question": "Le shampoing colorant peut-il être appliqué sur tous types de cheveux ?",
+            "answer": "<p>Oui 👍 <strong>Novara Shampoing</strong> convient aussi bien aux cheveux fins qu’aux cheveux épais. Sa texture crémeuse facilite une application uniforme, des racines jusqu’aux pointes.</p>"
+          }
+        },
+        "text_MCkNUh": {
+          "type": "text",
+          "settings": {
+            "question": "Y a-t-il un risque pour les peaux sensibles ?",
+            "answer": "<p>Notre shampoing colorant est conçu pour limiter au maximum les irritations : il ne contient ni PPD, ni ammoniaque, ni résorcinol, ni oxydants agressifs.</p><p>Grâce à cette composition plus douce, il est généralement bien toléré par les cuirs chevelus sensibles et constitue une alternative rassurante pour celles et ceux qui recherchent une solution plus respectueuse.</p><p>👉 Par précaution, nous conseillons toujours d’effectuer un <strong>test de tolérance 24h avant la première utilisation</strong> : appliquez une petite quantité de produit derrière l’oreille ou dans le pli du coude, laissez agir une dizaine de minutes, rincez puis surveillez la zone pendant 24 heures.</p>"
+          }
+        },
+        "text_ctXHQX": {
+          "type": "text",
+          "settings": {
+            "question": "Dois-je utiliser des gants ?",
+            "answer": "<p>Pas besoin 👍 Le shampoing colorant <strong>Novara</strong> s’applique comme un shampoing classique, directement avec les mains, sans gants ni matériel supplémentaire.</p><p>Si vous ne souhaitez prendre absolument aucun risque, vous pouvez éventuellement vous servir de gants.</p>"
+          }
+        },
+        "text_KEMtyj": {
+          "type": "text",
+          "settings": {
+            "question": "Est-ce que le shampoing laisse des taches ?",
+            "answer": "<p>Non 🙂 <strong>Novara Shampoing</strong> ne tache ni la peau ni le cuir chevelu et se rince facilement des surfaces comme l’évier ou la baignoire. Nous conseillons simplement d’éviter le contact avec des tissus pendant l’application.</p>"
+          }
+        },
+        "text_RGeLLX": {
+          "type": "text",
+          "settings": {
+            "question": "Le shampoing colorant convient-il aussi pour la barbe ?",
+            "answer": "<p>Absolument 👍 <strong>Novara Shampoing</strong> fonctionne aussi bien sur la barbe que sur les cheveux. Il apporte une couleur naturelle et homogène tout en respectant la fibre du poil.</p>"
+          }
+        },
+        "text_bJeYkn": {
+          "type": "text",
+          "settings": {
+            "question": "Ce shampoing est-il compatible avec mes soins capillaires ?",
+            "answer": "<p>Oui 👍 Vous pouvez continuer à utiliser vos shampooings et soins habituels entre deux applications de <strong>Novara Shampoing</strong>. Un après-shampoing peut même être appliqué juste après pour plus de douceur.</p>"
+          }
+        },
+        "text_CGrHNC": {
+          "type": "text",
+          "settings": {
+            "question": "Le produit abîme-t-il les cheveux ?",
+            "answer": "<p>Non, la formule de <strong>Novara Shampoing</strong> est enrichie en ingrédients d’origine naturelle et exempte de composants agressifs. Elle respecte vos cheveux comme votre cuir chevelu, tout en apportant une protection douce.</p>"
+          }
+        },
+        "text_zB8ifx": {
+          "type": "text",
+          "settings": {
+            "question": "Est-ce que le shampoing couvre les cheveux gris ?",
+            "answer": "<p><strong>Novara Shampoing</strong> assure une couverture homogène et naturelle des cheveux gris. Avec des applications régulières, la couleur gagne en intensité et en tenue.</p>"
+          }
+        },
+        "text_qdxYmA": {
+          "type": "text",
+          "settings": {
+            "question": "Convient-il aux cheveux déjà colorés ?",
+            "answer": "<p>Oui 👍 <strong>Novara Shampoing</strong> peut être appliqué sur des cheveux colorés ou ayant subi des traitements chimiques. En cas de doute, nous conseillons de réaliser un petit test préalable ou de demander l’avis d’un professionnel.</p>"
+          }
+        },
+        "text_NR3EeD": {
+          "type": "text",
+          "settings": {
+            "question": "Novara Shampoing est-il utilisable après une coloration au henné ?",
+            "answer": "<p>Oui, <strong>Novara Shampoing</strong> peut être utilisé après une coloration au henné, à condition que celui-ci soit 100 % naturel et exempt de sels métalliques. Pour plus de sécurité, réalisez d’abord un test sur une petite mèche afin de vérifier le résultat.</p>"
+          }
+        },
+        "text_bfnCA9": {
+          "type": "text",
+          "settings": {
+            "question": "Quels sont nos délais de livraison ?",
+            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Mn6FhW",
+        "text_3URWjD",
+        "text_CQGLgt",
+        "text_MCkNUh",
+        "text_ctXHQX",
+        "text_KEMtyj",
+        "text_RGeLLX",
+        "text_bJeYkn",
+        "text_CGrHNC",
+        "text_zB8ifx",
+        "text_qdxYmA",
+        "text_NR3EeD",
+        "text_bfnCA9"
+      ],
+      "name": "Faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#fff",
+        "hover_color": "#EFEFEF",
+        "question_color": "#fff",
+        "background_color": "#465069",
+        "answer_color": "#000",
+        "answer_bg_color": "#fff",
+        "questions-font-size": 1.5
+      }
+    },
     "icon_bar_FrH6kQ": {
       "type": "icon-bar",
       "blocks": {
@@ -1379,6 +1501,7 @@
     "image_with_text_WFrgRP",
     "content_tabs_LNyTmE",
     "shoppable_image_AJKKcp",
+    "ss_simple_faq_gVzfwF",
     "icon_bar_FrH6kQ"
   ]
 }
