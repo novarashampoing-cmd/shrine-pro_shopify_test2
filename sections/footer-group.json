@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Novara Shampoing",
             "menu": "main-menu",
-            "width_desktop": 1,
+            "width_desktop": 4,
             "width_mobile": "1"
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Légal",
             "menu": "footer",
-            "width_desktop": 1,
+            "width_desktop": 4,
             "width_mobile": "1"
           }
         }
