@@ -698,7 +698,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "product": "shampoing-colorant-instantane-novara",
+        "product": "shampoing-colorant-novara",
         "color_scheme": "background-1",
         "secondary_background": false,
         "media_size": "medium",
@@ -1389,12 +1389,12 @@
       "name": "Faq",
       "settings": {
         "heading": "Novara Shampoing répond à vos questions",
-        "icon_color": "#fff",
-        "hover_color": "#EFEFEF",
-        "question_color": "#fff",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
         "background_color": "#465069",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1.5
       }
     },
