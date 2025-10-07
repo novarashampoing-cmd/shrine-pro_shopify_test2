@@ -784,7 +784,6 @@
       "block_order": [
         "heading_zf3z9t"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
@@ -814,7 +813,6 @@
       "block_order": [
         "play_hLH8LU"
       ],
-      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
