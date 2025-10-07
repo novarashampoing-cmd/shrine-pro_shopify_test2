@@ -904,6 +904,7 @@
         "video_size": "auto",
         "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/Miniature_video_Novara.webp",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
@@ -1013,6 +1014,8 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "real_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
             "max_width": 1200
           }
         }
