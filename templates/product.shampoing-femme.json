@@ -339,7 +339,7 @@
             "icon_3": "redeem",
             "filled_icon_3": false,
             "top_text_3": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_3": "Delivered",
+            "bottom_text_3": "Livré chez vous",
             "min_days_3": 8,
             "max_days_3": 12,
             "icon_4": "",
