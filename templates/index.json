@@ -894,57 +894,6 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "slideshow_DdKpzE": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_tAdJMn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Shampoing_Novara_en_abonnement.webp",
-            "mobile_image": "shopify://shop_images/Shampoing_Novara_en_abonnement.webp",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "En souscrivant à notre abonnement, profitez d'une bouteille de shampoing livrée chez vous tous les mois avec 15% de réduction à chaque fois !",
-            "button_label": "Profitez de -15%",
-            "link": "shopify://products/shampoing-colorant-instantane-abonnement",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#ffffff",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2e2a39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        }
-      },
-      "block_order": [
-        "slide_tAdJMn"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "mobile_pagination_position": "under",
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "press_shrine_F4DpxJ": {
       "type": "press-shrine",
       "blocks": {
@@ -998,6 +947,57 @@
         "heading_color": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "slideshow_DdKpzE": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tAdJMn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Shampoing_Novara_en_abonnement.webp",
+            "mobile_image": "shopify://shop_images/Shampoing_Novara_en_abonnement.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "subheading": "En souscrivant à notre abonnement, profitez d'une bouteille de shampoing livrée chez vous tous les mois avec 15% de réduction à chaque fois !",
+            "button_label": "Profitez de -15%",
+            "link": "shopify://products/shampoing-colorant-instantane-abonnement",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tAdJMn"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "section_temoignages_defilants_pkMnBE": {
@@ -1494,9 +1494,9 @@
     "rich_text_WLHUgp",
     "video_shrine_pro_KKWENV",
     "rich_text_JVQeB3",
+    "press_shrine_F4DpxJ",
     "rich_text_exkAPA",
     "slideshow_DdKpzE",
-    "press_shrine_F4DpxJ",
     "section_temoignages_defilants_pkMnBE",
     "image_with_text_WFrgRP",
     "content_tabs_LNyTmE",
