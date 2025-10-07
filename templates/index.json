@@ -1131,7 +1131,6 @@
       "blocks": {
         "tab_yPFyg9": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "btn_label": "<strong>Contactez-nous</strong>",
             "btn_icon": "",
@@ -1160,7 +1159,6 @@
         },
         "tab_CU3Frt": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "btn_label": "<strong>Livraison</strong>",
             "btn_icon": "",
@@ -1192,7 +1190,6 @@
         "tab_yPFyg9",
         "tab_CU3Frt"
       ],
-      "disabled": true,
       "name": "Content tabs",
       "settings": {
         "display_id": false,
@@ -1226,7 +1223,6 @@
     },
     "shoppable_image_AJKKcp": {
       "type": "shoppable-image",
-      "disabled": true,
       "name": "Shoppable image",
       "settings": {
         "display_id": false,
@@ -1390,7 +1386,6 @@
         "text_NR3EeD",
         "text_bfnCA9"
       ],
-      "disabled": true,
       "name": "Faq",
       "settings": {
         "heading": "Novara Shampoing répond à vos questions",
