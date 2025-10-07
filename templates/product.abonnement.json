@@ -510,6 +510,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "display_id": false,
         "title": "Tout ce qu'il faut pour <strong>prendre soin de vos cheveux</strong>",
