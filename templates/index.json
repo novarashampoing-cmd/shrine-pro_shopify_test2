@@ -820,6 +820,7 @@
         "video_size": "auto",
         "video": "shopify://files/videos/Vidéo démonstration Novara Shampoing.mp4",
         "external_video_url": "",
+        "poster": "shopify://shop_images/Miniature_video_Novara.webp",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
@@ -856,39 +857,6 @@
         "custom_colors_background": "#e9ebf0",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
-    "rich_text_exkAPA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YmPAq8": {
-          "type": "heading",
-          "settings": {
-            "title": "Économisez grâce à <strong>l'abonnement Novara Shampoing</strong>",
-            "title_highlight_color": "#465069",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YmPAq8"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "desktop-hidden",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 52,
-        "padding_bottom": 20,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
@@ -947,6 +915,39 @@
         "heading_color": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "rich_text_exkAPA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YmPAq8": {
+          "type": "heading",
+          "settings": {
+            "title": "Économisez grâce à <strong>l'abonnement Novara Shampoing</strong>",
+            "title_highlight_color": "#465069",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YmPAq8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 20,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
       }
     },
     "slideshow_DdKpzE": {
