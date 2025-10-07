@@ -14,6 +14,7 @@
       "blocks": {
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banniere_Desktop_Novara_Shampoing_bb499149-111f-40f8-84c2-e02581e82bbc.webp",
             "mobile_image": "shopify://shop_images/Banniere_mobile_1_Novara_Shampoing.webp",
@@ -44,6 +45,7 @@
         },
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banniere_desktop_Novara_Shampoing_2_b5814201-26fe-4385-b261-19d286cf78fb.webp",
             "mobile_image": "shopify://shop_images/Bouteille_shampoing_Novara_banniere_mobile_396cfcc8-943a-4b62-905d-5969ea7338d6.webp",
@@ -74,6 +76,7 @@
         },
         "slide_E8d8ni": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannniere_desktop_femme_applique_shampoing.webp",
             "mobile_image": "shopify://shop_images/bannniere_mobile_femme_applique_shampoing.webp",
@@ -104,6 +107,7 @@
         },
         "slide_7n8mAb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banniere_desktop_homme_qui_s_applique_du_shampoing_8d76fdc4-ffa6-4747-94e8-8888a49dfc27.webp",
             "mobile_image": "shopify://shop_images/bannniere_mobile_femme_avec_shampoing_c3cd3673-2b2b-4dde-8ed5-936d60cdfff4.webp",
@@ -134,6 +138,7 @@
         },
         "slide_XpBG4g": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannniere_desktop_couple_avec_bouteille_shampoing_novara.webp",
             "mobile_image": "shopify://shop_images/bannniere_mobile_couple_avec_bouteille_shampoing_novara.webp",
@@ -170,6 +175,7 @@
         "slide_7n8mAb",
         "slide_XpBG4g"
       ],
+      "disabled": true,
       "settings": {
         "visibility": "always-display",
         "layout": "full_bleed",
@@ -378,6 +384,7 @@
       "block_order": [
         "moast_carousel_3WhX6j"
       ],
+      "disabled": true,
       "settings": {
         "display_id": false,
         "include_margins": true
@@ -694,6 +701,7 @@
         "collapsible_tab_XkkBW9",
         "collapsible_tab_mighyi"
       ],
+      "disabled": true,
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "display_id": false,
@@ -784,6 +792,7 @@
       "block_order": [
         "heading_zf3z9t"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
@@ -813,6 +822,7 @@
       "block_order": [
         "play_hLH8LU"
       ],
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -1131,6 +1141,7 @@
       "blocks": {
         "tab_yPFyg9": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "btn_label": "<strong>Contactez-nous</strong>",
             "btn_icon": "",
@@ -1159,6 +1170,7 @@
         },
         "tab_CU3Frt": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "btn_label": "<strong>Livraison</strong>",
             "btn_icon": "",
@@ -1190,6 +1202,7 @@
         "tab_yPFyg9",
         "tab_CU3Frt"
       ],
+      "disabled": true,
       "name": "Content tabs",
       "settings": {
         "display_id": false,
@@ -1223,6 +1236,7 @@
     },
     "shoppable_image_AJKKcp": {
       "type": "shoppable-image",
+      "disabled": true,
       "name": "Shoppable image",
       "settings": {
         "display_id": false,
@@ -1386,6 +1400,7 @@
         "text_NR3EeD",
         "text_bfnCA9"
       ],
+      "disabled": true,
       "name": "Faq",
       "settings": {
         "heading": "Novara Shampoing répond à vos questions",
