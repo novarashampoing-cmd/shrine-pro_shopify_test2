@@ -365,7 +365,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>L'équipe de <strong>Novara Shampoing</strong> veille à ce que chaque commande soit traitée et expédiée en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en <strong>France, Belgique et Suisse</strong>.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis. Et parce qu’un bon service ne s’arrête pas à la commande, <strong>notre équipe reste disponible pour répondre à vos questions et vous accompagner</strong> si besoin.</p>",
+            "content": "<p>L'équipe de <strong>Novara Shampoing</strong> veille à ce que chaque commande soit traitée et expédiée en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 5 à 10 jours ouvrés en <strong>France, Belgique et Suisse</strong>.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis. Et parce qu’un bon service ne s’arrête pas à la commande, <strong>notre équipe reste disponible pour répondre à vos questions et vous accompagner</strong> si besoin.</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -1382,7 +1382,7 @@
           "type": "text",
           "settings": {
             "question": "Quels sont nos délais de livraison ?",
-            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
+            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 5 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
           }
         }
       },
