@@ -373,7 +373,7 @@
             "type": "subtotals",
             "settings": {
               "display_total_savings": true,
-              "savings_left_text": "<strong>Savings</strong>",
+              "savings_left_text": "<strong>Vous économisez</strong>",
               "savings_right_text": "<strong>-[savings]</strong>",
               "savings_alignment": "spaced",
               "savings_text_color": "accent-1",
@@ -541,11 +541,6 @@
         "disabled": false,
         "settings": {}
       },
-      "8703857832570158530": {
-        "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -577,6 +572,11 @@
       "16605207545338212596": {
         "type": "shopify://apps/aov-ai-bundle/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
         "disabled": true,
+        "settings": {}
+      },
+      "8703857832570158530": {
+        "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
+        "disabled": false,
         "settings": {}
       }
     }
