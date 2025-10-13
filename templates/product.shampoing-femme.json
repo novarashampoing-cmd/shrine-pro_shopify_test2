@@ -290,11 +290,10 @@
         },
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
           "type": "sticky_atc",
-          "disabled": true,
           "settings": {
             "function": "add_to_cart",
             "display_when": "after_scroll",
-            "button_label": "Add to cart",
+            "button_label": "Ajouter au panier",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "background-1",
@@ -1352,7 +1351,7 @@
           "type": "text",
           "settings": {
             "question": "Quels sont nos délais de livraison ?",
-            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 6 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
+            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 5 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
           }
         }
       },
