@@ -12,7 +12,7 @@
     "disable_inspect": true,
     "country_list_function": "block",
     "country_list": "",
-    "logo": "shopify://shop_images/Logo_marque_Novara.png",
+    "logo": "shopify://shop_images/ok_Logo_site_Novara_Shampoing.webp",
     "logo_width": 200,
     "mobile_logo_width": 130,
     "favicon": "shopify://shop_images/Logo_entreprise_favicon.png",
@@ -576,11 +576,6 @@
       },
       "8703857832570158530": {
         "type": "shopify://apps/opus-cart-upsell/blocks/cart-drawer-app/6a3c5cf8-b330-4c39-a8c5-80f923c2e741",
-        "disabled": false,
-        "settings": {}
-      },
-      "5294968793578418440": {
-        "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
         "disabled": false,
         "settings": {}
       }
