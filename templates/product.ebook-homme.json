@@ -1,0 +1,880 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "a6eb81db-40e4-43e0-972f-32db010a4a56": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.9,
+            "star_color": "#465069",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "1 126 avis",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 0,
+            "margin_bottom": 9
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "hide_sale_badge": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "text_TwEkYi": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 13,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#000000",
+            "text_1": "Comprendre les raisons d’une couleur qui s’estompe trop vite",
+            "text_2": "Éliminer les mauvaises habitudes qui abîment la tenue",
+            "text_3": "Savoir préparer vos cheveux avant chaque coloration",
+            "icon_scale": 120,
+            "icon_color": "#465069",
+            "icon_1": "check_circle",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": true,
+            "icon_3": "check_circle",
+            "filled_icon_3": true,
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 9
+          }
+        },
+        "text_deXHLT": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 13,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#000000",
+            "text_1": "Adopter une routine simple pour conserver l’éclat jusqu’à 6 semaines",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#465069",
+            "icon_1": "check_circle",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "vertical",
+            "column_gap": 0,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 1,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "swatches_size": "medium",
+            "swatches_border_radius": 100,
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "globo_color_swatch_product_swatches_detail_hkygcV": {
+          "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
+          "settings": {}
+        },
+        "custom_liquid_wNcBaQ": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<!-- 🔢 Sélecteur de quantité - même largeur que le bouton ATC (Impact) -->\n<div class=\"nk-qty-wrapper\">\n  <label class=\"nk-qty-label\" for=\"nk-qty-input\">Quantité</label>\n  <div class=\"nk-qty\">\n    <button type=\"button\" class=\"nk-qty-btn nk-qty-minus\" aria-label=\"Réduire\">−</button>\n    <input\n      id=\"nk-qty-input\"\n      type=\"number\"\n      name=\"quantity\"\n      value=\"1\"\n      min=\"1\"\n      class=\"nk-qty-input\"\n    >\n    <button type=\"button\" class=\"nk-qty-btn nk-qty-plus\" aria-label=\"Augmenter\">+</button>\n  </div>\n</div>\n\n<style>\n  .nk-qty-wrapper { margin: 1rem 0; width: 100%; }\n  .nk-qty-label { display:block; margin-bottom:6px; font-size:14px; color:#222; }\n  .nk-qty { display:grid; grid-template-columns:40px 1fr 40px; align-items:center; background:#e2e6ea; border-radius:8px; overflow:hidden; width:100%; }\n  .nk-qty-btn { height:44px; border:none; background:transparent; font-size:20px; font-weight:500; color:#000; cursor:pointer; display:flex; align-items:center; justify-content:center; }\n  .nk-qty-input { border:none; background:transparent; text-align:center; font-size:16px; height:44px; width:100%; appearance:textfield; }\n  .nk-qty-input::-webkit-outer-spin-button,.nk-qty-input::-webkit-inner-spin-button{ -webkit-appearance:none; margin:0; }\n</style>\n\n<script>\n(function(){\n  const root = document.currentScript.closest('.nk-qty-wrapper') || document;\n  const input = root.querySelector('#nk-qty-input');\n  const minus = root.querySelector('.nk-qty-minus');\n  const plus  = root.querySelector('.nk-qty-plus');\n\n  const MIN = () => Number(input.min) || 1;\n  const MAX = () => Number(input.max) || 9999;\n  const clamp = v => Math.max(MIN(), Math.min(v, MAX()));\n\n  function setVal(v){\n    input.value = clamp(Number(v)||MIN());\n    syncAllForms();\n    toggleMinus();\n  }\n  function toggleMinus(){ minus.disabled = (Number(input.value)||1) <= MIN(); }\n\n  minus.addEventListener('click', ()=> setVal((Number(input.value)||1)-1));\n  plus.addEventListener('click',  ()=> setVal((Number(input.value)||1)+1));\n  input.addEventListener('input', ()=> setVal(input.value));\n\n  // === SYNC → pousse la valeur vers TOUS les formulaires add-to-cart visibles (Impact + sticky bar)\n  function getATCForms(){\n    return Array.from(document.querySelectorAll('form[action*=\"/cart/add\"]'))\n      .filter(f => f.offsetParent !== null);\n  }\n  function ensureHiddenQty(form){\n    // Certains thèmes n'ont pas d'input quantity dans le form → on le crée caché\n    let q = form.querySelector('input[name=\"quantity\"]');\n    if(!q){\n      q = document.createElement('input');\n      q.type = 'hidden';\n      q.name = 'quantity';\n      form.appendChild(q);\n    }\n    return q;\n  }\n  function syncAllForms(){\n    const val = String(clamp(Number(input.value)||1));\n    getATCForms().forEach(form=>{\n      // 1) Mettez à jour tout input[name=\"quantity\"] existant (visible ou non)\n      form.querySelectorAll('input[name=\"quantity\"]').forEach(el => el.value = val);\n      // 2) S’il n’y en a pas, créez le hidden qty (certaines implémentations JS lisent directement dans le form)\n      ensureHiddenQty(form).value = val;\n    });\n  }\n\n  // === HOOK SUBMIT → avant soumission (ou click ATC), on force la quantité\n  function hookForm(form){\n    if(form.__nkHooked) return;\n    form.__nkHooked = true;\n\n    // Sur submit classique\n    form.addEventListener('submit', (e)=>{\n      syncAllForms(); // s'assure que la valeur part bien\n    }, true);\n\n    // Sur clic du bouton d'ajout (certains thèmes lisent la valeur à ce moment)\n    const addBtn = form.querySelector('[type=\"submit\"][name=\"add\"], button[name=\"add\"]');\n    if(addBtn){\n      addBtn.addEventListener('click', ()=> syncAllForms(), true);\n    }\n  }\n\n  // Associer aussi l'input à un form (attribut \"form\") pour compatibilité large\n  (function associateToNearestForm(){\n    const firstForm = getATCForms()[0];\n    if(firstForm){\n      if(!firstForm.id) firstForm.id = 'product-form-' + Math.random().toString(36).slice(2);\n      input.setAttribute('form', firstForm.id);\n    }\n  })();\n\n  // Initial sync + hook\n  syncAllForms();\n  getATCForms().forEach(hookForm);\n  toggleMinus();\n\n  // Variante change → on peut remettre à 1 si souhaité et resync\n  document.addEventListener('variant:change', ()=>{\n    setVal(1);\n  });\n\n  // Si le thème remplace dynamiquement le form (AJAX sections), on re-hook/sync\n  const mo = new MutationObserver(()=>{\n    getATCForms().forEach(hookForm);\n    syncAllForms();\n  });\n  mo.observe(document.body, {childList:true, subtree:true});\n})();\n</script>"
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "PROFITEZ-EN !",
+            "preselected": "option_2",
+            "update_prices": false,
+            "enable_variant_selectors": false,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "color_scheme": "accent-1",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_label": "1 shampoing colorant",
+            "option_1_benefit": "",
+            "option_1_caption": "",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "1 ACHETÉ = LE 2ÈME À -50%",
+            "option_2_label": "2 shampoings colorants",
+            "option_2_benefit": "",
+            "option_2_caption": "",
+            "option_2_percentage_off_text": "25",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 0,
+            "option_3_badge": "",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 0,
+            "option_4_badge": "",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "custom_liquid_JcPLpc": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"margin-top:14px; margin-bottom:0;\">\n  <style>\n    .nk-offer-banner, .nk-offer-banner * { box-sizing:border-box; }\n\n    .nk-offer-banner{\n      background:#E9EBF0;border-radius:12px;padding:16px;color:#333;\n      font-size:15px;line-height:1.35;\n    }\n\n    .nk-offer-banner__header{\n      background:#3E4D6B;color:#fff;border-radius:10px;padding:10px 16px;\n      display:flex;align-items:center;justify-content:center;gap:8px;\n      text-transform:uppercase;font-weight:800;letter-spacing:.4px;line-height:1.2;margin:0;\n    }\n    .nk-offer-banner__header::before,\n    .nk-offer-banner__header::after{\n      content:\"\";display:inline-block;width:34px;height:3px;border-radius:3px;background:currentColor;opacity:.9\n    }\n\n    /* Layout desktop en flex */\n    .nk-offer-banner__body{\n      display:flex !important; align-items:center; justify-content:space-between;\n      gap:16px; padding:14px 10px 6px; width:100% !important;\n    }\n\n    .nk-offer-banner__left,\n    .nk-offer-banner__right{\n      flex:1 1 0 !important; min-width:0 !important; max-width:none !important;\n      text-align:center; padding:0 8px; margin:0;\n      word-break:normal !important; overflow-wrap:normal !important;\n      font-size:15px;\n    }\n\n    /* Desktop : texte peut revenir à la ligne */\n    .nk-offer-banner__left{\n      font-weight:800;\n      line-height:1.25;\n      letter-spacing:-0.5px;  /* resserre un peu les lettres */\n      white-space:normal;     /* autorise retour à la ligne */\n    }\n\n    .nk-offer-banner__right{\n      font-weight:500;\n      line-height:1.35;\n    }\n\n    /* Divider desktop : vertical */\n    .nk-offer-banner__divider{\n      display:block !important;\n      flex:0 0 1px !important;\n      width:1px !important; height:28px;\n      background:rgba(0,0,0,.22);\n      align-self:center;\n      margin:0 10px;\n    }\n\n    /* Mobile : empilement + divider horizontal + texte gauche en 1 seule ligne */\n    @media (max-width:480px){\n      .nk-offer-banner__body{ flex-direction:column; gap:8px; padding:12px 10px 2px; }\n      .nk-offer-banner__divider{\n        flex:0 0 auto !important;\n        width:100% !important; height:1px !important;\n        margin:4px 0 6px !important;\n      }\n      .nk-offer-banner{ font-size:14px; }\n      .nk-offer-banner__left, .nk-offer-banner__right{ font-size:14px; }\n      .nk-offer-banner__left{ white-space:nowrap; letter-spacing:-0.5px; }\n    }\n\n    .nk-offer-banner [class*=\"leading-\"]{ line-height:inherit !important; }\n    .nk-offer-banner [class*=\"tracking-\"]{ letter-spacing:0 !important; }\n    .nk-offer-banner p{ margin:0 !important; }\n  </style>\n\n  <div class=\"nk-offer-banner\">\n    <div class=\"nk-offer-banner__header\">🎁 OFFRE DE RENTRÉE</div>\n    <div class=\"nk-offer-banner__body\">\n      <div class=\"nk-offer-banner__left\">1 SHAMPOING ACHETÉ = LE 2ÈME À -50%</div>\n      <div class=\"nk-offer-banner__divider\" aria-hidden=\"true\"></div>\n      <div class=\"nk-offer-banner__right\">Ajoutez 2 produits à votre panier et la promotion s'applique automatiquement</div>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "custom_liquid_9Kz4Rw": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% comment %}\nBannière alerte promo — Custom Liquid\nÉdite simplement les variables ci-dessous.\n{% endcomment %}\n\n{%- assign alert_title = \"Mise à jour du\" -%}\n{%- assign alert_date  = \"now\" | date: \"%d/%m/%Y\" -%} \n{%- assign alert_text  = \"La promotion sur la livraison suivie <strong>GRATUITE</strong> se termine ce soir à minuit&nbsp;! Profitez-en avant qu’il ne soit trop tard.\" -%}\n\n<div class=\"nk-alert\">\n  <style>\n    .nk-alert{\n      --alert-border: #e53935;\n      --alert-bg: #ffe9e9;\n      --alert-text: #d32f2f;\n      --alert-icon: #d32f2f;\n      border: 2px solid var(--alert-border);\n      background: var(--alert-bg);\n      color: var(--alert-text);\n      border-radius: 6px;\n      padding: 16px 18px;\n      margin: 18px 0;\n      font-family: inherit;\n    }\n    .nk-alert__row{\n      display: grid;\n      grid-template-columns: auto 1fr;\n      align-items: start;\n      gap: 12px;\n    }\n    .nk-alert__icon{\n      width: 22px; height: 22px; flex: 0 0 22px; color: var(--alert-icon);\n      margin-top: 2px;\n    }\n    .nk-alert__content{\n      font-size: clamp(13px, 1.5vw, 17px);\n      line-height: 1.5;\n    }\n    .nk-alert__content b, .nk-alert__content strong{ font-weight: 800; }\n    .nk-alert__title{ font-weight: 800; }\n    @media (max-width: 480px){\n      .nk-alert{ padding: 12px 14px; }\n      .nk-alert__icon{ width: 20px; height: 20px; }\n    }\n  </style>\n\n  <div class=\"nk-alert__row\">\n    <svg class=\"nk-alert__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path fill=\"currentColor\" d=\"M7.88 3.39 6.6 1.86 2 5.9l1.27 1.53 4.61-4.04zM22 5.9l-4.6-4.04-1.29 1.53 4.62 4.04L22 5.9zM12 4a9 9 0 1 0 .001 18.001A9 9 0 0 0 12 4zm0 2a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm-.75 2.5v5.25l4.5 2.64.75-1.28-3.75-2.2V8.5h-1.5z\"/>\n    </svg>\n    <div class=\"nk-alert__content\">\n      <span class=\"nk-alert__title\">{{ alert_title }} {{ alert_date }}</span> : \n      {{ alert_text }}\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "text_ik3iXw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 11,
+            "desktop_text_size": 12,
+            "alignment": "center",
+            "text_color": "#000000",
+            "text_1": "Garante satisfait ou remboursé pendant 30 jours",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 100,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 0,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 0,
+            "padding": 1,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "payment_badges_YiiMNQ": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Ajouter au panier",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
+          "type": "shipping_checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "add_shopping_cart",
+            "filled_icon_1": false,
+            "top_text_1": "<strong>[start_date]</strong>",
+            "bottom_text_1": "Commandé",
+            "min_days_1": 0,
+            "max_days_1": 0,
+            "icon_2": "local_shipping",
+            "filled_icon_2": false,
+            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_2": "Expédié",
+            "min_days_2": 1,
+            "max_days_2": 2,
+            "icon_3": "redeem",
+            "filled_icon_3": false,
+            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_3": "Livré chez vous",
+            "min_days_3": 7,
+            "max_days_3": 11,
+            "icon_4": "",
+            "filled_icon_4": false,
+            "top_text_4": "",
+            "bottom_text_4": "",
+            "date_format": "dd_mm_no_dot",
+            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
+            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "color_scheme": "accent-1",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Expédition rapide",
+            "heading_size": "small",
+            "icon": "",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/delivery_truck_speed_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>L'équipe de <strong>Novara Shampoing</strong> veille à ce que chaque commande soit traitée et expédiée en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 5 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis. Et parce qu’un bon service ne s’arrête pas à la commande, notre équipe reste disponible pour répondre à vos questions et vous accompagner si besoin.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_EY4XYE": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Ingrédients et bienfaits",
+            "heading_size": "small",
+            "icon": "check_box",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/psychiatry_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Notre formule a été développée pour allier <strong>confort, efficacité et respect</strong> des cheveux comme de la peau.</p><h5>Les actifs phares de notre shampoing colorant</h5><p>💧 <strong>Eau</strong> : hydrate et facilite l’application🍊 <strong>Vitamine C</strong> : antioxydante, elle protège et illumine<br/>🌱 <strong>Squalane</strong> : restaure la barrière cutanée et hydrate en profondeur<br/>🌿 <strong>Huile de jojoba</strong> : nourrit, apaise et équilibre<br/>🥥 <strong>Huile de macadamia</strong> : riche en acides gras, elle régénère et protège<br/>🍄 <strong>Extrait de Reishi</strong> : puissant antioxydant, il revitalise les cheveux<br/>🌰 <strong>Huile de sésame noir</strong> : nourrit intensément et soutient la pigmentation naturelle<br/>🌶 <strong>Extrait de gingembre</strong> : stimule la microcirculation et fortifie les racines<br/>🌼 <strong>Racine d’angélique</strong> : apaise, renforce et contribue à la croissance capillaire<br/></p><h3>🧪 Sécurité & qualité</h3><p>✔ Testé dermatologiquement pour une tolérance optimale<br/>✔ Ingrédients d’origine naturelle, respectueux de l’environnement<br/>✔ Formule sans compromis : certains composants techniques (parfum, propylène glycol) sont utilisés en quantité maîtrisée pour garantir efficacité et innocuité</p><h3>📦 Informations pratiques</h3><ul><li><strong>Contenance</strong> : 200 ml</li><li><strong>Liste INCI</strong> : Eau, alcool cétylique, Pergaal, huile minérale, extrait de renouée à fleurs, extrait de ginseng Panax, extrait de racine d’angélique, dérivés de glucose, bétaïne de cocamidopropyle, parfum, colorants doux, régulateurs de pH, monoglycéride, activateur doux<br/></li></ul><h3>💬 Une question ?</h3><p>Notre équipe est disponible pour vous conseiller et vous accompagner</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_Y47wnj": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Comment appliquer notre shampoing ?",
+            "heading_size": "small",
+            "icon": "check_box",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/shower_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>1️⃣ <strong>Mousser</strong> : Prélevez une dose dans vos mains et faites mousser le shampoing<br/>2️⃣ <strong>Appliquer</strong> : Répartissez uniformément sur cheveux secs ou barbe, puis laissez agir 10 minutes<br/>3️⃣ <strong>Rincer</strong> : Rincez abondamment et profitez d’une couleur éclatante et naturelle ✨💆‍♂️</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "reviews_8UgFbe": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "accent-1",
+            "show_custom_bg": false,
+            "custom_bg_color": "#f2f2f2",
+            "corner_radius": 12,
+            "border_width": 0,
+            "border_color": "#b7b7b7",
+            "avatar_alignment": "middle",
+            "avatar_corner_radius": 40,
+            "star_color": "#ffcc00",
+            "stars_translate": -10,
+            "checkmark_color": "#6d388b",
+            "checkmark_icon_color": "#ffffff",
+            "slider_type": "slide",
+            "autoplay": true,
+            "autoplay_speed": 3,
+            "display_arrows": true,
+            "display_dots": false,
+            "author_1": "<em>Léa</em> [stars]",
+            "text_1": "<p>Le meilleur rapport qualité prix !</p>",
+            "author_2": "<em>Carole</em> [stars]",
+            "text_2": "<p>Il ne m'a fallu que 10 minutes !</p>",
+            "author_3": "<em>Laurine</em> [stars]",
+            "text_3": "<p>Encore mieux que chez ma coiffeuse</p>",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "a6eb81db-40e4-43e0-972f-32db010a4a56",
+        "price",
+        "text_TwEkYi",
+        "text_deXHLT",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "globo_color_swatch_product_swatches_detail_hkygcV",
+        "custom_liquid_wNcBaQ",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "buy_buttons",
+        "custom_liquid_JcPLpc",
+        "custom_liquid_9Kz4Rw",
+        "text_ik3iXw",
+        "payment_badges_YiiMNQ",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_EY4XYE",
+        "collapsible_tab_Y47wnj",
+        "reviews_8UgFbe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "accent-1",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_count": 5,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails": "hide",
+        "mobile_thumbnails_count": 5,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "horizontal_ticker_memTnn": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_tXXdWx": {
+          "type": "text",
+          "settings": {
+            "title": "💡 Des gestes faciles à comprendre et à appliquer"
+          }
+        },
+        "text_y9tzxT": {
+          "type": "text",
+          "settings": {
+            "title": "📖 Un guide pratique pour garder une couleur éclatante"
+          }
+        },
+        "text_RMwg7F": {
+          "type": "text",
+          "settings": {
+            "title": "✨ Des astuces efficaces pour prolonger la tenue"
+          }
+        }
+      },
+      "block_order": [
+        "text_tXXdWx",
+        "text_y9tzxT",
+        "text_RMwg7F"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "custom",
+        "mobile_text_size": 14,
+        "desktop_text_size": 16,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#465069",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
+      }
+    },
+    "rich_text_DryKeG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EhfMNM": {
+          "type": "heading",
+          "settings": {
+            "title": "eBook : Les erreurs qui abîment votre couleur",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "text_kbR6JF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez dans cet eBook toutes les clés pour conserver l’éclat de vos cheveux colorés plus longtemps. Conseils concrets, gestes à éviter, préparation avant la coloration et routine adaptée : un guide simple et efficace pour prolonger la tenue de votre couleur et espacer les retouches.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EhfMNM",
+        "text_kbR6JF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "video_shrine_pro_WYJWA9": {
+      "type": "video-shrine-pro",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/erreurs qui abîment votre couleur.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "button_bg": "#111111",
+        "button_text": "#ffffff"
+      }
+    },
+    "rich_text_rNAhNa": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jk6dNX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez dans cet eBook toutes les clés pour conserver l’éclat de vos cheveux colorés plus longtemps. Conseils concrets, gestes à éviter, préparation avant la coloration et routine adaptée : un guide simple et efficace pour prolonger la tenue de votre couleur et espacer les retouches.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jk6dNX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "ss_simple_faq_ic8Jbj": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_VG6KQh": {
+          "type": "text",
+          "settings": {
+            "question": "Combien de temps tient la coloration ?",
+            "answer": "<p>La tenue varie selon la nature de vos cheveux et votre routine de lavage. En moyenne, la couleur obtenue avec <strong>Novara Shampoing</strong> reste visible entre <strong>4 et 6 semaines</strong>.</p>"
+          }
+        },
+        "text_PcrMLR": {
+          "type": "text",
+          "settings": {
+            "question": "Combien de temps dure une bouteille de shampoing ?",
+            "answer": "<p>Un flacon de <strong>Novara Shampoing</strong> permet généralement <strong>10 à 15 utilisations</strong>, en fonction de la longueur et de l’épaisseur de vos cheveux.</p>"
+          }
+        },
+        "text_nMx7Fq": {
+          "type": "text",
+          "settings": {
+            "question": "Le shampoing colorant peut-il être appliqué sur tous types de cheveux ?",
+            "answer": "<p>Oui 👍 <strong>Novara Shampoing</strong> convient aussi bien aux cheveux fins qu’aux cheveux épais. Sa texture crémeuse facilite une application uniforme, des racines jusqu’aux pointes.</p>"
+          }
+        },
+        "text_LzM4wM": {
+          "type": "text",
+          "settings": {
+            "question": "Y a-t-il un risque pour les peaux sensibles ?",
+            "answer": "<p>Notre shampoing colorant est conçu pour limiter au maximum les irritations : il ne contient ni PPD, ni ammoniaque, ni résorcinol, ni oxydants agressifs.</p><p>Grâce à cette composition plus douce, il est généralement bien toléré par les cuirs chevelus sensibles et constitue une alternative rassurante pour celles et ceux qui recherchent une solution plus respectueuse.</p><p>👉 Par précaution, nous conseillons toujours d’effectuer un <strong>test de tolérance 24h avant la première utilisation</strong> : appliquez une petite quantité de produit derrière l’oreille ou dans le pli du coude, laissez agir une dizaine de minutes, rincez puis surveillez la zone pendant 24 heures.</p>"
+          }
+        },
+        "text_nekAGG": {
+          "type": "text",
+          "settings": {
+            "question": "Dois-je utiliser des gants ?",
+            "answer": "<p>Pas besoin 👍 Le shampoing colorant <strong>Novara</strong> s’applique comme un shampoing classique, directement avec les mains, sans gants ni matériel supplémentaire.</p><p>Si vous ne souhaitez prendre absolument aucun risque, vous pouvez éventuellement vous servir de gants.</p>"
+          }
+        },
+        "text_C73Qnn": {
+          "type": "text",
+          "settings": {
+            "question": "Est-ce que le shampoing laisse des taches ?",
+            "answer": "<p>Non 🙂 <strong>Novara Shampoing</strong> ne tache ni la peau ni le cuir chevelu et se rince facilement des surfaces comme l’évier ou la baignoire. Nous conseillons simplement d’éviter le contact avec des tissus pendant l’application.</p>"
+          }
+        },
+        "text_7thgf6": {
+          "type": "text",
+          "settings": {
+            "question": "Le shampoing colorant convient-il aussi pour la barbe ?",
+            "answer": "<p>Absolument 👍 <strong>Novara Shampoing</strong> fonctionne aussi bien sur la barbe que sur les cheveux. Il apporte une couleur naturelle et homogène tout en respectant la fibre du poil.</p>"
+          }
+        },
+        "text_GTCkcr": {
+          "type": "text",
+          "settings": {
+            "question": "Ce shampoing est-il compatible avec mes soins capillaires ?",
+            "answer": "<p>Oui 👍 Vous pouvez continuer à utiliser vos shampooings et soins habituels entre deux applications de <strong>Novara Shampoing</strong>. Un après-shampoing peut même être appliqué juste après pour plus de douceur.</p>"
+          }
+        },
+        "text_tnQcbV": {
+          "type": "text",
+          "settings": {
+            "question": "Le produit abîme-t-il les cheveux ?",
+            "answer": "<p>Non, la formule de <strong>Novara Shampoing</strong> est enrichie en ingrédients d’origine naturelle et exempte de composants agressifs. Elle respecte vos cheveux comme votre cuir chevelu, tout en apportant une protection douce.</p>"
+          }
+        },
+        "text_6mzffk": {
+          "type": "text",
+          "settings": {
+            "question": "Est-ce que le shampoing couvre les cheveux gris ?",
+            "answer": "<p><strong>Novara Shampoing</strong> assure une couverture homogène et naturelle des cheveux gris. Avec des applications régulières, la couleur gagne en intensité et en tenue.</p>"
+          }
+        },
+        "text_cHGgBx": {
+          "type": "text",
+          "settings": {
+            "question": "Convient-il aux cheveux déjà colorés ?",
+            "answer": "<p>Oui 👍 <strong>Novara Shampoing</strong> peut être appliqué sur des cheveux colorés ou ayant subi des traitements chimiques. En cas de doute, nous conseillons de réaliser un petit test préalable ou de demander l’avis d’un professionnel.</p>"
+          }
+        },
+        "text_ewaE77": {
+          "type": "text",
+          "settings": {
+            "question": "Novara Shampoing est-il utilisable après une coloration au henné ?",
+            "answer": "<p>Oui, <strong>Novara Shampoing</strong> peut être utilisé après une coloration au henné, à condition que celui-ci soit 100 % naturel et exempt de sels métalliques. Pour plus de sécurité, réalisez d’abord un test sur une petite mèche afin de vérifier le résultat.</p>"
+          }
+        },
+        "text_icqxdi": {
+          "type": "text",
+          "settings": {
+            "question": "Quels sont nos délais de livraison ?",
+            "answer": "<p>Les commandes sont généralement traitées et expédiées en 24 à 48h depuis notre entrepôt. Nos délais de livraison sont de 5 à 10 jours ouvrés en France, Belgique et Suisse.</p><p>Un numéro de suivi vous est communiqué dès l’expédition pour suivre votre colis.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VG6KQh",
+        "text_PcrMLR",
+        "text_nMx7Fq",
+        "text_LzM4wM",
+        "text_nekAGG",
+        "text_C73Qnn",
+        "text_7thgf6",
+        "text_GTCkcr",
+        "text_tnQcbV",
+        "text_6mzffk",
+        "text_cHGgBx",
+        "text_ewaE77",
+        "text_icqxdi"
+      ],
+      "name": "Faq",
+      "settings": {
+        "heading": "Nous répondons à vos questions",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#465069",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5
+      }
+    },
+    "icon_bar_Rp93JM": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_LbpT7a": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/delivery_truck_speed_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Livraison offerte en ce moment !",
+            "text": "<p>Envoi suivi expédié dans les 24 à 48 h et livré dans les 5 à 10 jours ouvrables</p>"
+          }
+        },
+        "column_hKg8bB": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/support_agent_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Service client 24h/24h",
+            "text": "<p>Notre équipe est à votre service 7j/7 pour vous répondre, vous conseiller et vous aider</p>"
+          }
+        },
+        "column_TtBk43": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Paiements sécurisés",
+            "text": "<p>Les transactions passent par une connexion cryptée, garantissant la confidentialité de vos informations</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_LbpT7a",
+        "column_hKg8bB",
+        "column_TtBk43"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-2",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "horizontal_ticker_memTnn",
+    "rich_text_DryKeG",
+    "video_shrine_pro_WYJWA9",
+    "rich_text_rNAhNa",
+    "related-products",
+    "ss_simple_faq_ic8Jbj",
+    "icon_bar_Rp93JM"
+  ]
+}
