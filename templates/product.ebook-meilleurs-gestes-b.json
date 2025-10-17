@@ -580,8 +580,8 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 40,
@@ -627,8 +627,8 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 40,
