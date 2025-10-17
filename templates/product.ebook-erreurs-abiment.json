@@ -574,6 +574,97 @@
         "custom_colors_text": "#ffffff"
       }
     },
+    "rich_text_DryKeG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EhfMNM": {
+          "type": "heading",
+          "settings": {
+            "title": "eBook : Les erreurs qui abîment votre couleur",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "text_kbR6JF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez dans cet eBook toutes les clés pour conserver l’éclat de vos cheveux colorés plus longtemps. Conseils concrets, gestes à éviter, préparation avant la coloration et routine adaptée : un guide simple et efficace pour prolonger la tenue de votre couleur et espacer les retouches.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EhfMNM",
+        "text_kbR6JF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "video_gmMXfA": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "rich_text_rNAhNa": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jk6dNX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez dans cet eBook toutes les clés pour conserver l’éclat de vos cheveux colorés plus longtemps. Conseils concrets, gestes à éviter, préparation avant la coloration et routine adaptée : un guide simple et efficace pour prolonger la tenue de votre couleur et espacer les retouches.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jk6dNX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
     "ss_simple_faq_ic8Jbj": {
       "type": "ss-simple-faq",
       "blocks": {
@@ -784,6 +875,9 @@
     "main",
     "related-products",
     "horizontal_ticker_memTnn",
+    "rich_text_DryKeG",
+    "video_gmMXfA",
+    "rich_text_rNAhNa",
     "ss_simple_faq_ic8Jbj",
     "icon_bar_Rp93JM"
   ]
