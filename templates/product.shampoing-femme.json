@@ -632,38 +632,6 @@
     },
     "1760827033c44ffab5": {
       "type": "apps",
-      "blocks": {
-        "moast_carousel_M9kPzG": {
-          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
-          "settings": {
-            "dynamic": true,
-            "feed": "",
-            "feed_usage": "back_up",
-            "sort": "video",
-            "header": "",
-            "slide_type": "cards",
-            "autoplay_mode": "all",
-            "slide_size": "250",
-            "border": 0,
-            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
-            "slide_rounding": "20",
-            "slide_spacing": 16,
-            "padding_top": 40,
-            "pagination": "overlay",
-            "alignment": "center",
-            "product_cards": "none",
-            "show_captions": false,
-            "autoscroll_duration": 0,
-            "click_action": "fullscreen",
-            "float_location": "bottom_right",
-            "float_size": "medium",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "moast_carousel_M9kPzG"
-      ],
       "disabled": true,
       "settings": {
         "display_id": false,
@@ -1198,6 +1166,45 @@
         "logo_item_border": ""
       }
     },
+    "featured_collection_bFeeAk": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Nos e-Books pour mieux prendre soins de vos cheveux",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "custom",
+        "collection": "e-book-novara-shampoing",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "stretch_cards": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 4,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "linear-gradient(90deg, rgba(163, 172, 194, 1) 1%, rgba(255, 255, 255, 1) 100%)",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
     "section_temoignages_defilants_EnbUWg": {
       "type": "section-temoignages-defilants",
       "blocks": {
@@ -1261,45 +1268,6 @@
         "pad_y": 32,
         "card_radius": 18,
         "speed": 45
-      }
-    },
-    "featured_collection_bFeeAk": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Nos e-Books pour mieux prendre soins de vos cheveux",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "color_scheme": "custom",
-        "collection": "e-book-novara-shampoing",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "stretch_cards": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "cards_color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "badges": "regular",
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 4,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "linear-gradient(90deg, rgba(163, 172, 194, 1) 1%, rgba(255, 255, 255, 1) 100%)",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff"
       }
     },
     "comparison_table_4xDibi": {
@@ -1628,8 +1596,8 @@
     "espacement_kCFQYR",
     "custom_liquid_rbATL4",
     "press_shrine_PPFLL8",
-    "section_temoignages_defilants_EnbUWg",
     "featured_collection_bFeeAk",
+    "section_temoignages_defilants_EnbUWg",
     "comparison_table_4xDibi",
     "ss_simple_faq_ic8Jbj",
     "icon_bar_Rp93JM"
