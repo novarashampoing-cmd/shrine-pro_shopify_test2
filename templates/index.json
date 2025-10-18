@@ -1222,6 +1222,45 @@
         "custom_tabs_color_label": "#ffffff"
       }
     },
+    "featured_collection_TDxGnc": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Nos e-Books",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "stretch_cards": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
     "shoppable_image_AJKKcp": {
       "type": "shoppable-image",
       "name": "Shoppable image",
@@ -1501,6 +1540,7 @@
     "section_temoignages_defilants_pkMnBE",
     "image_with_text_WFrgRP",
     "content_tabs_LNyTmE",
+    "featured_collection_TDxGnc",
     "shoppable_image_AJKKcp",
     "ss_simple_faq_gVzfwF",
     "icon_bar_FrH6kQ"
