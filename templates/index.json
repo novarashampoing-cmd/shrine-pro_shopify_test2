@@ -344,43 +344,93 @@
         "custom_cards_colors_text": "#2e2a39"
       }
     },
-    "175906584618b15718": {
-      "type": "apps",
+    "image_slider_iHUn7D": {
+      "type": "image-slider",
       "blocks": {
-        "moast_carousel_3WhX6j": {
-          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+        "image_slide_Ht38bP": {
+          "type": "image_slide",
           "settings": {
-            "dynamic": false,
-            "feed": "0874c35c-696d-40c3-a438-55c8b4c3c861",
-            "feed_usage": "back_up",
-            "sort": "video",
-            "header": "",
-            "slide_type": "cards",
-            "autoplay_mode": "all",
-            "slide_size": "250",
-            "border": 0,
-            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
-            "slide_rounding": "20",
-            "slide_spacing": 16,
-            "padding_top": 0,
-            "pagination": "overlay",
-            "alignment": "center",
-            "product_cards": "none",
-            "show_captions": false,
-            "autoscroll_duration": 0,
-            "click_action": "fullscreen",
-            "float_location": "bottom_right",
-            "float_size": "medium",
-            "custom_css": ""
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_8ajyYL": {
+          "type": "image_slide",
+          "settings": {
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_C4czPf": {
+          "type": "image_slide",
+          "settings": {
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_9eT3Pt": {
+          "type": "image_slide",
+          "settings": {
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         }
       },
       "block_order": [
-        "moast_carousel_3WhX6j"
+        "image_slide_Ht38bP",
+        "image_slide_8ajyYL",
+        "image_slide_C4czPf",
+        "image_slide_9eT3Pt"
       ],
+      "name": "Image/Video Slider",
       "settings": {
         "display_id": false,
-        "include_margins": true
+        "visibility": "always-display",
+        "title": "Le shampoing qui colorent vos cheveux en <strong>10 minutes</strong>",
+        "title_highlight_color": "#465069",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "mobile_full_page": false,
+        "mobile_border_radius": 0,
+        "slides_mobile": 2,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
       }
     },
     "featured_product_ygHidK": {
@@ -1527,7 +1577,7 @@
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "image_with_text_6xtCQz",
     "trustpilot_reviews_3qtqHr",
-    "175906584618b15718",
+    "image_slider_iHUn7D",
     "featured_product_ygHidK",
     "175906589085122cbb",
     "comparison_slider_U6wzgE",
