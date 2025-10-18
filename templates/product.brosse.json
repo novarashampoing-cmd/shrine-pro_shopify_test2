@@ -479,6 +479,7 @@
         "video_slide_C7wAKp": {
           "type": "video_slide",
           "settings": {
+            "video": "shopify://files/videos/moast-Vidéo brosse Hairbloom.mp4",
             "loop": true,
             "muted_autoplay": true,
             "display_play_btn": true,
@@ -548,7 +549,7 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "center_mode": false,
-        "arrows_color_scheme": "inverse",
+        "arrows_color_scheme": "accent-1",
         "transparent_arrows": false,
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
@@ -559,7 +560,7 @@
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
+        "desktop_dots_position": "hidden",
         "desktop_arrows_position": "sides",
         "mobile_full_page": false,
         "mobile_border_radius": 0,
@@ -569,52 +570,13 @@
         "mobile_side_padding": 0,
         "mobile_padding_calc": true,
         "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
+        "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 0,
         "padding_bottom": 0,
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
-      }
-    },
-    "1758905963225e8c3e": {
-      "type": "apps",
-      "blocks": {
-        "moast_carousel_fdWz4P": {
-          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
-          "settings": {
-            "dynamic": true,
-            "feed": "",
-            "feed_usage": "back_up",
-            "sort": "latest",
-            "header": "",
-            "slide_type": "cards",
-            "autoplay_mode": "all",
-            "slide_size": "250",
-            "border": 0,
-            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
-            "slide_rounding": "20",
-            "slide_spacing": 16,
-            "padding_top": 20,
-            "pagination": "overlay",
-            "alignment": "center",
-            "product_cards": "none",
-            "show_captions": false,
-            "autoscroll_duration": 0,
-            "click_action": "fullscreen",
-            "float_location": "bottom_right",
-            "float_size": "medium",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "moast_carousel_fdWz4P"
-      ],
-      "settings": {
-        "display_id": false,
-        "include_margins": true
       }
     },
     "content_tabs_y6pYh8": {
@@ -1465,7 +1427,6 @@
     "main",
     "related-products",
     "image_slider_rCX7TD",
-    "1758905963225e8c3e",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
     "comparison_slider_ynBwE6",
