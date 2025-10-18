@@ -1368,7 +1368,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "cards_color_scheme": "background-1",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "show_secondary_image": false,
         "badges": "regular",
         "show_vendor": false,
