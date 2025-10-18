@@ -546,24 +546,6 @@
             "desc_color_scheme": "background-2"
           }
         },
-        "video_slide_ekbVHc": {
-          "type": "video_slide",
-          "settings": {
-            "video": "shopify://files/videos/Vidéo Novara 1.mp4",
-            "loop": true,
-            "muted_autoplay": true,
-            "display_play_btn": true,
-            "btn_animation": false,
-            "btn_color_scheme": "accent-1",
-            "display_sound_btn": false,
-            "sound_btn_color_scheme": "inverse",
-            "display_timeline": false,
-            "timeline_color": "accent-1",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
         "video_slide_QQq8xH": {
           "type": "video_slide",
           "settings": {
@@ -582,10 +564,10 @@
             "desc_color_scheme": "background-2"
           }
         },
-        "video_slide_nnkHj3": {
+        "video_slide_dByqz3": {
           "type": "video_slide",
           "settings": {
-            "video": "shopify://files/videos/Vidéo Novara 3.mp4",
+            "video": "shopify://files/videos/appliquer shampoing homme.mp4",
             "loop": true,
             "muted_autoplay": true,
             "display_play_btn": true,
@@ -603,9 +585,8 @@
       },
       "block_order": [
         "video_slide_rnaF4e",
-        "video_slide_ekbVHc",
         "video_slide_QQq8xH",
-        "video_slide_nnkHj3"
+        "video_slide_dByqz3"
       ],
       "name": "Image/Video Slider",
       "settings": {
@@ -630,8 +611,8 @@
         "desktop_spacing": 28,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
+        "desktop_adaptive_height": true,
+        "desktop_dots_position": "hidden",
         "desktop_arrows_position": "sides",
         "mobile_full_page": false,
         "mobile_border_radius": 0,
@@ -645,7 +626,7 @@
         "mobile_arrows_position": "sides",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
