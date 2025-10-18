@@ -347,37 +347,109 @@
     "image_slider_iHUn7D": {
       "type": "image-slider",
       "blocks": {
-        "image_slide_Ht38bP": {
-          "type": "image_slide",
+        "video_slide_RfetkW": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/moast-Vidéo Novara Shampoing femme 3.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_8ajyYL": {
-          "type": "image_slide",
+        "video_slide_dM8nPX": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/moast-Vidéo Novara Shampoing femme 1.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_C4czPf": {
-          "type": "image_slide",
+        "video_slide_zEyAha": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/moast-Vidéo Novara Shampoing femme 2.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_9eT3Pt": {
-          "type": "image_slide",
+        "video_slide_9ePicz": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/Vidéo Novara 2.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_q3bAWj": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/moast-Vidéo Novara 4.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_Wp9RDy": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/appliquer shampoing homme.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
@@ -385,10 +457,12 @@
         }
       },
       "block_order": [
-        "image_slide_Ht38bP",
-        "image_slide_8ajyYL",
-        "image_slide_C4czPf",
-        "image_slide_9eT3Pt"
+        "video_slide_RfetkW",
+        "video_slide_dM8nPX",
+        "video_slide_zEyAha",
+        "video_slide_9ePicz",
+        "video_slide_q3bAWj",
+        "video_slide_Wp9RDy"
       ],
       "name": "Image/Video Slider",
       "settings": {
