@@ -528,37 +528,55 @@
     "image_slider_kUm99J": {
       "type": "image-slider",
       "blocks": {
-        "image_slide_PBNicX": {
-          "type": "image_slide",
+        "video_slide_p6FjHW": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/Vidéo Novara 2.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_twpK7w": {
-          "type": "image_slide",
+        "video_slide_iWN8V7": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
+            "video": "shopify://files/videos/Vidéo Novara 4.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_QrN3tq": {
-          "type": "image_slide",
+        "video_slide_ibzcfD": {
+          "type": "video_slide",
           "settings": {
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
-        "image_slide_YQkK7W": {
-          "type": "image_slide",
-          "settings": {
-            "link": "",
+            "video": "shopify://files/videos/appliquer shampoing homme.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
             "description": "",
             "desc_alignment": "center",
             "desc_color_scheme": "background-2"
@@ -566,10 +584,9 @@
         }
       },
       "block_order": [
-        "image_slide_PBNicX",
-        "image_slide_twpK7w",
-        "image_slide_QrN3tq",
-        "image_slide_YQkK7W"
+        "video_slide_p6FjHW",
+        "video_slide_iWN8V7",
+        "video_slide_ibzcfD"
       ],
       "name": "Image/Video Slider",
       "settings": {
@@ -651,7 +668,7 @@
             "btn_label": "<strong>Comment ?</strong>",
             "btn_icon": "",
             "filled_btn_icon": false,
-            "image": "shopify://shop_images/Shampoing_Novara_homme_5.webp",
+            "video": "shopify://files/videos/appliquer shampoing homme.mp4",
             "loop": false,
             "muted_autoplay": false,
             "btn_color_scheme": "accent-1",
