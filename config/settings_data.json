@@ -93,7 +93,7 @@
     "card_text_alignment": "center",
     "card_color_scheme": "background-1",
     "product_card_badge_position": "bottom left",
-    "product_cards_badge_push_sides": true,
+    "product_cards_badge_push_sides": false,
     "product_cards_custom_badges_list": "BEST DEAL, BEST SELLER, [percentage] OFF",
     "card_button_style": "primary",
     "card_border_thickness": 0,
