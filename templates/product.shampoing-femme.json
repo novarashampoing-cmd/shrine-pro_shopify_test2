@@ -1162,9 +1162,9 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Nos e-Books",
+        "title": "Nos e-Books pour mieux prendre soins de vos cheveux",
         "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
