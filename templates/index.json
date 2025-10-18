@@ -1235,7 +1235,7 @@
         "show_description": false,
         "description_style": "body",
         "color_scheme": "custom",
-        "collection": "",
+        "collection": "e-book-novara-shampoing",
         "products_to_show": 4,
         "columns_desktop": 4,
         "stretch_cards": false,
