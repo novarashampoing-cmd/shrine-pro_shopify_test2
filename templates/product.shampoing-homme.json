@@ -532,7 +532,7 @@
           "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
           "settings": {
             "dynamic": true,
-            "feed": "b87ac2cf-5ef1-49d7-bd60-06ed877230bb",
+            "feed": "",
             "feed_usage": "filter",
             "sort": "latest",
             "header": "",
