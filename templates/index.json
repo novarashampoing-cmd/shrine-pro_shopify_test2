@@ -502,7 +502,7 @@
         "mobile_arrows_position": "sides",
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
@@ -1366,7 +1366,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "cards_color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": false,
