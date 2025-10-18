@@ -593,7 +593,7 @@
         "visibility": "always-display",
         "title": "Le shampoing qui colorent vos cheveux en <strong>10 minutes</strong>",
         "title_highlight_color": "#465069",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "color_scheme": "background-1",
         "type": "slide",
         "drag": "enabled",
@@ -625,7 +625,7 @@
         "mobile_arrows_position": "sides",
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
