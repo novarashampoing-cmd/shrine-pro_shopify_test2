@@ -525,7 +525,7 @@
         "visibility": "always-display",
         "title": "La brosse <strong>4 en 1</strong> HairBloom",
         "title_highlight_color": "#465069",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "color_scheme": "background-1",
         "type": "slide",
         "drag": "enabled",
