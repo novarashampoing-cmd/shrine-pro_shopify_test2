@@ -183,167 +183,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_with_text_6xtCQz": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_ppxUeb": {
-          "type": "heading",
-          "settings": {
-            "title": "Pourquoi choisir le shampoing colorant Novara ?",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h2"
-          }
-        },
-        "text_U49pyd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Redonnez instantanément de l’éclat à vos cheveux grâce à notre shampoing colorant. Dès la première utilisation, la différence se voit. Pas étonnant qu’il soit déjà devenu le favori de nos clients !</p>",
-            "text_style": "body"
-          }
-        },
-        "button_TM6FwP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir",
-            "button_link": "shopify://products/shampoing-colorant-instantane-novara"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ppxUeb",
-        "text_U49pyd",
-        "button_TM6FwP"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/pots_de_shampoings_novara.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 16,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
-    },
-    "trustpilot_reviews_3qtqHr": {
-      "type": "trustpilot-reviews",
-      "blocks": {
-        "column_yHg7ji": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#ffffff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_GiXrhp": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#ffffff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_gyifiq": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#ffffff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        }
-      },
-      "block_order": [
-        "column_yHg7ji",
-        "column_GiXrhp",
-        "column_gyifiq"
-      ],
-      "disabled": true,
-      "name": "Trustpilot reviews",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "color_scheme": "background-1",
-        "desktop_content_position": "above",
-        "desktop_content_alignment": "center",
-        "title": "Avis Trustpilot",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "subtitle": "Excellent 4.9 <strong>/ 5</strong> [rating_stars]",
-        "subheading_rating_text": "<strong>4.8</strong>",
-        "subheading_mobile_text_size": 18,
-        "subheading_desktop_text_size": 20,
-        "subheading_font": "body",
-        "star_color": "#465069",
-        "bg_star_color": "#e9ebf0",
-        "star_symbol_color": "#ffffff",
-        "stars_rating": 5,
-        "text": "",
-        "cards_border_radius": 16,
-        "card_alignment": "center",
-        "show_stars": true,
-        "cards_color_scheme": "background-2",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "accent-2",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "hidden",
-        "mobile_arrows_position": "sides",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_cards_colors_background": "#f3f3f3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2e2a39"
-      }
-    },
     "image_slider_iHUn7D": {
       "type": "image-slider",
       "blocks": {
@@ -505,6 +344,167 @@
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
+      }
+    },
+    "image_with_text_6xtCQz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ppxUeb": {
+          "type": "heading",
+          "settings": {
+            "title": "Pourquoi choisir le shampoing colorant Novara ?",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_U49pyd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redonnez instantanément de l’éclat à vos cheveux grâce à notre shampoing colorant. Dès la première utilisation, la différence se voit. Pas étonnant qu’il soit déjà devenu le favori de nos clients !</p>",
+            "text_style": "body"
+          }
+        },
+        "button_TM6FwP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir",
+            "button_link": "shopify://products/shampoing-colorant-instantane-novara"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ppxUeb",
+        "text_U49pyd",
+        "button_TM6FwP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/pots_de_shampoings_novara.webp",
+        "height": "adapt",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 16,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "trustpilot_reviews_3qtqHr": {
+      "type": "trustpilot-reviews",
+      "blocks": {
+        "column_yHg7ji": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        },
+        "column_GiXrhp": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        },
+        "column_gyifiq": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        }
+      },
+      "block_order": [
+        "column_yHg7ji",
+        "column_GiXrhp",
+        "column_gyifiq"
+      ],
+      "disabled": true,
+      "name": "Trustpilot reviews",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "desktop_content_position": "above",
+        "desktop_content_alignment": "center",
+        "title": "Avis Trustpilot",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "subtitle": "Excellent 4.9 <strong>/ 5</strong> [rating_stars]",
+        "subheading_rating_text": "<strong>4.8</strong>",
+        "subheading_mobile_text_size": 18,
+        "subheading_desktop_text_size": 20,
+        "subheading_font": "body",
+        "star_color": "#465069",
+        "bg_star_color": "#e9ebf0",
+        "star_symbol_color": "#ffffff",
+        "stars_rating": 5,
+        "text": "",
+        "cards_border_radius": 16,
+        "card_alignment": "center",
+        "show_stars": true,
+        "cards_color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "accent-2",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "featured_product_ygHidK": {
@@ -1649,9 +1649,9 @@
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "image_slider_iHUn7D",
     "image_with_text_6xtCQz",
     "trustpilot_reviews_3qtqHr",
-    "image_slider_iHUn7D",
     "featured_product_ygHidK",
     "175906589085122cbb",
     "comparison_slider_U6wzgE",
