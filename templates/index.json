@@ -1253,7 +1253,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 8,
+        "padding_bottom": 4,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "linear-gradient(136deg, rgba(255, 255, 255, 1), rgba(70, 80, 105, 1) 100%)",
         "custom_colors_text": "#2e2a39",
