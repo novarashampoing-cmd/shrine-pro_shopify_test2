@@ -92,8 +92,10 @@
     "card_image_padding": 0,
     "card_text_alignment": "center",
     "card_color_scheme": "background-1",
+    "product_card_badge_position": "bottom left",
     "product_cards_badge_push_sides": true,
     "product_cards_custom_badges_list": "BEST DEAL, BEST SELLER, [percentage] OFF",
+    "card_button_style": "primary",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 12,
@@ -567,11 +569,6 @@
       "2724325275511621162": {
         "type": "shopify://apps/kaching-subscriptions/blocks/app-embed-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
         "disabled": false,
-        "settings": {}
-      },
-      "16605207545338212596": {
-        "type": "shopify://apps/aov-ai-bundle/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
-        "disabled": true,
         "settings": {}
       },
       "8703857832570158530": {
