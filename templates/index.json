@@ -340,10 +340,63 @@
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 36,
-        "padding_bottom": 0,
+        "padding_bottom": 24,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
+      }
+    },
+    "horizontal_ticker_bnNjjf": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_DL9kFw": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        },
+        "text_TJXzN8": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        },
+        "text_x8yRfV": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        }
+      },
+      "block_order": [
+        "text_DL9kFw",
+        "text_TJXzN8",
+        "text_x8yRfV"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "custom",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#465069",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
       }
     },
     "image_with_text_iJK8za": {
@@ -377,8 +430,8 @@
         "mobile_direction": "normal",
         "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 8,
+        "padding_bottom": 0,
         "custom_colors_background": "#2E2A39",
         "custom_gradient_background": "",
         "custom_colors_text": "#FFFFFF",
@@ -1693,6 +1746,7 @@
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "image_slider_iHUn7D",
+    "horizontal_ticker_bnNjjf",
     "image_with_text_iJK8za",
     "image_with_text_6xtCQz",
     "trustpilot_reviews_3qtqHr",
