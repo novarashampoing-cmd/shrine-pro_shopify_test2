@@ -170,7 +170,7 @@
             "full_width_classic": false,
             "enable_quantity_discounts": true,
             "style": "normal",
-            "headline": "PROFITEZ-EN !",
+            "headline": "",
             "preselected": "option_2",
             "update_prices": false,
             "enable_variant_selectors": false,
