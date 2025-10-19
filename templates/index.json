@@ -666,38 +666,6 @@
             "margin_bottom": 9
           }
         },
-        "text_LFy3EE": {
-          "type": "text",
-          "settings": {
-            "mobile_text_size": 13,
-            "desktop_text_size": 16,
-            "alignment": "center",
-            "text_color": "#465069",
-            "text_1": "<strong>1 acheté = le 2ème à -50%</strong>",
-            "text_2": "",
-            "text_3": "",
-            "icon_scale": 120,
-            "icon_color": "#465069",
-            "icon_1": "check_circle",
-            "filled_icon_1": true,
-            "custom_icon_1": "shopify://shop_images/shoppingmode_24dp_465069_FILL0_wght400_GRAD0_opsz24.svg",
-            "icon_2": "check_circle",
-            "filled_icon_2": false,
-            "icon_3": "check_circle",
-            "filled_icon_3": false,
-            "width": "100%",
-            "direction": "horizontal",
-            "column_gap": 3,
-            "enable_bg": false,
-            "bg_color": "#f3f3f3",
-            "corner_radius": 40,
-            "padding": 3,
-            "border_size": 0,
-            "border_color": "#b7b7b7",
-            "margin_top": 15,
-            "margin_bottom": 15
-          }
-        },
         "custom_liquid_9Y34qb": {
           "type": "custom_liquid",
           "settings": {
@@ -934,7 +902,6 @@
         "rating_stars_BPVREW",
         "price_e66UCn",
         "text_UMxPLi",
-        "text_LFy3EE",
         "custom_liquid_9Y34qb",
         "variant_picker_GMdhb9",
         "quantity_selector_Ngrweb",
