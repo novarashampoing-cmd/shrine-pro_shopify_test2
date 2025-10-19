@@ -137,6 +137,12 @@
             "margin_bottom": 15
           }
         },
+        "gsc_countdown_timer_countdown_bjefr7": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-SMALL-kvcGEQcMHenh"
+          }
+        },
         "globo_color_swatch_product_swatches_detail_hkygcV": {
           "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
           "settings": {}
@@ -442,6 +448,7 @@
         "text_TwEkYi",
         "text_deXHLT",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "gsc_countdown_timer_countdown_bjefr7",
         "globo_color_swatch_product_swatches_detail_hkygcV",
         "urgency_WVGYK8",
         "custom_liquid_wNcBaQ",
@@ -625,7 +632,7 @@
         "mobile_arrows_position": "sides",
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
