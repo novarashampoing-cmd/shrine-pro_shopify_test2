@@ -534,6 +534,37 @@
         "padding_bottom": 24
       }
     },
+    "image_with_text_3LHG9a": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Offre_Octobre_Rose_-_Reduction_sur_Shampoings.webp",
+        "height": "adapt",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
     "image_slider_kUm99J": {
       "type": "image-slider",
       "blocks": {
@@ -1616,6 +1647,7 @@
   "order": [
     "main",
     "related-products",
+    "image_with_text_3LHG9a",
     "image_slider_kUm99J",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
