@@ -48,7 +48,7 @@
         "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": false,
-        "bold_text": false,
+        "bold_text": true,
         "mobile_image_height": 26,
         "desktop_image_height": 40,
         "hidden_products": "",
