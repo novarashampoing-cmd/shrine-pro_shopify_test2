@@ -513,6 +513,83 @@
         "desktop_padding_bottom": 36
       }
     },
+    "image_with_text_f9CxpL": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Offre_Octobre_Rose_-_Reduction_sur_Shampoings.webp",
+        "height": "adapt",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "1",
+        "mobile_content_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 20,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "horizontal_ticker_CWrE93": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_KNtgHj": {
+          "type": "text",
+          "settings": {
+            "title": "🎀OFFRE OCTOBRE ROSE : 10% SUPPLÉMENTAIRE🎀"
+          }
+        },
+        "text_iUXnkC": {
+          "type": "text",
+          "settings": {
+            "title": "⏱️JUSQU'À MERCREDI 00h DERNIER DÉLAI !"
+          }
+        }
+      },
+      "block_order": [
+        "text_KNtgHj",
+        "text_iUXnkC"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 2.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "custom",
+        "mobile_text_size": 14,
+        "desktop_text_size": 16,
+        "italic_text": true,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#465069",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
+      }
+    },
     "image_slider_Vj4VYR": {
       "type": "image-slider",
       "blocks": {
@@ -613,87 +690,10 @@
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 12,
-        "padding_bottom": 16,
+        "padding_bottom": 8,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
-      }
-    },
-    "horizontal_ticker_CWrE93": {
-      "type": "horizontal-ticker",
-      "blocks": {
-        "text_KNtgHj": {
-          "type": "text",
-          "settings": {
-            "title": "🎀OFFRE OCTOBRE ROSE : 10% SUPPLÉMENTAIRE🎀"
-          }
-        },
-        "text_iUXnkC": {
-          "type": "text",
-          "settings": {
-            "title": "⏱️JUSQU'À MERCREDI 00h DERNIER DÉLAI !"
-          }
-        }
-      },
-      "block_order": [
-        "text_KNtgHj",
-        "text_iUXnkC"
-      ],
-      "name": "Horizontal Ticker",
-      "settings": {
-        "visibility": "always-display",
-        "speed": 2.5,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "color_scheme": "custom",
-        "mobile_text_size": 14,
-        "desktop_text_size": 16,
-        "italic_text": true,
-        "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 26,
-        "desktop_image_height": 40,
-        "hidden_products": "",
-        "enable_specific_display": false,
-        "displayed_products": "",
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16,
-        "custom_colors_background": "#465069",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff"
-      }
-    },
-    "image_with_text_f9CxpL": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/Offre_Octobre_Rose_-_Reduction_sur_Shampoings.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "center",
-        "padding_top": 8,
-        "padding_bottom": 20,
-        "custom_colors_background": "#2E2A39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
       }
     },
     "related-products": {
@@ -1701,9 +1701,9 @@
   },
   "order": [
     "main",
-    "image_slider_Vj4VYR",
-    "horizontal_ticker_CWrE93",
     "image_with_text_f9CxpL",
+    "horizontal_ticker_CWrE93",
+    "image_slider_Vj4VYR",
     "related-products",
     "1760827033c44ffab5",
     "content_tabs_y6pYh8",
