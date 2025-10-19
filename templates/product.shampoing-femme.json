@@ -137,19 +137,12 @@
             "margin_bottom": 15
           }
         },
-        "gsc_countdown_timer_countdown_bjefr7": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-          "settings": {
-            "widget_id": "GSC-SMALL-kvcGEQcMHenh"
-          }
-        },
         "globo_color_swatch_product_swatches_detail_hkygcV": {
           "type": "shopify://apps/globo-color-swatch/blocks/product-swatches-detail/4394f710-096c-4021-bbde-8ebb26057c11",
           "settings": {}
         },
         "urgency_WVGYK8": {
           "type": "urgency",
-          "disabled": true,
           "settings": {
             "urgency": "🎀  OFFRE SPÉCIALE OCTOBRE ROSE  🎀",
             "color_scheme": "accent-1",
@@ -170,7 +163,7 @@
             "full_width_classic": false,
             "enable_quantity_discounts": true,
             "style": "normal",
-            "headline": "",
+            "headline": "Profitez-en !",
             "preselected": "option_2",
             "update_prices": false,
             "enable_variant_selectors": false,
@@ -252,7 +245,6 @@
         },
         "custom_liquid_9Kz4Rw": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "{% comment %}\nBannière alerte promo — Custom Liquid\nÉdite simplement les variables ci-dessous.\n{% endcomment %}\n\n{%- assign alert_title = \"Mise à jour du\" -%}\n{%- assign alert_date  = \"now\" | date: \"%d/%m/%Y\" -%} \n{%- assign alert_text  = \"La promotion sur la livraison suivie <strong>GRATUITE</strong> se termine ce soir à minuit&nbsp;! Profitez-en avant qu’il ne soit trop tard.\" -%}\n\n<div class=\"nk-alert\">\n  <style>\n    .nk-alert{\n      --alert-border: #e53935;\n      --alert-bg: #ffe9e9;\n      --alert-text: #d32f2f;\n      --alert-icon: #d32f2f;\n      border: 2px solid var(--alert-border);\n      background: var(--alert-bg);\n      color: var(--alert-text);\n      border-radius: 6px;\n      padding: 16px 18px;\n      margin: 18px 0;\n      font-family: inherit;\n    }\n    .nk-alert__row{\n      display: grid;\n      grid-template-columns: auto 1fr;\n      align-items: start;\n      gap: 12px;\n    }\n    .nk-alert__icon{\n      width: 22px; height: 22px; flex: 0 0 22px; color: var(--alert-icon);\n      margin-top: 2px;\n    }\n    .nk-alert__content{\n      font-size: clamp(13px, 1.5vw, 17px);\n      line-height: 1.5;\n    }\n    .nk-alert__content b, .nk-alert__content strong{ font-weight: 800; }\n    .nk-alert__title{ font-weight: 800; }\n    @media (max-width: 480px){\n      .nk-alert{ padding: 12px 14px; }\n      .nk-alert__icon{ width: 20px; height: 20px; }\n    }\n  </style>\n\n  <div class=\"nk-alert__row\">\n    <svg class=\"nk-alert__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path fill=\"currentColor\" d=\"M7.88 3.39 6.6 1.86 2 5.9l1.27 1.53 4.61-4.04zM22 5.9l-4.6-4.04-1.29 1.53 4.62 4.04L22 5.9zM12 4a9 9 0 1 0 .001 18.001A9 9 0 0 0 12 4zm0 2a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm-.75 2.5v5.25l4.5 2.64.75-1.28-3.75-2.2V8.5h-1.5z\"/>\n    </svg>\n    <div class=\"nk-alert__content\">\n      <span class=\"nk-alert__title\">{{ alert_title }} {{ alert_date }}</span> : \n      {{ alert_text }}\n    </div>\n  </div>\n</div>"
           }
@@ -450,7 +442,6 @@
         "text_TwEkYi",
         "text_deXHLT",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
-        "gsc_countdown_timer_countdown_bjefr7",
         "globo_color_swatch_product_swatches_detail_hkygcV",
         "urgency_WVGYK8",
         "custom_liquid_wNcBaQ",
@@ -511,83 +502,6 @@
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36
-      }
-    },
-    "image_with_text_f9CxpL": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/Offre_Octobre_Rose_-_Reduction_sur_Shampoings.webp",
-        "height": "adapt",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 8,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
-    },
-    "horizontal_ticker_CWrE93": {
-      "type": "horizontal-ticker",
-      "blocks": {
-        "text_KNtgHj": {
-          "type": "text",
-          "settings": {
-            "title": "🎀OFFRE OCTOBRE ROSE : 10% SUPPLÉMENTAIRE🎀"
-          }
-        },
-        "text_iUXnkC": {
-          "type": "text",
-          "settings": {
-            "title": "⏱️JUSQU'À MERCREDI 00h DERNIER DÉLAI !"
-          }
-        }
-      },
-      "block_order": [
-        "text_KNtgHj",
-        "text_iUXnkC"
-      ],
-      "name": "Horizontal Ticker",
-      "settings": {
-        "visibility": "always-display",
-        "speed": 2.5,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "color_scheme": "custom",
-        "mobile_text_size": 14,
-        "desktop_text_size": 16,
-        "italic_text": true,
-        "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 26,
-        "desktop_image_height": 40,
-        "hidden_products": "",
-        "enable_specific_display": false,
-        "displayed_products": "",
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16,
-        "custom_colors_background": "#465069",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff"
       }
     },
     "image_slider_Vj4VYR": {
@@ -689,7 +603,7 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 16,
+        "padding_top": 0,
         "padding_bottom": 0,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
@@ -1701,8 +1615,6 @@
   },
   "order": [
     "main",
-    "image_with_text_f9CxpL",
-    "horizontal_ticker_CWrE93",
     "image_slider_Vj4VYR",
     "related-products",
     "1760827033c44ffab5",
