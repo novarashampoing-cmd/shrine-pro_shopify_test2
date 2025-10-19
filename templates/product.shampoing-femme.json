@@ -515,7 +515,6 @@
     },
     "image_with_text_f9CxpL": {
       "type": "image-with-text",
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
