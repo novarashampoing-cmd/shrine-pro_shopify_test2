@@ -567,7 +567,7 @@
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
-        "speed": 2.5,
+        "speed": 2,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
         "color_scheme": "custom",
