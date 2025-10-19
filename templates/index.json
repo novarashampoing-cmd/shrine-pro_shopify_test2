@@ -672,7 +672,7 @@
             "mobile_text_size": 13,
             "desktop_text_size": 16,
             "alignment": "center",
-            "text_color": "#000000",
+            "text_color": "#465069",
             "text_1": "<strong>1 acheté = le 2ème à -50%</strong>",
             "text_2": "",
             "text_3": "",
@@ -694,7 +694,7 @@
             "padding": 3,
             "border_size": 0,
             "border_color": "#b7b7b7",
-            "margin_top": 0,
+            "margin_top": 15,
             "margin_bottom": 15
           }
         },
