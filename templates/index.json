@@ -349,34 +349,27 @@
     "horizontal_ticker_bnNjjf": {
       "type": "horizontal-ticker",
       "blocks": {
-        "text_DL9kFw": {
-          "type": "text",
-          "settings": {
-            "title": "Shrine Theme"
-          }
-        },
         "text_TJXzN8": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "🎀OFFRE OCTOBRE ROSE : 10% SUPPLÉMENTAIRE🎀"
           }
         },
         "text_x8yRfV": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "⏱️JUSQU'À MERCREDI 00h DERNIER DÉLAI !"
           }
         }
       },
       "block_order": [
-        "text_DL9kFw",
         "text_TJXzN8",
         "text_x8yRfV"
       ],
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
-        "speed": 3,
+        "speed": 2,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
         "color_scheme": "custom",
