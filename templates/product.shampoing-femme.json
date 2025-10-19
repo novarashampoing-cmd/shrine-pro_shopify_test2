@@ -513,6 +513,59 @@
         "desktop_padding_bottom": 36
       }
     },
+    "horizontal_ticker_CWrE93": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_KNtgHj": {
+          "type": "text",
+          "settings": {
+            "title": "🎀OFFRE OCTOBRE ROSE : 10% EN PLUS🎀"
+          }
+        },
+        "text_iUXnkC": {
+          "type": "text",
+          "settings": {
+            "title": "⏱️JUSQU'À MERCREDI DERNIER DÉLAI !"
+          }
+        },
+        "text_iTHw4K": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        }
+      },
+      "block_order": [
+        "text_KNtgHj",
+        "text_iUXnkC",
+        "text_iTHw4K"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 2.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "custom",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#465069",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -1592,6 +1645,7 @@
   },
   "order": [
     "main",
+    "horizontal_ticker_CWrE93",
     "related-products",
     "image_slider_Vj4VYR",
     "1760827033c44ffab5",
