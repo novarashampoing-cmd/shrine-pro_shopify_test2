@@ -527,18 +527,11 @@
           "settings": {
             "title": "⏱️JUSQU'À MERCREDI DERNIER DÉLAI !"
           }
-        },
-        "text_iTHw4K": {
-          "type": "text",
-          "settings": {
-            "title": "Shrine Theme"
-          }
         }
       },
       "block_order": [
         "text_KNtgHj",
-        "text_iUXnkC",
-        "text_iTHw4K"
+        "text_iUXnkC"
       ],
       "name": "Horizontal Ticker",
       "settings": {
