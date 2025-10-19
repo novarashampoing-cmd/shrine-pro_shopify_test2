@@ -14,22 +14,29 @@
     "2c2ec774-3430-481f-b927-e9c035b9d24e": {
       "type": "horizontal-ticker",
       "blocks": {
+        "text_Eg6ybX": {
+          "type": "text",
+          "settings": {
+            "title": "🎀 OFFRE SPÉCIALE OCTOBRE ROSE 🎀"
+          }
+        },
+        "text_C84LUb": {
+          "type": "text",
+          "settings": {
+            "title": "10% SUPPLÉMENTAIRE SUR NOS SHAMPOINGS"
+          }
+        },
         "sections--18060430639399__2c2ec774-3430-481f-b927-e9c035b9d24e-1679250655d32e639c-2": {
           "type": "text",
           "settings": {
             "title": "1 SHAMPOING ACHETÉ = LE 2ÈME À -50% !"
           }
-        },
-        "text_Eg6ybX": {
-          "type": "text",
-          "settings": {
-            "title": "LIVRAISON GRATUITE EN CE MOMENT 🚚"
-          }
         }
       },
       "block_order": [
-        "sections--18060430639399__2c2ec774-3430-481f-b927-e9c035b9d24e-1679250655d32e639c-2",
-        "text_Eg6ybX"
+        "text_Eg6ybX",
+        "text_C84LUb",
+        "sections--18060430639399__2c2ec774-3430-481f-b927-e9c035b9d24e-1679250655d32e639c-2"
       ],
       "settings": {
         "visibility": "always-display",
