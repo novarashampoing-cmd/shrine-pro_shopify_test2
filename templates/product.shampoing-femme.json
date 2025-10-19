@@ -561,6 +561,7 @@
     },
     "image_with_text_R3Fkag": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
