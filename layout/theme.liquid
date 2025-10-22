@@ -442,6 +442,25 @@
 </script>
 
 
+
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    {% if customer %}
+      gtag('set', 'user_data', {
+        "email": "{{ customer.email | escape }}",
+        "phone_number": "{{ customer.phone | escape }}",
+        "address": {
+          "first_name": "{{ customer.first_name | escape }}",
+          "last_name": "{{ customer.last_name | escape }}"
+        }
+      });
+    {% endif %}
+  });
+</script>
+
+
+
+
   </head>
 
   <body class="gradient link-btns--{{ settings.link_btn_hover }} action-btns--{{ settings.action_btn_hover }}">
