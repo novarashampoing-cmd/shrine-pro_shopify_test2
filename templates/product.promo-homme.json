@@ -944,7 +944,7 @@
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
         "columns_desktop": 3,
-        "slider_desktop": false,
+        "slider_desktop": true,
         "per_move_desktop": 1,
         "desktop_spacing": 40,
         "desktop_side_padding": 0,
@@ -969,6 +969,66 @@
         "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "horizontal_ticker_b6PANP": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_7dpEw6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Elle.webp"
+          }
+        },
+        "image_8nTxkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.webp"
+          }
+        },
+        "image_7fxtmy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitain.webp"
+          }
+        },
+        "image_wNbBJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VOgue.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_7dpEw6",
+        "image_8nTxkw",
+        "image_7fxtmy",
+        "image_wNbBJL"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
       }
     },
     "comparison_slider_ynBwE6": {
@@ -1698,6 +1758,7 @@
     "image_slider_kUm99J",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
+    "horizontal_ticker_b6PANP",
     "comparison_slider_ynBwE6",
     "rich_text_JwR7Ch",
     "video_shrine_pro_WXCz7P",
