@@ -959,7 +959,9 @@
         },
         "image_7wBcgf": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/VOgue.webp"
+          }
         }
       },
       "block_order": [

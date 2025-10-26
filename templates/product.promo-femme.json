@@ -978,6 +978,66 @@
         "custom_cards_colors_text": "#2e2a39"
       }
     },
+    "horizontal_ticker_ea3rGC": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_n6z7Lx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Elle.webp"
+          }
+        },
+        "image_Qm3jjH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.webp"
+          }
+        },
+        "image_fcrtmn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitain.webp"
+          }
+        },
+        "image_RkakLD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VOgue.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_n6z7Lx",
+        "image_Qm3jjH",
+        "image_fcrtmn",
+        "image_RkakLD"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
+      }
+    },
     "comparison_slider_ynBwE6": {
       "type": "comparison-slider",
       "name": "Before & After slider",
@@ -1708,6 +1768,7 @@
     "1760827033c44ffab5",
     "content_tabs_y6pYh8",
     "multicolumn_deEWjJ",
+    "horizontal_ticker_ea3rGC",
     "comparison_slider_ynBwE6",
     "image_with_text_R3Fkag",
     "rich_text_JwR7Ch",
