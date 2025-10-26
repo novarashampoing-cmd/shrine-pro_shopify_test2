@@ -936,6 +936,64 @@
         "padding_bottom": 36
       }
     },
+    "horizontal_ticker_9xk8NP": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_iiRpA7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Elle.webp"
+          }
+        },
+        "image_hdakYQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.webp"
+          }
+        },
+        "image_fkaPNt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitain.webp"
+          }
+        },
+        "image_7wBcgf": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_iiRpA7",
+        "image_hdakYQ",
+        "image_fkaPNt",
+        "image_7wBcgf"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
+      }
+    },
     "175906589085122cbb": {
       "type": "apps",
       "blocks": {
@@ -1478,7 +1536,7 @@
         "padding_bottom": 4,
         "custom_colors_background": "#f3f3f3",
         "custom_gradient_background": "linear-gradient(90deg, rgba(233, 235, 240, 1), rgba(70, 80, 105, 1) 100%)",
-        "custom_colors_text": "#2e2a39",
+        "custom_colors_text": "#000000",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
@@ -1753,6 +1811,7 @@
     "image_with_text_6xtCQz",
     "trustpilot_reviews_3qtqHr",
     "featured_product_ygHidK",
+    "horizontal_ticker_9xk8NP",
     "175906589085122cbb",
     "comparison_slider_U6wzgE",
     "rich_text_WLHUgp",
