@@ -1451,7 +1451,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "Nos e-Books",
-        "title_highlight_color": "#465069",
+        "title_highlight_color": "#000000",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
