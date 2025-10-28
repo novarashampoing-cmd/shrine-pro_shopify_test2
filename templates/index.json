@@ -366,6 +366,7 @@
         "text_TJXzN8",
         "text_x8yRfV"
       ],
+      "disabled": true,
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
@@ -406,6 +407,7 @@
       "block_order": [
         "button_L9erjq"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
@@ -991,9 +993,9 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
       }
     },
     "175906589085122cbb": {
