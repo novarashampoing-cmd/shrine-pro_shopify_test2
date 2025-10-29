@@ -16,14 +16,12 @@
       "blocks": {
         "text_Eg6ybX": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "title": "🎀OFFRE OCTOBRE ROSE : 10% EN PLUS🎀"
           }
         },
         "text_BE4qkM": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "title": "⏱️JUSQU'À MARDI 00H UNIQUEMENT"
           }
@@ -36,6 +34,7 @@
         },
         "text_pac7bG": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "LIVRAISON OFFERTE AUJOURD'HUI 🚚"
           }
