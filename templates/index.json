@@ -366,7 +366,6 @@
         "text_TJXzN8",
         "text_x8yRfV"
       ],
-      "disabled": true,
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
@@ -407,7 +406,6 @@
       "block_order": [
         "button_L9erjq"
       ],
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
