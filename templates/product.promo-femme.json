@@ -523,6 +523,7 @@
     },
     "image_with_text_f9CxpL": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
@@ -558,11 +559,12 @@
         "text_KNtgHj": {
           "type": "text",
           "settings": {
-            "title": "🎀OFFRE OCTOBRE ROSE : 10% SUPPLÉMENTAIRE🎀"
+            "title": "🖤 OFFRE BLACK FRIDAY ⚡"
           }
         },
         "text_iUXnkC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "⏱️JUSQU'À VENDREDI 00h DERNIER DÉLAI !"
           }
