@@ -25,7 +25,7 @@
         "custom_liquid_Try3jJ": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0908/5278/6562/files/etoiles_trustpilot.webp?v=1747998238\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 3 000 <span style=\"font-weight: normal;\"> clientes satisfaits</span>\n  </span>\n</div>\n          </div>"
+            "custom_liquid": "<div class=\"product-info__liquid\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0943/6079/7559/files/imgi_13_etoiles_trustpilot.webp?v=1762018499\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 10 000 <span style=\"font-weight: normal;\">clientes satisfaites</span>\n  </span>\n</div>\n          </div>"
           }
         },
         "a6eb81db-40e4-43e0-972f-32db010a4a56": {
